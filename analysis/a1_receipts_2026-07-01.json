@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "script": "a1_receipts.py",
+    "utc": "2026-09-27T09:52:24+00:00",
+    "git_head": "fab4db4",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/onchain/day=2026-07-01/unmatched_prints.parquet"
+    ]
+  },
+  "day": "2026-07-01",
+  "unmatched_prints_after_fuzzy": 589,
+  "sampled": 491,
+  "block_range": [
+    89439337,
+    89497236
+  ],
+  "classes": {
+    "reverted": 486,
+    "outside_range": 5
+  },
+  "shares": {
+    "reverted": 0.9898167006109979,
+    "outside_range": 0.010183299389002037
+  },
+  "weighted_shares": {
+    "reverted": 0.9915110356536501,
+    "outside_range": 0.008488964346349746
+  },
+  "by_hour": {
+    "0": {
+      "reverted": 33,
+      "outside_range": 5
+    },
+    "1": {
+      "reverted": 22
+    },
+    "2": {
+      "reverted": 40
+    },
+    "3": {
+      "reverted": 19
+    },
+    "4": {
+      "reverted": 15
+    },
+    "5": {
+      "reverted": 24
+    },
+    "6": {
+      "reverted": 14
+    },
+    "7": {
+      "reverted": 4
+    },
+    "8": {
+      "reverted": 5
+    },
+    "9": {
+      "reverted": 13
+    },
+    "10": {
+      "reverted": 6
+    },
+    "11": {
+      "reverted": 7
+    },
+    "12": {
+      "reverted": 8
+    },
+    "13": {
+      "reverted": 9
+    },
+    "14": {
+      "reverted": 2
+    },
+    "15": {
+      "reverted": 28
+    },
+    "16": {
+      "reverted": 40
+    },
+    "17": {
+      "reverted": 40
+    },
+    "18": {
+      "reverted": 20
+    },
+    "19": {
+      "reverted": 18
+    },
+    "20": {
+      "reverted": 33
+    },
+    "21": {
+      "reverted": 40
+    },
+    "22": {
+      "reverted": 28
+    },
+    "23": {
+      "reverted": 18
+    }
+  },
+  "examples": {
+    "reverted": [
+      "0x315a3071e09fb7a299948bd8b1904547cf87bf1793092a084304b256d6a52922",
+      "0x5619f9918ab4f46138776c66cca7a698e35643eff844bede27ca497db5f2f4bc",
+      "0x9ab6690228218e95c82215ea96ab6282d0ae6630f1360591d47b3c75b845c938",
+      "0x45d37a761af94d7e5bed42af9317c697f47428aeacb12735ad9c13419a3b25a5",
+      "0x25f7015cccb6b3a592312020d21e1ae39efe61122598eb9b0d92145fd4cd6915"
+    ],
+    "outside_range": [
+      "0xf4d12644e28fec3acc3e833cf902d3e2f729a30141461e1d705fb210e5a642ba",
+      "0xe30ce0ab884fdacbe40ccdd3a62e35e4205aee243c24cbbf9a211fec84328ad8",
+      "0xb75ef983742df2abc65ba062e198d12a7b669fb718a9ab7df949b184a9e85fa6",
+      "0xaae677717728c0b7a795f4d1064e41d9f76a2c120dc4c6a8f90b7c922f87665a",
+      "0x296257ce48d6c7d9f0eae224c5aee464a5224d34032b7398447beba20a423703"
+    ]
+  },
+  "control_matched": {
+    "sampled": 100,
+    "classes": {
+      "in_range_missed": 100
+    }
+  }
+}

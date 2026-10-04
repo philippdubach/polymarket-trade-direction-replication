@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering\scriptsize\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+outcome & TWFE & market s.e. & event s.e. & treated & control & paired & perm. $p$ \\
+\midrule
+\multicolumn{8}{l}{\emph{finer: 0.01 to 0.0025: 40 treated, 363 controls, nominal MDE 0.37; descriptive only}} \\
+log spread & $-0.106$ & 0.082 & 0.114 & $-1.010$ & $-0.549$ & $-0.461$ & 0.0175 \\
+spread in the old tick & 5.639 & 0.653 & 1.062 & $-0.750$ & $-1.000$ & 0.250 & 0.2769 \\
+share of quotes at the tick & $-0.292$ & 0.030 & 0.021 & $-0.013$ & 0.222 & $-0.235$ & 0.0015 \\
+log size at best bid & $-2.520$ & 0.150 & 0.210 & $-0.990$ & 1.500 & $-2.490$ & 0.0005 \\
+\multicolumn{8}{l}{\emph{coarser: 0.001 to 0.0025: 29 treated, 15 controls, nominal MDE 0.95; descriptive only}} \\
+log spread & $-0.044$ & 0.264 & 0.225 & $-0.361$ & $-0.102$ & $-0.258$ & 0.0475 \\
+spread in the old tick & 0.882 & 11.205 & 9.804 & $-2.500$ & $-3.500$ & 1.000 & 0.5307 \\
+share of quotes at the tick & $-0.104$ & 0.033 & 0.029 & 0.000 & 0.037 & $-0.037$ & 0.0010 \\
+log size at best bid & 0.184 & 0.465 & 0.517 & 1.841 & 0.595 & 1.246 & 0.0350 \\
+\bottomrule
+\end{tabular}
+\caption{The 2 July change of World Cup markets to a 0.0025 tick, in twelve-hour bins from 30 June 12:00 to 3 July 24:00 UTC. Controls are the venue's other sports markets of the moneyline, spreads and totals types that were quoted on 1 July, whose game starts between half a day after the change and the end of the window, whose tick before the change matched the arm's and whose pre-period median spread was below 0.5, computed from at least two asset-bins. This spread screen can admit one-sided books near resolution. The outcomes are the log of the half-day median spread, that spread in old ticks, the share of quotes within one old tick and the log of the mean displayed size at the best bid. TWFE is the two-way fixed-effects (market and bin) coefficient on treated times post with standard errors clustered by market and by venue event; the paired columns are the median over markets of the post-period median less the pre-period median, for treated and control markets, and their difference; perm. $p$ is an exploratory two-sided market-label permutation tail share over 2{,}000 draws, with a plus-one correction. World Cup status was not randomised, so this is not causal randomisation inference. The nominal MDE assumes independent markets and 80\% power at the 5\% level. Both arms are descriptive: their treated markets share only six and three events, respectively. The text reports whole-event bootstrap sensitivity.}
+\label{tab:worldcup}
+\end{table}

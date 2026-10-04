@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "script": "a1_receipts.py",
+    "utc": "2026-09-27T07:50:43+00:00",
+    "git_head": "fab4db4",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/onchain/day=2026-05-13/unmatched_prints.parquet"
+    ]
+  },
+  "day": "2026-05-13",
+  "unmatched_prints_after_fuzzy": 2063,
+  "sampled": 888,
+  "block_range": [
+    86794681,
+    86844352
+  ],
+  "classes": {
+    "reverted": 888
+  },
+  "shares": {
+    "reverted": 1.0
+  },
+  "weighted_shares": {
+    "reverted": 1.0
+  },
+  "by_hour": {
+    "0": {
+      "reverted": 27
+    },
+    "1": {
+      "reverted": 35
+    },
+    "2": {
+      "reverted": 36
+    },
+    "3": {
+      "reverted": 40
+    },
+    "4": {
+      "reverted": 39
+    },
+    "5": {
+      "reverted": 37
+    },
+    "6": {
+      "reverted": 40
+    },
+    "7": {
+      "reverted": 40
+    },
+    "8": {
+      "reverted": 31
+    },
+    "9": {
+      "reverted": 38
+    },
+    "10": {
+      "reverted": 28
+    },
+    "11": {
+      "reverted": 35
+    },
+    "12": {
+      "reverted": 30
+    },
+    "13": {
+      "reverted": 40
+    },
+    "14": {
+      "reverted": 40
+    },
+    "15": {
+      "reverted": 40
+    },
+    "16": {
+      "reverted": 40
+    },
+    "17": {
+      "reverted": 40
+    },
+    "18": {
+      "reverted": 40
+    },
+    "19": {
+      "reverted": 40
+    },
+    "20": {
+      "reverted": 40
+    },
+    "21": {
+      "reverted": 40
+    },
+    "22": {
+      "reverted": 40
+    },
+    "23": {
+      "reverted": 32
+    }
+  },
+  "examples": {
+    "reverted": [
+      "0xbc6d7c654cb834eb36d332893d20c487a832e6a73b220bebdfe3e0d855984d73",
+      "0x88ee3d1c0241ba8be797ff1fdd994cebcef5564db4f6adc9800603a3223ffb1e",
+      "0x7cd7545a3cbf399db75ebacd846ace13a1ec761eb0595f6a06fc0465ed491969",
+      "0x327e9b7c481647f58cd080faeaba4407ead356b73cd4a2f7552cb3ce391d6c9d",
+      "0x0e413e924a81d0a52de497910c38f6b8d61cdf7c6dfea0ba36c7afab22afbbfc"
+    ]
+  },
+  "control_matched": {
+    "sampled": 100,
+    "classes": {
+      "in_range_missed": 100
+    }
+  }
+}

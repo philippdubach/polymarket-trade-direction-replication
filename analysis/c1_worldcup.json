@@ -1,0 +1,481 @@
+{
+  "_meta": {
+    "script": "c1_worldcup_did.py",
+    "utc": "2026-10-03T14:21:28+00:00",
+    "git_head": "3c6e4eb",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/wc_halfday.parquet",
+      "/Volumes/data/paper-b-ext/gamma/gamma_markets.parquet"
+    ]
+  },
+  "change": "2026-07-02 00:31:00",
+  "arms": {
+    "D": {
+      "old_tick": 0.01,
+      "new_tick": 0.0025,
+      "treated_assets": 79,
+      "treated_markets": 40,
+      "control_assets": 726,
+      "control_markets": 363,
+      "control_markets_before_book_filter": 425,
+      "control_markets_off_grid": 23,
+      "markets_with_bins_by_day": {
+        "2026-06-30": 214,
+        "2026-07-01": 403,
+        "2026-07-02": 403,
+        "2026-07-03": 220
+      },
+      "bins": {
+        "pre": 3,
+        "post": 4
+      },
+      "mde_sigma": 0.7920861926888524,
+      "mde_log_spread": 0.3694874477891875,
+      "descriptive_only": true,
+      "outcomes": {
+        "log_spread": {
+          "twfe": {
+            "beta": -0.10618174980704703,
+            "se_cluster": 0.08175045005233676,
+            "p_cluster": 0.1939946652638771,
+            "clusters": 403,
+            "cluster_unit": "market_id",
+            "n": 3974
+          },
+          "paired": {
+            "treated_markets": 40,
+            "control_markets": 363,
+            "treated_change": -1.0102750119258193,
+            "control_change": -0.5493061443340554,
+            "did": -0.4609688675917638,
+            "ci95": [
+              -0.8884169095056671,
+              -0.13860881479709944
+            ],
+            "bootstrap_draws": 1000
+          },
+          "ri": {
+            "observed": -0.4609688675917638,
+            "draws": 2000,
+            "exceedances": 34,
+            "p": 0.017491254372813594,
+            "p_method": "plus-one label permutation; descriptive",
+            "null_p025": -0.2982198833293252,
+            "null_p975": 0.41346815713725127,
+            "degenerate": false,
+            "null_p2_5": -0.2982198833293252,
+            "null_p97_5": 0.41346815713725127
+          },
+          "event_clustered": {
+            "beta": -0.10618174980704703,
+            "se_cluster": 0.1135026956650034,
+            "p_cluster": 0.3495307831205693,
+            "clusters": 195,
+            "cluster_unit": "event_id",
+            "n": 3974
+          },
+          "event_bootstrap": {
+            "treated_events": 6,
+            "control_events": 189,
+            "draws": 1000,
+            "ci95": [
+              -0.9281489951828017,
+              -0.1438410362258793
+            ]
+          }
+        },
+        "spread_old_ticks": {
+          "twfe": {
+            "beta": 5.638811207472283,
+            "se_cluster": 0.6531581445087002,
+            "p_cluster": 5.968590522049583e-18,
+            "clusters": 403,
+            "cluster_unit": "market_id",
+            "n": 3974
+          },
+          "paired": {
+            "treated_markets": 40,
+            "control_markets": 363,
+            "treated_change": -0.7499999999999923,
+            "control_change": -1.0000000000000009,
+            "did": 0.25000000000000855,
+            "ci95": [
+              0.25000000000000255,
+              0.6999999999999995
+            ],
+            "bootstrap_draws": 1000
+          },
+          "ri": {
+            "observed": 0.25000000000000855,
+            "draws": 2000,
+            "exceedances": 553,
+            "p": 0.2768615692153923,
+            "p_method": "plus-one label permutation; descriptive",
+            "null_p025": -0.7500000000000022,
+            "null_p975": 0.5378124999999948,
+            "degenerate": false,
+            "null_p2_5": -0.7500000000000022,
+            "null_p97_5": 0.5378124999999948
+          },
+          "event_clustered": {
+            "beta": 5.638811207472283,
+            "se_cluster": 1.0623964235190253,
+            "p_cluster": 1.1105745539005118e-07,
+            "clusters": 195,
+            "cluster_unit": "event_id",
+            "n": 3974
+          },
+          "event_bootstrap": {
+            "treated_events": 6,
+            "control_events": 189,
+            "draws": 1000,
+            "ci95": [
+              0.24999999999999953,
+              0.8753125000000085
+            ]
+          }
+        },
+        "at_tick_share": {
+          "twfe": {
+            "beta": -0.2915377916168034,
+            "se_cluster": 0.029762046644736105,
+            "p_cluster": 1.1757026313472935e-22,
+            "clusters": 403,
+            "cluster_unit": "market_id",
+            "n": 3974
+          },
+          "paired": {
+            "treated_markets": 40,
+            "control_markets": 363,
+            "treated_change": -0.013029983836894021,
+            "control_change": 0.22229201847182534,
+            "did": -0.23532200230871936,
+            "ci95": [
+              -0.2821670061224778,
+              -0.19770045208411102
+            ],
+            "bootstrap_draws": 1000
+          },
+          "ri": {
+            "observed": -0.23532200230871936,
+            "draws": 2000,
+            "exceedances": 2,
+            "p": 0.0014992503748125937,
+            "p_method": "plus-one label permutation; descriptive",
+            "null_p025": -0.11769234591295732,
+            "null_p975": 0.11425072375360633,
+            "degenerate": false,
+            "null_p2_5": -0.11769234591295732,
+            "null_p97_5": 0.11425072375360633
+          },
+          "event_clustered": {
+            "beta": -0.2915377916168034,
+            "se_cluster": 0.020787960567726436,
+            "p_cluster": 1.1060925288567556e-44,
+            "clusters": 195,
+            "cluster_unit": "event_id",
+            "n": 3974
+          },
+          "event_bootstrap": {
+            "treated_events": 6,
+            "control_events": 189,
+            "draws": 1000,
+            "ci95": [
+              -0.29567843471071126,
+              -0.18156054632992244
+            ]
+          }
+        },
+        "log_depth_bid": {
+          "twfe": {
+            "beta": -2.5202013379204757,
+            "se_cluster": 0.14986221927873355,
+            "p_cluster": 1.8385705790078928e-63,
+            "clusters": 403,
+            "cluster_unit": "market_id",
+            "n": 3925
+          },
+          "paired": {
+            "treated_markets": 40,
+            "control_markets": 363,
+            "treated_change": -0.9900667812985899,
+            "control_change": 1.5000037998689786,
+            "did": -2.4900705811675685,
+            "ci95": [
+              -2.670969503503258,
+              -2.1153771269025095
+            ],
+            "bootstrap_draws": 1000
+          },
+          "ri": {
+            "observed": -2.4900705811675685,
+            "draws": 2000,
+            "exceedances": 0,
+            "p": 0.0004997501249375312,
+            "p_method": "plus-one label permutation; descriptive",
+            "null_p025": -0.5077662011396961,
+            "null_p975": 0.564367297488823,
+            "degenerate": false,
+            "null_p2_5": -0.5077662011396961,
+            "null_p97_5": 0.564367297488823
+          },
+          "event_clustered": {
+            "beta": -2.5202013379204757,
+            "se_cluster": 0.2099596178308949,
+            "p_cluster": 3.415436030679266e-33,
+            "clusters": 195,
+            "cluster_unit": "event_id",
+            "n": 3925
+          },
+          "event_bootstrap": {
+            "treated_events": 6,
+            "control_events": 189,
+            "draws": 1000,
+            "ci95": [
+              -2.793757189003629,
+              -2.1486499045517946
+            ]
+          }
+        }
+      },
+      "treated_markets_passing_spread_screen": 40
+    },
+    "U": {
+      "old_tick": 0.001,
+      "new_tick": 0.0025,
+      "treated_assets": 57,
+      "treated_markets": 29,
+      "control_assets": 30,
+      "control_markets": 15,
+      "control_markets_before_book_filter": 16,
+      "markets_with_bins_by_day": {
+        "2026-06-30": 34,
+        "2026-07-01": 44,
+        "2026-07-02": 44,
+        "2026-07-03": 26
+      },
+      "bins": {
+        "pre": 3,
+        "post": 4
+      },
+      "mde_sigma": 1.0690305857123001,
+      "mde_log_spread": 0.9519844881792675,
+      "descriptive_only": true,
+      "outcomes": {
+        "log_spread": {
+          "twfe": {
+            "beta": -0.044051713684524235,
+            "se_cluster": 0.26390926319476415,
+            "p_cluster": 0.8674330574032483,
+            "clusters": 44,
+            "cluster_unit": "market_id",
+            "n": 453
+          },
+          "paired": {
+            "treated_markets": 29,
+            "control_markets": 15,
+            "treated_change": -0.3606590287633207,
+            "control_change": -0.10239720632300697,
+            "did": -0.2582618224403137,
+            "ci95": [
+              -0.6536835512651096,
+              0.101970672165137
+            ],
+            "bootstrap_draws": 1000
+          },
+          "ri": {
+            "observed": -0.2582618224403137,
+            "draws": 2000,
+            "exceedances": 94,
+            "p": 0.047476261869065464,
+            "p_method": "plus-one label permutation; descriptive",
+            "null_p025": -0.2453114582242346,
+            "null_p975": 0.26747936513426307,
+            "degenerate": false,
+            "null_p2_5": -0.2453114582242346,
+            "null_p97_5": 0.26747936513426307
+          },
+          "event_clustered": {
+            "beta": -0.044051713684524235,
+            "se_cluster": 0.22509517165476622,
+            "p_cluster": 0.8448429376287929,
+            "clusters": 16,
+            "cluster_unit": "event_id",
+            "n": 453
+          },
+          "event_bootstrap": {
+            "treated_events": 3,
+            "control_events": 13,
+            "draws": 1000,
+            "ci95": [
+              -0.6086090155379789,
+              0.032766477408410655
+            ]
+          }
+        },
+        "spread_old_ticks": {
+          "twfe": {
+            "beta": 0.8819871796097134,
+            "se_cluster": 11.205271688224121,
+            "p_cluster": 0.9372618541976812,
+            "clusters": 44,
+            "cluster_unit": "market_id",
+            "n": 453
+          },
+          "paired": {
+            "treated_markets": 29,
+            "control_markets": 15,
+            "treated_change": -2.5000000000000506,
+            "control_change": -3.5,
+            "did": 0.9999999999999494,
+            "ci95": [
+              -12.506249999999927,
+              12.999999999999954
+            ],
+            "bootstrap_draws": 1000
+          },
+          "ri": {
+            "observed": 0.9999999999999494,
+            "draws": 2000,
+            "exceedances": 1061,
+            "p": 0.5307346326836582,
+            "p_method": "plus-one label permutation; descriptive",
+            "null_p025": -2.2499999999999987,
+            "null_p975": 4.500000000000032,
+            "degenerate": false,
+            "null_p2_5": -2.2499999999999987,
+            "null_p97_5": 4.500000000000032
+          },
+          "event_clustered": {
+            "beta": 0.8819871796097134,
+            "se_cluster": 9.803503121299073,
+            "p_cluster": 0.9283138103500183,
+            "clusters": 16,
+            "cluster_unit": "event_id",
+            "n": 453
+          },
+          "event_bootstrap": {
+            "treated_events": 3,
+            "control_events": 13,
+            "draws": 1000,
+            "ci95": [
+              -12.74999999999996,
+              11.499999999999922
+            ]
+          }
+        },
+        "at_tick_share": {
+          "twfe": {
+            "beta": -0.10423521970100133,
+            "se_cluster": 0.03272872895949757,
+            "p_cluster": 0.001448424023560117,
+            "clusters": 44,
+            "cluster_unit": "market_id",
+            "n": 453
+          },
+          "paired": {
+            "treated_markets": 29,
+            "control_markets": 15,
+            "treated_change": 0.0,
+            "control_change": 0.037123855211513304,
+            "did": -0.037123855211513304,
+            "ci95": [
+              -0.10370282582507723,
+              -0.00158009885746698
+            ],
+            "bootstrap_draws": 1000
+          },
+          "ri": {
+            "observed": -0.037123855211513304,
+            "draws": 2000,
+            "exceedances": 1,
+            "p": 0.0009995002498750624,
+            "p_method": "plus-one label permutation; descriptive",
+            "null_p025": -0.00158009885746698,
+            "null_p975": 0.0,
+            "degenerate": false,
+            "null_p2_5": -0.00158009885746698,
+            "null_p97_5": 0.0
+          },
+          "event_clustered": {
+            "beta": -0.10423521970100133,
+            "se_cluster": 0.02909311982013696,
+            "p_cluster": 0.00033991342069744597,
+            "clusters": 16,
+            "cluster_unit": "event_id",
+            "n": 453
+          },
+          "event_bootstrap": {
+            "treated_events": 3,
+            "control_events": 13,
+            "draws": 1000,
+            "ci95": [
+              -0.09985655455489784,
+              -0.0011934700140658965
+            ]
+          }
+        },
+        "log_depth_bid": {
+          "twfe": {
+            "beta": 0.18361295574998365,
+            "se_cluster": 0.46473355479866,
+            "p_cluster": 0.6927742842731759,
+            "clusters": 44,
+            "cluster_unit": "market_id",
+            "n": 387
+          },
+          "paired": {
+            "treated_markets": 29,
+            "control_markets": 15,
+            "treated_change": 1.841078383517802,
+            "control_change": 0.5947990932271638,
+            "did": 1.246279290290638,
+            "ci95": [
+              -0.4625796603037857,
+              2.0510690586319944
+            ],
+            "bootstrap_draws": 1000
+          },
+          "ri": {
+            "observed": 1.246279290290638,
+            "draws": 2000,
+            "exceedances": 69,
+            "p": 0.03498250874562719,
+            "p_method": "plus-one label permutation; descriptive",
+            "null_p025": -1.1557061100522938,
+            "null_p975": 1.2142869042475208,
+            "degenerate": false,
+            "null_p2_5": -1.1557061100522938,
+            "null_p97_5": 1.2142869042475208
+          },
+          "event_clustered": {
+            "beta": 0.18361295574998365,
+            "se_cluster": 0.517360722744599,
+            "p_cluster": 0.722662140488438,
+            "clusters": 16,
+            "cluster_unit": "event_id",
+            "n": 387
+          },
+          "event_bootstrap": {
+            "treated_events": 3,
+            "control_events": 13,
+            "draws": 1000,
+            "ci95": [
+              -0.3175761933467813,
+              2.111813826822634
+            ]
+          }
+        }
+      },
+      "treated_markets_passing_spread_screen": 29
+    }
+  },
+  "treated_markets_removed_from_controls": 66
+}

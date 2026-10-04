@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "script": "a1_receipts.py",
+    "utc": "2026-09-27T08:17:33+00:00",
+    "git_head": "fab4db4",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/onchain/day=2026-05-31/unmatched_prints.parquet"
+    ]
+  },
+  "day": "2026-05-31",
+  "unmatched_prints_after_fuzzy": 655,
+  "sampled": 625,
+  "block_range": [
+    87683359,
+    87733030
+  ],
+  "classes": {
+    "reverted": 603,
+    "not_mined": 22
+  },
+  "shares": {
+    "reverted": 0.9648,
+    "not_mined": 0.0352
+  },
+  "weighted_shares": {
+    "reverted": 0.9420610687022903,
+    "not_mined": 0.057938931297709925
+  },
+  "by_hour": {
+    "0": {
+      "reverted": 15
+    },
+    "1": {
+      "reverted": 21
+    },
+    "2": {
+      "reverted": 14
+    },
+    "3": {
+      "reverted": 19
+    },
+    "4": {
+      "reverted": 24
+    },
+    "5": {
+      "reverted": 25
+    },
+    "6": {
+      "reverted": 14
+    },
+    "7": {
+      "reverted": 16
+    },
+    "8": {
+      "reverted": 15
+    },
+    "9": {
+      "reverted": 32
+    },
+    "10": {
+      "reverted": 33
+    },
+    "11": {
+      "reverted": 18
+    },
+    "12": {
+      "reverted": 24
+    },
+    "13": {
+      "reverted": 28
+    },
+    "14": {
+      "not_mined": 22,
+      "reverted": 18
+    },
+    "15": {
+      "reverted": 36
+    },
+    "16": {
+      "reverted": 18
+    },
+    "17": {
+      "reverted": 27
+    },
+    "18": {
+      "reverted": 36
+    },
+    "19": {
+      "reverted": 37
+    },
+    "20": {
+      "reverted": 31
+    },
+    "21": {
+      "reverted": 40
+    },
+    "22": {
+      "reverted": 36
+    },
+    "23": {
+      "reverted": 26
+    }
+  },
+  "examples": {
+    "reverted": [
+      "0x60e5fdbe92d2e97f465ef2cf187275b2d5bff19df5ecf1844001a02fcb3e07ec",
+      "0x51ef52c3c2d95726a2049c471819fa7860b366779557e9bf19286da94043a49a",
+      "0x18decfa4f49fadd9176f789e92ba36aae7c4e61f975e50559668eaff4103a8d2",
+      "0x63394b483dd40831981ed96825cbbd2290939286d85e24e0df56c7aa4bdf066b",
+      "0x04831664a3e7ed77297cf45d965ca653bf29415afa9ec0de23a0aba3e17e9252"
+    ],
+    "not_mined": [
+      "0x7f7434deec969e6dae7246f6d2932a465ed39e8874ed96e05005da473ba2c715",
+      "0xfdc0cb92592929a7c9d860f43aa9f81195b37a9f82267e8f5080b3f2dbca2519",
+      "0x0164d477c95b66b76a3c40d16cfd534774a8ac1992556f30647ebd5cc9968c7e",
+      "0x08a99b59e7d1691f5d2cfcb2571ab57d90c42e17e7e664718df002701cb40f8d",
+      "0xf1d0e9fa44adc7c01fde1909098d5c28f9552db399f7a050abe5f754b3c56d95"
+    ]
+  },
+  "control_matched": {
+    "sampled": 100,
+    "classes": {
+      "in_range_missed": 100
+    }
+  }
+}

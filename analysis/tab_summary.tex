@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering\footnotesize\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrr}
+\toprule
+& mean & p25 & median & p75 & p95 \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel A: the panel, 171 days over both archive formats, per asset-day}} \\
+Binned median quoted spread, live asset-days & 0.194 & 0.010 & 0.038 & 0.260 & 0.850 \\
+Asset-days, live / all & \multicolumn{5}{c}{13{,}451{,}616 / 17{,}009{,}350} \\
+Asset-days by format, first / second & \multicolumn{5}{c}{2{,}855{,}452 / 14{,}153{,}898} \\
+Updates per asset-day, median & \multicolumn{5}{c}{2{,}163} \\
+Assets observed per day, minimum and maximum over clean days & \multicolumn{5}{c}{26{,}928--302{,}256} \\
+Markets listed by the venue per day, median February--July / August & \multicolumn{5}{c}{8{,}759 / 23{,}547} \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel B: the on-chain sample, 12 days}} \\
+Feed prints & \multicolumn{5}{c}{25{,}035{,}601} \\
+Settled taker legs & \multicolumn{5}{c}{27{,}144{,}192} \\
+Prints matched to their taker leg by transaction hash & \multicolumn{5}{c}{24{,}537{,}912} \\
+\bottomrule
+\end{tabular}
+\caption{Summary statistics. Panel A is the harmonised panel of both archive formats; `live' marks live days, asset-days whose binned median spread is above zero and below 0.9; clean days exclude the degraded days of Appendix~\ref{app:health}. Panel B is the on-chain sample of Section~\ref{sec:identity}.}
+\label{tab:summary}
+\end{table}

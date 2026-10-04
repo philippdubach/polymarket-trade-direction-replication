@@ -1,0 +1,86 @@
+{
+  "tick_moves": [
+    {
+      "old_tick": 0.01,
+      "new_tick": 0.001,
+      "n": 1808611
+    },
+    {
+      "old_tick": 0.01,
+      "new_tick": 0.0025,
+      "n": 505
+    },
+    {
+      "old_tick": 0.0025,
+      "new_tick": 0.01,
+      "n": 298
+    },
+    {
+      "old_tick": 0.01,
+      "new_tick": 0.01,
+      "n": 102
+    },
+    {
+      "old_tick": 0.001,
+      "new_tick": 0.001,
+      "n": 94
+    },
+    {
+      "old_tick": 0.001,
+      "new_tick": 0.0025,
+      "n": 59
+    },
+    {
+      "old_tick": 0.001,
+      "new_tick": 0.01,
+      "n": 36
+    },
+    {
+      "old_tick": 0.005,
+      "new_tick": 0.0025,
+      "n": 6
+    },
+    {
+      "old_tick": 0.01,
+      "new_tick": 0.005,
+      "n": 4
+    },
+    {
+      "old_tick": 0.005,
+      "new_tick": 0.001,
+      "n": 2
+    },
+    {
+      "old_tick": 0.0025,
+      "new_tick": 0.005,
+      "n": 2
+    }
+  ],
+  "mid_on_adoption_day": {
+    "n": 1666439,
+    "extreme_share": 0.172797804180051,
+    "near_extreme_share": 0.26821923874801296,
+    "quantiles": [
+      0.005,
+      0.38,
+      0.5,
+      0.615,
+      0.995
+    ]
+  },
+  "mid_day_before": {
+    "n": 1209960,
+    "extreme_share": 0.0016248471023835498,
+    "near_extreme_share": 0.09292290654236504,
+    "quantiles": [
+      0.105,
+      0.465,
+      0.5,
+      0.535,
+      0.895
+    ]
+  },
+  "mid_all_contract_days": {
+    "extreme_share": 0.16213006974198477
+  }
+}

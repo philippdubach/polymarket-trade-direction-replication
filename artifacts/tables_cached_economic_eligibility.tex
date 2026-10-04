@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+day & matched & signed & interior & primary & cover (\%) & fresh & assets \\
+\midrule
+26 Apr (V1) & 2{,}286{,}630 & 1{,}494{,}834 & 1{,}485{,}761 & 1{,}479{,}616 & 64.7 & 1{,}341{,}848 & 4{,}599 \\
+27 Apr (V1) & 2{,}442{,}102 & 1{,}714{,}426 & 1{,}704{,}375 & 1{,}700{,}629 & 69.6 & 1{,}567{,}099 & 4{,}613 \\
+29 Apr & 2{,}037{,}550 & 1{,}439{,}518 & 1{,}427{,}355 & 1{,}423{,}927 & 69.9 & 1{,}308{,}652 & 3{,}811 \\
+30 Apr & 2{,}060{,}457 & 1{,}448{,}512 & 1{,}436{,}746 & 1{,}432{,}080 & 69.5 & 1{,}322{,}697 & 4{,}008 \\
+13 May & 2{,}249{,}532 & 1{,}488{,}463 & 1{,}477{,}628 & 1{,}473{,}601 & 65.5 & 1{,}351{,}562 & 4{,}492 \\
+31 May & 1{,}904{,}212 & 1{,}279{,}945 & 1{,}270{,}108 & 1{,}266{,}678 & 66.5 & 1{,}169{,}482 & 4{,}047 \\
+5 Jun & 1{,}703{,}743 & 1{,}209{,}757 & 1{,}202{,}300 & 1{,}201{,}179 & 70.5 & 1{,}100{,}841 & 3{,}848 \\
+9 Jun & 2{,}250{,}550 & 1{,}591{,}138 & 1{,}581{,}911 & 1{,}576{,}556 & 70.1 & 1{,}492{,}041 & 4{,}586 \\
+1 Jul & 1{,}832{,}998 & 1{,}057{,}960 & 1{,}050{,}135 & 1{,}046{,}111 & 57.1 & 953{,}170 & 3{,}226 \\
+7 Jul & 2{,}241{,}616 & 1{,}410{,}618 & 1{,}400{,}783 & 1{,}396{,}790 & 62.3 & 1{,}305{,}779 & 4{,}218 \\
+17 Jul & 1{,}876{,}006 & 1{,}354{,}666 & 1{,}344{,}446 & 1{,}339{,}147 & 71.4 & 1{,}310{,}274 & 4{,}149 \\
+5 Aug & 1{,}652{,}516 & 1{,}125{,}980 & 1{,}115{,}943 & 1{,}111{,}947 & 67.3 & 1{,}084{,}822 & 4{,}220 \\
+\bottomrule
+\end{tabular}
+\caption{Sequential economic eligibility: settlement-matched rows; all-four signed rows; rows remaining through current interior uncrossed quotes (after valid print-price screening); final primary rows after forward-midpoint, positive-size and exclusive day-horizon screening. Fresh rows additionally require a current quote no more than one second old. Assets have at least fifty common eligible fills on that date; counts are asset-days and do not imply independence. The future quote age and book state are not stored in the cache.}
+\label{tab:cached-economic-eligibility}
+\end{table}

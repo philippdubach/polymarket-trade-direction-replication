@@ -1,0 +1,229 @@
+{
+  "_meta": {
+    "script": "a3_signed_measures.py",
+    "utc": "2026-10-03T14:24:13+00:00",
+    "git_head": "3c6e4eb",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/onchain/day=2026-05-13",
+      "/Volumes/data/polymarket-backfill-2026-04-15_to_2026-09-07/pmxt-v2/polymarket_orderbook_2026-05-13T00.parquet"
+    ]
+  },
+  "day": "2026-05-13",
+  "fills_with_both_mids": 2248966,
+  "measures": {
+    "assets": 6218,
+    "fills": 2024019,
+    "taker": {
+      "eff_median": 0.010000000000000009,
+      "realised_median": 0.010000000000000009,
+      "impact_median": 0.0,
+      "eff_mean_of_means": 0.02358464080832379,
+      "assets": 6218
+    },
+    "lr": {
+      "eff_median": 0.010000000000000009,
+      "realised_median": 0.010000000000000009,
+      "impact_median": -0.0,
+      "eff_mean_of_means": 0.025427733041096072,
+      "assets": 6218,
+      "eff_ratio_to_taker": 1.0,
+      "realised_ratio_to_taker": 1.0,
+      "impact_ratio_to_taker": null,
+      "eff_mean_ratio_to_taker": 1.078147988250124
+    },
+    "tick": {
+      "eff_median": 0.010000000000000009,
+      "realised_median": 0.010000000000000002,
+      "impact_median": 0.0,
+      "eff_mean_of_means": 0.01282291556204943,
+      "assets": 6198,
+      "eff_ratio_to_taker": 1.0,
+      "realised_ratio_to_taker": 0.9999999999999993,
+      "impact_ratio_to_taker": null,
+      "eff_mean_ratio_to_taker": 0.5436977254079615
+    },
+    "emo": {
+      "eff_median": 0.010000000000000009,
+      "realised_median": 0.010000000000000009,
+      "impact_median": -0.0,
+      "eff_mean_of_means": 0.02457372064693565,
+      "assets": 6218,
+      "eff_ratio_to_taker": 1.0,
+      "realised_ratio_to_taker": 1.0,
+      "impact_ratio_to_taker": null,
+      "eff_mean_ratio_to_taker": 1.041937456103329
+    }
+  },
+  "same_ms_quote_share": 0.9709008495459691,
+  "wrong_side": {
+    "all": {
+      "fills": 2248966,
+      "share_negative": 0.031214789374316907,
+      "share_zero": 0.011302082823839934,
+      "mean_eff_negative_part": -0.040607270551701546
+    },
+    "all_chain_price": {
+      "fills": 2248966,
+      "share_negative": 0.03533401572100245,
+      "share_zero": 0.0049484963312028726,
+      "mean_eff_negative_part": -0.03573003488204695
+    },
+    "MINT": {
+      "fills": 1545558,
+      "share_negative": 0.03365515884877824,
+      "share_zero": 0.011877263745521035,
+      "mean_eff_negative_part": -0.042438326668717316
+    },
+    "COMPLEMENTARY": {
+      "fills": 468766,
+      "share_negative": 0.025929781596788163,
+      "share_zero": 0.009019425470277282,
+      "mean_eff_negative_part": -0.040461949814891
+    },
+    "MIXED": {
+      "fills": 162766,
+      "share_negative": 0.027812933905115318,
+      "share_zero": 0.012115552388090879,
+      "mean_eff_negative_part": -0.027863264855312576
+    },
+    "UNKNOWN": {
+      "fills": 60,
+      "share_negative": 0.03333333333333333,
+      "share_zero": 0.0,
+      "mean_eff_negative_part": -0.14999999999999997
+    },
+    "MERGE": {
+      "fills": 71816,
+      "share_negative": 0.020900634955998663,
+      "share_zero": 0.011988971816865323,
+      "mean_eff_negative_part": -0.016620253164556963
+    }
+  },
+  "accounting": {
+    "lr": {
+      "fills": 2248651,
+      "candidate_fills": 2248966,
+      "coverage": 0.9998599356326419,
+      "taker_mean_eff": 0.023399753896891966,
+      "rule_mean_eff": 0.025935203817755628,
+      "flip_mass": 0.002535449920863665,
+      "flip_share": 0.031219162066501206,
+      "fill_level_ratio": 1.1083537003011141,
+      "wrong_side_share": 0.031219162066501206,
+      "wrong_side_mean_abs": 0.040607270551701546
+    },
+    "tick": {
+      "fills": 2176620,
+      "candidate_fills": 2248966,
+      "coverage": 0.9678314389812919,
+      "taker_mean_eff": 0.02249743455449275,
+      "rule_mean_eff": 0.013532931793330944,
+      "flip_mass": -0.008964502761161805,
+      "flip_share": 0.28103343716404333,
+      "fill_level_ratio": 0.601532221842975,
+      "wrong_side_share": 0.03174555044059137,
+      "wrong_side_mean_abs": 0.040233552345943446
+    },
+    "emo": {
+      "fills": 2247062,
+      "candidate_fills": 2248966,
+      "coverage": 0.9991533887128574,
+      "taker_mean_eff": 0.02334362291739169,
+      "rule_mean_eff": 0.025074472355457927,
+      "flip_mass": 0.0017308494380662393,
+      "flip_share": 0.03525403393408816,
+      "fill_level_ratio": 1.0741465643182877,
+      "wrong_side_share": 0.031069013672074913,
+      "wrong_side_mean_abs": 0.04020319706649096
+    }
+  },
+  "lag_grid": {
+    "1": {
+      "fills": 2248966,
+      "wrong_side_share": 0.031214789374316907,
+      "lr": {
+        "fills": 2248651,
+        "candidate_fills": 2248966,
+        "coverage": 0.9998599356326419,
+        "taker_mean_eff": 0.023399753896891962,
+        "rule_mean_eff": 0.025935203817755624,
+        "flip_mass": 0.002535449920863665,
+        "flip_share": 0.031219162066501206,
+        "fill_level_ratio": 1.1083537003011141,
+        "wrong_side_share": 0.031219162066501206,
+        "wrong_side_mean_abs": 0.040607270551701546
+      }
+    },
+    "10": {
+      "fills": 2248966,
+      "wrong_side_share": 0.03121523402310217,
+      "lr": {
+        "fills": 2248651,
+        "candidate_fills": 2248966,
+        "coverage": 0.9998599356326419,
+        "taker_mean_eff": 0.023399780579556367,
+        "rule_mean_eff": 0.0259352393946415,
+        "flip_mass": 0.002535458815085134,
+        "flip_share": 0.031219606777574644,
+        "fill_level_ratio": 1.1083539568443765,
+        "wrong_side_share": 0.031219606777574644,
+        "wrong_side_mean_abs": 0.04060683456311786
+      }
+    },
+    "100": {
+      "fills": 2248948,
+      "wrong_side_share": 0.03190825221392402,
+      "lr": {
+        "fills": 2248667,
+        "candidate_fills": 2248948,
+        "coverage": 0.9998750526913027,
+        "taker_mean_eff": 0.023539151417261872,
+        "rule_mean_eff": 0.026175356778037836,
+        "flip_mass": 0.002636205360775962,
+        "flip_share": 0.03191223956237184,
+        "fill_level_ratio": 1.1119923702450363,
+        "wrong_side_share": 0.03191223956237184,
+        "wrong_side_mean_abs": 0.04130398550724638
+      }
+    },
+    "500": {
+      "fills": 2248623,
+      "wrong_side_share": 0.06593324003178834,
+      "lr": {
+        "fills": 2248437,
+        "candidate_fills": 2248623,
+        "coverage": 0.9999172827103521,
+        "taker_mean_eff": 0.025652942466255452,
+        "rule_mean_eff": 0.033048169461719415,
+        "flip_mass": 0.007395226995463961,
+        "flip_share": 0.06593869430186391,
+        "fill_level_ratio": 1.28827987296942,
+        "wrong_side_share": 0.06593869430186391,
+        "wrong_side_mean_abs": 0.0560765349826992
+      }
+    },
+    "1000": {
+      "fills": 2248210,
+      "wrong_side_share": 0.09672984285275842,
+      "lr": {
+        "fills": 2247970,
+        "candidate_fills": 2248210,
+        "coverage": 0.9998932484065101,
+        "taker_mean_eff": 0.026856661788191127,
+        "rule_mean_eff": 0.039696148969959565,
+        "flip_mass": 0.01283948718176844,
+        "flip_share": 0.09674017002006255,
+        "fill_level_ratio": 1.4780745754267182,
+        "wrong_side_share": 0.09674017002006255,
+        "wrong_side_mean_abs": 0.06636068129250605
+      }
+    }
+  }
+}

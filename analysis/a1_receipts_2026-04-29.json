@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "script": "a1_receipts.py",
+    "utc": "2026-09-27T06:53:42+00:00",
+    "git_head": "fab4db4",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/onchain/day=2026-04-29/unmatched_prints.parquet"
+    ]
+  },
+  "day": "2026-04-29",
+  "unmatched_prints_after_fuzzy": 81922,
+  "sampled": 960,
+  "block_range": [
+    86150378,
+    86193877
+  ],
+  "classes": {
+    "not_mined": 475,
+    "reverted": 485
+  },
+  "shares": {
+    "not_mined": 0.4947916666666667,
+    "reverted": 0.5052083333333334
+  },
+  "weighted_shares": {
+    "not_mined": 0.588622714289202,
+    "reverted": 0.4113772857107981
+  },
+  "by_hour": {
+    "0": {
+      "not_mined": 25,
+      "reverted": 15
+    },
+    "1": {
+      "reverted": 24,
+      "not_mined": 16
+    },
+    "2": {
+      "not_mined": 16,
+      "reverted": 24
+    },
+    "3": {
+      "reverted": 32,
+      "not_mined": 8
+    },
+    "4": {
+      "reverted": 31,
+      "not_mined": 9
+    },
+    "5": {
+      "not_mined": 12,
+      "reverted": 28
+    },
+    "6": {
+      "reverted": 30,
+      "not_mined": 10
+    },
+    "7": {
+      "not_mined": 17,
+      "reverted": 23
+    },
+    "8": {
+      "not_mined": 14,
+      "reverted": 26
+    },
+    "9": {
+      "reverted": 33,
+      "not_mined": 7
+    },
+    "10": {
+      "not_mined": 6,
+      "reverted": 34
+    },
+    "11": {
+      "reverted": 20,
+      "not_mined": 20
+    },
+    "12": {
+      "reverted": 17,
+      "not_mined": 23
+    },
+    "13": {
+      "not_mined": 27,
+      "reverted": 13
+    },
+    "14": {
+      "not_mined": 25,
+      "reverted": 15
+    },
+    "15": {
+      "not_mined": 25,
+      "reverted": 15
+    },
+    "16": {
+      "not_mined": 30,
+      "reverted": 10
+    },
+    "17": {
+      "not_mined": 19,
+      "reverted": 21
+    },
+    "18": {
+      "reverted": 15,
+      "not_mined": 25
+    },
+    "19": {
+      "not_mined": 30,
+      "reverted": 10
+    },
+    "20": {
+      "not_mined": 18,
+      "reverted": 22
+    },
+    "21": {
+      "not_mined": 30,
+      "reverted": 10
+    },
+    "22": {
+      "not_mined": 35,
+      "reverted": 5
+    },
+    "23": {
+      "not_mined": 28,
+      "reverted": 12
+    }
+  },
+  "examples": {
+    "not_mined": [
+      "0x95a1de28ad306e92031cc84596f1827b6b15994e1806e84d4e735a8e642f18bb",
+      "0x675ec57cad6f9f1b52e6c9d8c287b76d1925c0365b33446095b16e8990c1b874",
+      "0xfc381e6f36b3a718c4de7b740d47943783cfcf74ce60ce7c01fb9a4f01bc74bf",
+      "0x67f9c13efc405a3be11914e0deb17d0349bcab48219c4e975e5cbec038c3075d",
+      "0xd5879f65cd0b538f5edea5707621ad87881f62d4a733246981cc801958bd78a5"
+    ],
+    "reverted": [
+      "0x2e73284b840a7faebdf05cb1def93eea6ed9cf914cfb80c716ebf2804d6a2b06",
+      "0x3213fd34b9656da6ab051cd54ac1b290f2eeb7129fa87e1d9fcda3cd4d6e020c",
+      "0x23af39d41404e743198c649dbb4347724c02ee79b84d768e23b1fdd9e5b025c1",
+      "0x92339436eb04b89e9569f7cd94dffe4bd30372e6d54a4de576f5cf0f95b4defa",
+      "0x5098b3c0d04286f875cbefbcd718da4b0a6ce744cc8ee84459a57747043551ff"
+    ]
+  },
+  "control_matched": {
+    "sampled": 100,
+    "classes": {
+      "in_range_missed": 100
+    }
+  }
+}

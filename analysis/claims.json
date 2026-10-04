@@ -1,0 +1,2468 @@
+{
+  "-0.013": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.at_tick_share.paired.treated_change",
+    "tol": 0.0005
+  },
+  "-0.018": {
+    "json": "b3_mechanisms.json",
+    "path": "archive_seam.median_log_change"
+  },
+  "-0.020": {
+    "json": "b2_placebo.json",
+    "path": "placebo_range.mean[\"0\"].log_spread.max"
+  },
+  "-0.044": {
+    "json": "c1_worldcup.json",
+    "path": "arms.U.outcomes.log_spread.twfe.beta"
+  },
+  "-0.068": {
+    "json": "c2_event_study.json",
+    "path": "reweighted.active_stable.pre_mean_att"
+  },
+  "-0.091": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.paired.ci95[1]"
+  },
+  "-0.106": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.twfe.beta"
+  },
+  "-0.114": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_depth_bid.paths[0].median"
+  },
+  "-0.119@manuscript.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.rules.bvc_5s.means.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "-0.119@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.rules.bvc_5s.means.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "-0.122": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_depth_bid.paths[4].median"
+  },
+  "-0.144@sec_results_tick.tex": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.event_bootstrap.ci95[1]",
+    "tol": 0.0005
+  },
+  "-0.162": {
+    "json": "d0_tz_fix.json",
+    "path": "utc.5.did_corrected_control",
+    "tol": 0.0006
+  },
+  "-0.167": {
+    "json": "d0_tz_fix.json",
+    "path": "legacy.5.did_corrected_control",
+    "tol": 0.0006
+  },
+  "-0.169": {
+    "json": "b3_mechanisms.json",
+    "path": "category_did.sports.did"
+  },
+  "-0.209@manuscript.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.rules.lr.differences.realised.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "-0.209@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.rules.lr.differences.realised.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "-0.221": {
+    "json": "d0_tz_fix.json",
+    "path": "utc.7.did_corrected_control",
+    "tol": 0.0006
+  },
+  "-0.225": {
+    "json": "d0_tz_fix.json",
+    "path": "legacy.7.did_corrected_control",
+    "tol": 0.0006
+  },
+  "-0.235": {
+    "json": "d0_tz_fix.json",
+    "path": "utc.5.did",
+    "tol": 0.0006
+  },
+  "-0.238": {
+    "json": "d0_tz_fix.json",
+    "path": "legacy.5.did",
+    "tol": 0.0006
+  },
+  "-0.258": {
+    "json": "c1_worldcup.json",
+    "path": "arms.U.outcomes.log_spread.paired.did"
+  },
+  "-0.259": {
+    "json": "b2_placebo.json",
+    "path": "placebo_range.mean[\"0\"].log_spread.min"
+  },
+  "-0.274": {
+    "json": "b2_placebo.json",
+    "path": "placebo_range.net_up[\"0\"].log_spread.min"
+  },
+  "-0.293": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.ri.null_p025"
+  },
+  "-0.298": {
+    "json": "d0_tz_fix.json",
+    "path": "utc.10.did_corrected_control",
+    "tol": 0.0006
+  },
+  "-0.300": {
+    "json": "d0_tz_fix.json",
+    "path": "legacy.10.did_corrected_control",
+    "tol": 0.0006
+  },
+  "-0.334": {
+    "json": "d0_tz_fix.json",
+    "path": "utc.7.did",
+    "tol": 0.0006
+  },
+  "-0.335": {
+    "json": "d0_tz_fix.json",
+    "path": "legacy.7.did",
+    "tol": 0.0006
+  },
+  "-0.374@manuscript.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.rules.tick.means.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "-0.374@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.rules.tick.means.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "-0.442": {
+    "json": "d0_tz_fix.json",
+    "path": "utc.10.did",
+    "tol": 0.0006
+  },
+  "-0.444": {
+    "json": "d0_tz_fix.json",
+    "path": "legacy.10.did",
+    "tol": 0.0006
+  },
+  "-0.461": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.paired.did"
+  },
+  "-0.630": {
+    "json": "c1_worldcup.json",
+    "path": "arms.U.outcomes.log_spread.paired.ci95[0]"
+  },
+  "-0.654@sec_results_tick.tex": {
+    "json": "c1_worldcup.json",
+    "path": "arms.U.outcomes.log_spread.paired.ci95[0]",
+    "tol": 0.0005
+  },
+  "-0.808@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.rules.bvc_5s.differences.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "-0.888": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.paired.ci95[0]"
+  },
+  "-0.928@sec_results_tick.tex": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.event_bootstrap.ci95[0]",
+    "tol": 0.0005
+  },
+  "-1.017": {
+    "json": "c2_event_study.json",
+    "path": "reweighted.active_stable.post_mean_att"
+  },
+  "-1.063@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.rules.tick.differences.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "-1.346": {
+    "json": "c2_event_study.json",
+    "path": "reweighted.all.post_mean_att"
+  },
+  "-1.472": {
+    "json": "c2_event_study.json",
+    "path": "gate.all.post_mean_att"
+  },
+  "-2.06": {
+    "json": "c0_rollout.json",
+    "path": "hazard.coef.mid_extreme",
+    "tol": 0.005
+  },
+  "-4.158@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.taker.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.000080@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.paired_history.bvc_5s.equal_day_mean",
+    "scale": 1,
+    "tol": 5e-07
+  },
+  "0.000080@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.paired_history.bvc_5s.equal_day_mean",
+    "scale": 1,
+    "tol": 5e-07
+  },
+  "0.000192@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.paired_history.tick.equal_day_mean",
+    "scale": 1,
+    "tol": 5e-07
+  },
+  "0.000192@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.paired_history.tick.equal_day_mean",
+    "scale": 1,
+    "tol": 5e-07
+  },
+  "0.0005": {
+    "json": "a4_direction_pooled.json",
+    "path": "contrasts.lr_vs_tick.sign_test.p_two_sided",
+    "scale": 1,
+    "tol": 0.0001
+  },
+  "0.001": {
+    "constant": "tick size"
+  },
+  "0.002": {
+    "constant": "bound on the quote-rule difference (contrasts.emo_vs_lr.min_diff = -0.0016)"
+  },
+  "0.0025": {
+    "constant": "the World Cup tick size (venue rule)"
+  },
+  "0.005": {
+    "json": "a1_fill_match_2026-05-13.json",
+    "path": "identity.abs_dprice_max",
+    "tol": 1e-06
+  },
+  "0.0095": {
+    "constant": "the sub-cent threshold (a spread below one 0.01 tick less rounding)"
+  },
+  "0.01": {
+    "constant": "tick size"
+  },
+  "0.010": {
+    "json": "x3_composition.json",
+    "path": "summary.whole_panel.p25",
+    "tol": 0.0005
+  },
+  "0.015": {
+    "json": "b3_mechanisms.json",
+    "path": "recovery_by_activity_quartile.q1.k0"
+  },
+  "0.0155": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[7].lo"
+  },
+  "0.016": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[7].median"
+  },
+  "0.0171": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[7].hi"
+  },
+  "0.0175@sec_results_tick.tex": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.ri.p",
+    "tol": 5e-05
+  },
+  "0.0185@sec_results_tick.tex": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.ri.p",
+    "tol": 5e-05
+  },
+  "0.02": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.empty_share.paths[14].mean",
+    "tol": 0.005
+  },
+  "0.020": {
+    "json": "x3_composition.json",
+    "path": "summary.median_spread_min",
+    "tol": 0.0005
+  },
+  "0.03": {
+    "constant": "venue changelog: sports taker fee rate before 10 July"
+  },
+  "0.0333": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[8].lo"
+  },
+  "0.035": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.R.low_mid_p95"
+  },
+  "0.037": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[8].median"
+  },
+  "0.038": {
+    "json": "x3_composition.json",
+    "path": "summary.whole_panel.median"
+  },
+  "0.04": {
+    "constant": "tail bound"
+  },
+  "0.0456": {
+    "json": "b2_placebo.json",
+    "path": "placebo_range.median[\"0\"].log_depth_bid.max"
+  },
+  "0.046": {
+    "json": "b2_placebo.json",
+    "path": "placebo_range.net_up[\"0\"].log_spread.max"
+  },
+  "0.0465": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[8].hi"
+  },
+  "0.048": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.empty_share.paths[8].mean"
+  },
+  "0.05": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly_summary[\"2026-04-27\"].spread_min",
+    "tol": 0.005
+  },
+  "0.050": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.empty_share.paths[7].median"
+  },
+  "0.051@sec_results_cutover.tex": {
+    "json": "b0_depth_validate.json",
+    "path": "days[11].dlog_snap"
+  },
+  "0.05@manuscript.tex": {
+    "constant": "venue changelog: sports taker fee rate after 10 July"
+  },
+  "0.06": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.X.low_mid_median",
+    "tol": 0.0005
+  },
+  "0.065": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly_summary[\"2026-04-29\"].spread_min",
+    "tol": 0.0005
+  },
+  "0.069": {
+    "json": "b0_depth_validate.json",
+    "path": "summary[\"k=1\"].dlog_snap"
+  },
+  "0.07": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly_summary[\"2026-04-29\"].spread_min",
+    "tol": 0.005
+  },
+  "0.07@sec_results_cutover.tex": {
+    "json": "b3_mechanisms.json",
+    "path": "category_fee_rates[2].fee_rate"
+  },
+  "0.08": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly_summary[\"2026-04-27\"].spread_max",
+    "tol": 0.005
+  },
+  "0.082": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.twfe.se_cluster"
+  },
+  "0.090": {
+    "json": "x3_composition.json",
+    "path": "summary.median_spread_max",
+    "tol": 0.0005
+  },
+  "0.096": {
+    "json": "b3_mechanisms.json",
+    "path": "recovery_by_activity_quartile.q4.k0"
+  },
+  "0.1": {
+    "constant": "threshold for the unknown share"
+  },
+  "0.10": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly[42].spread_median",
+    "tol": 0.005
+  },
+  "0.102": {
+    "json": "c1_worldcup.json",
+    "path": "arms.U.outcomes.log_spread.paired.ci95[1]"
+  },
+  "0.102@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.sensitivities.tie_exclusion.weights.share_volume.rules.tick.means.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.105@sec_results_cutover.tex": {
+    "json": "b3_mechanisms.json",
+    "path": "anticipation.pre_hours_log_ratio_median"
+  },
+  "0.106": {
+    "json": "b1_cutover.json",
+    "path": "attrition.log_spread.worst"
+  },
+  "0.11": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly_summary[\"2026-04-29\"].spread_max",
+    "tol": 0.005
+  },
+  "0.114@sec_results_tick.tex": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.event_clustered.se_cluster",
+    "tol": 0.0005
+  },
+  "0.129": {
+    "json": "b3_mechanisms.json",
+    "path": "fee_event_2026_03_30.log_updates[6].median"
+  },
+  "0.147": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_updates.paths[8].median",
+    "scale": -1
+  },
+  "0.15": {
+    "json": "b0_depth_validate.json",
+    "path": "summary[\"k=7\"].dlog_snap",
+    "tol": 0.005
+  },
+  "0.150@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_tick.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.150@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_tick.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.154": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[5].mean"
+  },
+  "0.17": {
+    "json": "c0_rollout.json",
+    "path": "hazard.predicted.placeholder_day",
+    "tol": 0.005
+  },
+  "0.171@sec_results_cutover.tex": {
+    "json": "b0_depth_validate.json",
+    "path": "days[12].dlog_snap"
+  },
+  "0.173": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[0].share_down"
+  },
+  "0.1734": {
+    "json": "b2_placebo.json",
+    "path": "placebo_range.net_up[\"0\"].empty_share.max"
+  },
+  "0.174@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_tick.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.174@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_tick.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.18": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly[39].spread_median",
+    "tol": 0.005
+  },
+  "0.181@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.sensitivities.tie_exclusion.weights.share_volume.rules.bvc_5s.means.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.190@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_tick.max",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.190@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_tick.max",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.198": {
+    "json": "a4_direction_pooled.json",
+    "path": "contrasts.lr_vs_tick.min_diff",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.198@sec_results_cutover.tex": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[7].share_down"
+  },
+  "0.207@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_bvc_5s.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.207@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_bvc_5s.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.209@manuscript.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.rules.lr.differences.realised.equal_day_mean",
+    "scale": -100,
+    "tol": 0.00051
+  },
+  "0.209@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.rules.lr.differences.realised.equal_day_mean",
+    "scale": -100,
+    "tol": 0.00051
+  },
+  "0.214": {
+    "json": "b2_placebo.json",
+    "path": "placebo_range.mean[\"1\"].log_spread.event"
+  },
+  "0.219": {
+    "json": "a4_direction_pooled.json",
+    "path": "contrasts.lr_vs_tick.mean_diff",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.222": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.at_tick_share.paired.control_change"
+  },
+  "0.224": {
+    "json": "a4_direction_pooled.json",
+    "path": "contrasts.lr_vs_bvc_5s.min_diff",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.229": {
+    "json": "c2_event_study.json",
+    "path": "gate.all.post_mean_ratio"
+  },
+  "0.240": {
+    "json": "a4_direction_pooled.json",
+    "path": "contrasts.lr_vs_tick.max_diff",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.25": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.L.low_mid_median",
+    "tol": 0.0005
+  },
+  "0.264": {
+    "json": "c1_worldcup.json",
+    "path": "arms.U.outcomes.log_spread.twfe.se_cluster"
+  },
+  "0.268": {
+    "json": "b0_depth_validate.json",
+    "path": "summary[\"k=1\"].dlog_pc"
+  },
+  "0.272@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_bvc_5s.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.272@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_bvc_5s.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.284": {
+    "json": "a4_direction_pooled.json",
+    "path": "contrasts.lr_vs_bvc_5s.mean_diff",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.3": {
+    "json": "d0_archive_health.json",
+    "path": "summary.june_window.carried_share_13_19_min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "0.309": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[7].mean"
+  },
+  "0.309@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_bvc_5s.max",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.309@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_common_paired_contrasts.lr_minus_bvc_5s.max",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.310": {
+    "json": "b3_mechanisms.json",
+    "path": "fee_event_2026_03_30.log_updates[10].median"
+  },
+  "0.314": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[7].net_up"
+  },
+  "0.32": {
+    "json": "b0_depth_validate.json",
+    "path": "summary[\"k=7\"].dlog_pc",
+    "tol": 0.005
+  },
+  "0.322": {
+    "json": "a4_direction_pooled.json",
+    "path": "contrasts.lr_vs_bvc_5s.max_diff",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.349@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.paired_history_max_flip_share.tick",
+    "scale": 100,
+    "tol": 0.0005
+  },
+  "0.349@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.paired_history_max_flip_share.tick",
+    "scale": 100,
+    "tol": 0.0005
+  },
+  "0.35": {
+    "json": "c0_rollout.json",
+    "path": "hazard.predicted.first_active_day",
+    "tol": 0.005
+  },
+  "0.357": {
+    "json": "b3_mechanisms.json",
+    "path": "anticipation.by_hour[11].lr"
+  },
+  "0.361": {
+    "json": "c1_worldcup.json",
+    "path": "arms.U.outcomes.log_spread.paired.treated_change",
+    "scale": -1
+  },
+  "0.365@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.rules.lr.differences.realised.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.37": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.mde_log_spread",
+    "tol": 0.005
+  },
+  "0.372": {
+    "json": "b0_depth_validate.json",
+    "path": "summary[\"k=0\"].dlog_snap"
+  },
+  "0.377@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.paired_history_max_flip_share.bvc_5s",
+    "scale": 100,
+    "tol": 0.0005
+  },
+  "0.377@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.paired_history_max_flip_share.bvc_5s",
+    "scale": 100,
+    "tol": 0.0005
+  },
+  "0.379": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.ri.null_p975"
+  },
+  "0.399@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.rules.lr.differences.effective.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.422": {
+    "json": "c2_event_study.json",
+    "path": "reweighted.all.pre_mean_att"
+  },
+  "0.425@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.sensitivities.chain_price.weights.fill.rules.lr.differences.effective.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.429@manuscript.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.rules.lr.differences.effective.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.429@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.rules.lr.differences.effective.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.475": {
+    "json": "b0_depth_validate.json",
+    "path": "summary[\"k=0\"].dlog_pc"
+  },
+  "0.5": {
+    "constant": "the wide mode of the spread cross-section (description of Figure fig:dist)"
+  },
+  "0.500": {
+    "constant": "baseline calculation: median day-before midpoint (placeholder)"
+  },
+  "0.51": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[7].share_up",
+    "tol": 0.005
+  },
+  "0.519": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_depth_bid.paths[7].median"
+  },
+  "0.519@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.asset_exploratory.weights.fill.bvc_5s.realised.spearman_rank_correlation.equal_day_mean",
+    "scale": 1,
+    "tol": 0.00051
+  },
+  "0.53": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.tick_fill_ratio.min",
+    "scale": 1,
+    "tol": 0.005
+  },
+  "0.541": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[0].mean"
+  },
+  "0.549": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.paired.control_change",
+    "scale": -1
+  },
+  "0.56@sec_legacy_direction.tex": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.tick_fill_ratio.min",
+    "tol": 0.005
+  },
+  "0.56@sec_results_direction.tex": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.tick_fill_ratio.min",
+    "tol": 0.005
+  },
+  "0.595": {
+    "json": "c1_worldcup.json",
+    "path": "arms.U.outcomes.log_depth_bid.paired.control_change"
+  },
+  "0.597": {
+    "json": "c2_event_study.json",
+    "path": "gate.all.pre_mean_att"
+  },
+  "0.612@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.asset_exploratory.weights.fill.tick.realised.spearman_rank_correlation.equal_day_mean",
+    "scale": 1,
+    "tol": 0.00051
+  },
+  "0.62": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.tick_fill_ratio.max",
+    "scale": 1,
+    "tol": 0.005
+  },
+  "0.625": {
+    "json": "b1_cutover.json",
+    "path": "outcomes.log_spread.paths[0].share_up"
+  },
+  "0.638@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.rules.lr.differences.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.64@sec_legacy_direction.tex": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.tick_fill_ratio.max",
+    "tol": 0.005
+  },
+  "0.64@sec_results_direction.tex": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.tick_fill_ratio.max",
+    "tol": 0.005
+  },
+  "0.653": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.spread_old_ticks.twfe.se_cluster"
+  },
+  "0.670": {
+    "json": "a4_direction_pooled.json",
+    "path": "balanced_accuracy.bvc_5s.mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.670@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.bvc_5s.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.670@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.bvc_5s.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.689@manuscript.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.taker.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.689@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.taker.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.704@manuscript.tex": {
+    "json": "a2_direction_2026-04-26.json",
+    "path": "rules.tick.accuracy"
+  },
+  "0.710@manuscript.tex": {
+    "json": "a2_direction_2026-04-27.json",
+    "path": "rules.tick.accuracy"
+  },
+  "0.724@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.rules.lr.means.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.734": {
+    "json": "a4_direction_pooled.json",
+    "path": "balanced_accuracy.tick.mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.735@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.own_sample.tick.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.735@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.own_sample.tick.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.741": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.cell_all_legs.balanced_accuracy.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.747": {
+    "json": "c0_rollout.json",
+    "path": "hazard.auc",
+    "tol": 0.0005
+  },
+  "0.75": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.spread_old_ticks.paired.treated_change",
+    "scale": -1,
+    "tol": 0.005
+  },
+  "0.768@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.tick.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.768@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.tick.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.802": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.cell_all_legs.balanced_accuracy.max",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.821": {
+    "json": "a4_direction_pooled.json",
+    "path": "majority_baseline.lr.mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.840": {
+    "json": "a4_direction_pooled.json",
+    "path": "kappa.lr.mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.866": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.lr_bal_lag1000.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.885@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.lr_fixed_lag_balanced_accuracy.lr_lag1000",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.885@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.lr_fixed_lag_balanced_accuracy.lr_lag1000",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.9": {
+    "constant": "live-quote threshold on the spread in the rule classification (design constant)"
+  },
+  "0.90": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.L.high_mid_median",
+    "tol": 0.0005
+  },
+  "0.901@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.lr.balanced_accuracy.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.901@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.lr.balanced_accuracy.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.905": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.lr_bal_lag500.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.906": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.cell_all_legs.majority_baseline.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.910": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.lr_bal_lag1000.max",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.919": {
+    "json": "a4_direction_pooled.json",
+    "path": "balanced_accuracy.lr.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.921@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.lr_fixed_lag_balanced_accuracy.lr_lag500",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.921@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.lr_fixed_lag_balanced_accuracy.lr_lag500",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.922": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.lr_bal_lag100.min",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.934": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"category=unknown\"].lr.balanced_accuracy"
+  },
+  "0.935": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.X.high_mid_median",
+    "tol": 0.0005
+  },
+  "0.941@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.emo.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.941@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.emo.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.942@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.lr.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.942@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.lr.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.943@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.unique_hash_common_balanced_accuracy.lr",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.943@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.unique_hash_common_balanced_accuracy.lr",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.944": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.lr_bal_lag500.max",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.947": {
+    "json": "a4_direction_pooled.json",
+    "path": "recall_buy.lr.mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.949": {
+    "json": "a4_direction_pooled.json",
+    "path": "accuracy.lr.mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.95": {
+    "json": "c1_worldcup.json",
+    "path": "arms.U.mde_log_spread",
+    "tol": 0.005
+  },
+  "0.951": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"category=crypto\"].lr.balanced_accuracy"
+  },
+  "0.9538@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.lr_fixed_lag_balanced_accuracy.lr",
+    "scale": 1,
+    "tol": 5e-05
+  },
+  "0.9538@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.lr_fixed_lag_balanced_accuracy.lr",
+    "scale": 1,
+    "tol": 5e-05
+  },
+  "0.953@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.lr_fixed_lag_balanced_accuracy.lr_lag100",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.953@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.lr_fixed_lag_balanced_accuracy.lr_lag100",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.954": {
+    "json": "a4_direction_pooled.json",
+    "path": "balanced_accuracy.lr.mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.954@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.own_sample.lr.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.954@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.own_sample.lr.balanced_accuracy.equal_day_mean",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.955@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.sensitivities.tie_exclusion.weights.share_volume.taker.impact.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "0.957": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"price_level=interior\"].lr.balanced_accuracy"
+  },
+  "0.957@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.untied_common_balanced_accuracy.lr",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.957@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.untied_common_balanced_accuracy.lr",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.958": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"contract=0xe111180000d2663c0091e4f400237545b87b996b\"].lr.balanced_accuracy"
+  },
+  "0.959@manuscript.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.lr.balanced_accuracy.max",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.959@sec_results_direction.tex": {
+    "json": "a5_cached_benchmark.json",
+    "note": "Full cached history; sample panel explicitly identified",
+    "path": "summary.full_history.common_sample.lr.balanced_accuracy.max",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.96": {
+    "constant": "tail bound"
+  },
+  "0.960": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"size_quintile=2\"].lr.balanced_accuracy"
+  },
+  "0.961": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"tick_size=0.01\"].lr.balanced_accuracy",
+    "tol": 0.0005
+  },
+  "0.964": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "rules.lr.bootstrap.lo"
+  },
+  "0.965": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.R.high_mid_p05"
+  },
+  "0.966@sec_legacy_direction.tex": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"match_type=MIXED\"].lr.accuracy",
+    "tol": 0.0005
+  },
+  "0.966@sec_results_direction.tex": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"match_type=MIXED\"].lr.accuracy",
+    "tol": 0.0005
+  },
+  "0.968": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "rules.lr.bootstrap.hi"
+  },
+  "0.969": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"match_type=MIXED\"].lr.balanced_accuracy"
+  },
+  "0.97": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly[36].spread_median",
+    "tol": 0.005
+  },
+  "0.970": {
+    "json": "a4_direction_pooled.json",
+    "path": "balanced_accuracy.lr.max",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "0.971@sec_legacy_direction.tex": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"match_type=COMPLEMENTARY\"].lr.accuracy",
+    "tol": 0.0005
+  },
+  "0.971@sec_results_direction.tex": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"match_type=COMPLEMENTARY\"].lr.accuracy",
+    "tol": 0.0005
+  },
+  "0.974": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"match_type=MERGE\"].lr.accuracy"
+  },
+  "0.975": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"tick_size=0.001\"].lr.balanced_accuracy"
+  },
+  "0.976": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"size_quintile=5\"].lr.balanced_accuracy"
+  },
+  "0.978": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"category=finance_prices\"].lr.balanced_accuracy"
+  },
+  "0.982@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.asset_exploratory.weights.fill.lr.realised.spearman_rank_correlation.equal_day_mean",
+    "scale": 1,
+    "tol": 0.00051
+  },
+  "0.986": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"category=culture\"].lr.balanced_accuracy"
+  },
+  "0.987": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"category=weather\"].lr.balanced_accuracy"
+  },
+  "0.988": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"price_level=tail\"].lr.balanced_accuracy"
+  },
+  "0.989": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"category=sports\"].lr.balanced_accuracy"
+  },
+  "0.99": {
+    "constant": "a bid at 0.99: the price at which a decided market's winner is bid (design description)"
+  },
+  "0.991": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"contract=0xe2222d279d744050d28e00520010520000310f59\"].lr.balanced_accuracy"
+  },
+  "0.994": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"category=politics\"].lr.balanced_accuracy"
+  },
+  "0.995": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.R.high_mid_median"
+  },
+  "0.996": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"category=economics\"].lr.balanced_accuracy"
+  },
+  "0.9993": {
+    "json": "x2_panel_build.json",
+    "path": "labelled_share",
+    "tol": 5e-05
+  },
+  "0.99@sec_results_tick.tex": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_depth_bid.paired.treated_change",
+    "scale": -1,
+    "tol": 0.005
+  },
+  "1.010": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.paired.treated_change",
+    "scale": -1
+  },
+  "1.06": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.emo_fill_ratio.min",
+    "scale": 1,
+    "tol": 0.005
+  },
+  "1.0@manuscript.tex": {
+    "constant": "Published Zenodo replication version 1.0, verified 3 October 2026 at https://zenodo.org/records/23121202"
+  },
+  "1.1": {
+    "constant": "baseline calculation: share of day-before midpoints beyond the thresholds"
+  },
+  "1.10": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.lr_fill_ratio.min",
+    "scale": 1,
+    "tol": 0.005
+  },
+  "1.2": {
+    "json": "d0_checks.json",
+    "path": "receipts.thin_hours_lt_20pct_median[\"2026-04-28T11.parquet\"]",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "1.23": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.emo_fill_ratio.max",
+    "scale": 1,
+    "tol": 0.005
+  },
+  "1.25@sec_legacy_direction.tex": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.emo_fill_ratio.max",
+    "tol": 0.005
+  },
+  "1.25@sec_results_direction.tex": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.emo_fill_ratio.max",
+    "tol": 0.005
+  },
+  "1.34": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.lr_fill_ratio.max",
+    "scale": 1,
+    "tol": 0.005
+  },
+  "1.344@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.taker.realised.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "1.5": {
+    "constant": "block time"
+  },
+  "1.500": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_depth_bid.paired.control_change"
+  },
+  "1.55": {
+    "json": "c0_rollout.json",
+    "path": "[\"events_0.01_to_0.001\"]",
+    "scale": 1e-06,
+    "tol": 0.005
+  },
+  "1.6": {
+    "json": "c0_rollout.json",
+    "path": "resolution_proximity.R.hours_after_game_start_median",
+    "tol": 0.05
+  },
+  "1.7": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.signed_ratios.taker_eff_mean.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "1.75": {
+    "constant": "block time (Polygon PIP-86 step in early May; d0_checks.json blocks sec_per_block)"
+  },
+  "1.8": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.MERGE.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "1.841": {
+    "json": "c1_worldcup.json",
+    "path": "arms.U.outcomes.log_depth_bid.paired.treated_change"
+  },
+  "1.8@manuscript.tex": {
+    "constant": "1.8 million tick events in the pilot extraction; 1.8 TB archive (descriptions)"
+  },
+  "1.9": {
+    "json": "d0_archive_health.json",
+    "path": "summary.june_window.carried_share_13_19_max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "100": {
+    "json": "a4_direction_pooled.json",
+    "path": "receipts.2026-04-29.control_settled",
+    "scale": 1,
+    "tol": 0.5
+  },
+  "100.0": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage.2026-07-01.print_matched_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "1000": {
+    "constant": "lag in ms"
+  },
+  "103{,}726": {
+    "json": "x3_composition.json",
+    "path": "summary.seam_both_sides.after"
+  },
+  "10{,}000": {
+    "json": "d0_archive_health.json",
+    "note": "rounded in the main text",
+    "path": "summary.june_window.listed_min",
+    "tol": 400
+  },
+  "10{,}185": {
+    "json": "d0_archive_health.json",
+    "path": "days[89].listed",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "10{,}399": {
+    "json": "d0_archive_health.json",
+    "path": "summary.june_window.listed_min"
+  },
+  "117{,}188": {
+    "json": "d0_tz_fix.json",
+    "path": "adoptions.day_shifted_by_tz_fix"
+  },
+  "12": {
+    "json": "a4_direction_pooled.json",
+    "path": "contrasts.lr_vs_tick.sign_test.positive",
+    "scale": 1,
+    "tol": 0.5
+  },
+  "13.4": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.R[\"share_within_0.01_of_threshold\"]",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "13{,}537": {
+    "json": "d0_archive_health.json",
+    "path": "days[143].first_seen_markets",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "14{,}017": {
+    "json": "d0_archive_health.json",
+    "path": "days[90].first_seen_markets",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "15": {
+    "constant": "venue changelog: sports maker rebate share after 10 July"
+  },
+  "15{,}000": {
+    "json": "d0_archive_health.json",
+    "note": "rounded in the main text",
+    "path": "summary.june_window.listed_max",
+    "tol": 400
+  },
+  "15{,}365": {
+    "json": "d0_archive_health.json",
+    "path": "summary.june_window.listed_max"
+  },
+  "16.4@manuscript.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.eligible_rows_total",
+    "scale": 1e-06,
+    "tol": 0.051
+  },
+  "16.4@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.eligible_rows_total",
+    "scale": 1e-06,
+    "tol": 0.051
+  },
+  "16.6@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.common_prints",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "16.6@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.common_prints",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "16{,}448{,}261@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.eligible_rows_total",
+    "scale": 1,
+    "tol": 0
+  },
+  "16{,}540": {
+    "json": "b1_cutover.json",
+    "path": "splits.age.newer.assets"
+  },
+  "17.9": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.COMPLEMENTARY.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "177{,}137": {
+    "json": "a4_direction_pooled.json",
+    "path": "fuzzy.2026-04-30.unmatched_prints",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "17{,}009{,}350": {
+    "json": "x2_panel_build.json",
+    "path": "rows"
+  },
+  "19.2": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.UNKNOWN.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "19{,}342": {
+    "json": "b3_mechanisms.json",
+    "path": "fee_event_2026_03_30.cohort"
+  },
+  "1{,}000": {
+    "constant": "bootstrap draws (design constant)"
+  },
+  "1{,}098{,}926": {
+    "json": "c0_rollout.json",
+    "path": "resolution_proximity.R.sports_with_game_start"
+  },
+  "1{,}217{,}156": {
+    "json": "d0_tz_fix.json",
+    "path": "legacy.7.n"
+  },
+  "1{,}217{,}436": {
+    "json": "d0_tz_fix.json",
+    "path": "utc.7.n"
+  },
+  "1{,}386{,}948": {
+    "json": "a4_direction_pooled.json",
+    "path": "per_day.2026-05-13.crypto_prints",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "1{,}511{,}091": {
+    "json": "d0_archive_health.json",
+    "path": "summary.carried_total"
+  },
+  "1{,}540{,}951": {
+    "json": "x2_panel_build.json",
+    "path": "conditions"
+  },
+  "1{,}551{,}795": {
+    "json": "c0_rollout.json",
+    "path": "[\"events_0.01_to_0.001\"]"
+  },
+  "1{,}670{,}778": {
+    "json": "d0_tz_fix.json",
+    "path": "adoptions.assets"
+  },
+  "1{,}858{,}106": {
+    "json": "d0_archive_health.json",
+    "path": "summary.listed_total"
+  },
+  "1{,}933{,}693": {
+    "json": "g1_gamma_listings.json",
+    "note": "Gamma sweep 14 Feb-12 Aug",
+    "path": "markets"
+  },
+  "2.0": {
+    "constant": "block time"
+  },
+  "2.00": {
+    "json": "c0_rollout.json",
+    "path": "hazard.ratio_first_active_over_placeholder",
+    "tol": 0.005
+  },
+  "2.033@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.share_volume.taker.effective.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "2.1": {
+    "json": "a3_signed_2026-05-13.json",
+    "path": "wrong_side.MERGE.share_negative",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "2.328@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.taker.effective.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "2.5": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.signed_ratios.taker_eff_mean.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "2.6": {
+    "json": "c0_rollout.json",
+    "path": "class_shares.X",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "2.63": {
+    "json": "b3_mechanisms.json",
+    "path": "anticipation.by_hour[12].lr",
+    "tol": 0.005
+  },
+  "2.9": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.signed_ratios.wrong_side_share.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "204": {
+    "json": "c0_rollout.json",
+    "path": "resolution_proximity.X.hours_to_close_median",
+    "scale": 60,
+    "tol": 0.6
+  },
+  "206": {
+    "json": "c0_rollout.json",
+    "path": "resolution_proximity.L.hours_to_close_median",
+    "scale": 60,
+    "tol": 0.6
+  },
+  "21.73@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.asset_exploratory.weights.fill.tick.realised.sign_reversal_share.equal_day_mean",
+    "scale": 100,
+    "tol": 0.0051
+  },
+  "21{,}752": {
+    "json": "b3_mechanisms.json",
+    "path": "category_did.sports.treated_assets"
+  },
+  "22": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage.2026-05-13.hour0_share_of_unmatched_within_day",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "22.8": {
+    "json": "d0_archive_health.json",
+    "path": "days[38].carried_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "23@sec_method_tick.tex": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.control_markets_off_grid"
+  },
+  "23{,}547": {
+    "json": "d0_archive_health.json",
+    "path": "summary.listed_median_aug",
+    "tol": 0.5
+  },
+  "24.5": {
+    "json": "a4_direction_pooled.json",
+    "path": "totals.matched_prints",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "24.61@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.asset_exploratory.weights.fill.bvc_5s.realised.sign_reversal_share.equal_day_mean",
+    "scale": 100,
+    "tol": 0.0051
+  },
+  "241{,}401": {
+    "json": "c2_event_study.json",
+    "path": "gate.all.treated_units_e0"
+  },
+  "25.0@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.cached_prints",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "25.0@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.cached_prints",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "27": {
+    "json": "b3_mechanisms.json",
+    "path": "anticipation.by_hour[13].empty_e",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "27.1": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.COMPLEMENTARY.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "28.8": {
+    "json": "d0_archive_health.json",
+    "path": "days[143].carried_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "29": {
+    "json": "x3_composition.json",
+    "path": "summary.tight_share_min",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "2{,}000": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.log_spread.ri.draws"
+  },
+  "2{,}249{,}532": {
+    "json": "a4_direction_pooled.json",
+    "path": "per_day.2026-05-13.prints_matched",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "3.2": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.wrong_side_chain_price.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "3.31@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.asset_exploratory.weights.fill.lr.realised.sign_reversal_share.equal_day_mean",
+    "scale": 100,
+    "tol": 0.0051
+  },
+  "3.4": {
+    "json": "a3_signed_2026-05-13.json",
+    "path": "wrong_side.MINT.share_negative",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "3.6": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly_summary[\"2026-04-29\"].empty_min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "3.7": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.MERGE.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "300": {
+    "constant": "tail blocks"
+  },
+  "302{,}256": {
+    "json": "x3_composition.json",
+    "path": "summary.assets_last_ok_day"
+  },
+  "31{,}006": {
+    "json": "d0_archive_health.json",
+    "path": "days[127].assets",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "31{,}376": {
+    "json": "d0_archive_health.json",
+    "path": "days[128].first_seen_markets",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "34{,}496": {
+    "json": "b1_cutover.json",
+    "path": "attrition.log_spread.survivors"
+  },
+  "35{,}020": {
+    "json": "b1_cutover.json",
+    "path": "splits.age.listed_14d_or_more_before.assets"
+  },
+  "36.9@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.matched_tied_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "36.9@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.matched_tied_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "385{,}198": {
+    "constant": "companion study (Anatomy) sample size, cited"
+  },
+  "3{,}081{,}897": {
+    "json": "x2_panel_build.json",
+    "path": "assets"
+  },
+  "3{,}426": {
+    "json": "d0_archive_health.json",
+    "path": "days[33].first_seen_markets",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "4": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly_summary[\"2026-04-29\"].empty_min",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "4.2": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.MIXED.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "4.6": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.fills.min",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "40{,}337": {
+    "constant": "baseline adoption sample bookkeeping (baseline event output), quoted as such"
+  },
+  "40{,}408": {
+    "json": "b3_mechanisms.json",
+    "path": "archive_seam.assets"
+  },
+  "413{,}283": {
+    "constant": "baseline adoption sample bookkeeping (baseline event output), quoted as such"
+  },
+  "42{,}738": {
+    "json": "a2_direction_2026-05-13.json",
+    "path": "segments[\"category=unknown\"].n_rows"
+  },
+  "45{,}288": {
+    "json": "a4_direction_pooled.json",
+    "path": "fuzzy.2026-04-27.fuzzy_matched",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "48.8": {
+    "json": "d0_archive_health.json",
+    "path": "days[33].carried_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "485{,}746": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage.2026-07-01.unknown_txs",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "49.83": {
+    "constant": "Qin and Yang (2026), tick-rule aggregate accuracy, percent (cited figure)"
+  },
+  "49{,}817@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.asset_exploratory.asset_day_count",
+    "scale": 1,
+    "tol": 0
+  },
+  "4{,}247": {
+    "json": "a4_direction_pooled.json",
+    "path": "fuzzy.2026-06-09.unmatched_prints",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "4{,}880": {
+    "json": "a1_fill_match_2026-06-05.json",
+    "path": "duplicates.duplicates"
+  },
+  "5": {
+    "constant": "threshold, per cent"
+  },
+  "5.2": {
+    "json": "b3_mechanisms.json",
+    "path": "hourly_summary[\"2026-04-29\"].empty_max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "5.64": {
+    "json": "c1_worldcup.json",
+    "path": "arms.D.outcomes.spread_old_ticks.twfe.beta",
+    "tol": 0.005
+  },
+  "50.1": {
+    "json": "c0_rollout.json",
+    "path": "event_structure.R.share_no_prior_trade",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "50.51": {
+    "constant": "Qin and Yang (2026), BVC aggregate accuracy, percent (cited figure)"
+  },
+  "500": {
+    "constant": "lag in ms"
+  },
+  "51{,}477": {
+    "json": "d0_archive_health.json",
+    "path": "summary.listed_peak.listed"
+  },
+  "51{,}560": {
+    "json": "b1_cutover.json",
+    "path": "cohort"
+  },
+  "53": {
+    "json": "b3_mechanisms.json",
+    "path": "anticipation.by_hour[12].empty_e",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "53.5": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.MINT.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "54": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.MINT.min",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "57.7@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.common_coverage_min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "57.7@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.common_coverage_min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "59": {
+    "json": "a4_direction_pooled.json",
+    "path": "receipts.2026-04-29.not_mined",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "59@manuscript.tex": {
+    "constant": "companion study's 59% agreement (cited)"
+  },
+  "6.486@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.taker.realised.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "6.786@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.primary.weights.fill.rules.lr.mean_absolute_paired_distance.realised.equal_day_mean",
+    "scale": 100,
+    "tol": 0.00051
+  },
+  "610": {
+    "json": "a4_direction_pooled.json",
+    "path": "fuzzy.2026-07-01.unmatched_prints",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "64": {
+    "json": "x3_composition.json",
+    "path": "summary.tight_share_max",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "65{,}646": {
+    "json": "x3_composition.json",
+    "path": "summary.seam_both_sides.before"
+  },
+  "67.03@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "path": "economics.coverage_of_matched",
+    "scale": 100,
+    "tol": 0.0051
+  },
+  "67.8": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage_rule.bvc_5s.mean",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "7.0": {
+    "json": "d0_tz_fix.json",
+    "path": "adoptions.share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "7.2": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.fills.max",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "70": {
+    "constant": "the baseline cross-sectional median rise (baseline calculation), quoted as such"
+  },
+  "71.9": {
+    "json": "c0_rollout.json",
+    "path": "event_structure.R.share_meeting_activation",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "719{,}720": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.R.low_side"
+  },
+  "719{,}850": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.R.high_side"
+  },
+  "71{,}795": {
+    "json": "c0_rollout.json",
+    "path": "classes.L"
+  },
+  "71{,}802": {
+    "json": "x3_composition.json",
+    "path": "summary.assets_first_ok_day"
+  },
+  "72": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage.2026-06-05.taker_matched_share_within_day",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "72.2@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.common_coverage_max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "72.2@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.common_coverage_max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "72.3": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.coverage.taker_matched_share_within_day.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "73": {
+    "json": "a4_direction_pooled.json",
+    "path": "receipts.2026-08-05.reverted",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "73.8": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.MINT.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "74": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.MINT.max",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "75.6": {
+    "json": "d0_checks.json",
+    "path": "receipts.median_rows_per_hour",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "75{,}201": {
+    "json": "a4_direction_pooled.json",
+    "path": "fuzzy.2026-04-30.fuzzy_matched",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "76": {
+    "json": "a4_direction_pooled.json",
+    "path": "receipts.2026-06-09.outside_range",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "76.7": {
+    "json": "c0_rollout.json",
+    "path": "resolution_proximity.R.one_sided_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "77": {
+    "constant": "Ma and Zhai (2021) reported tick-rule accuracy, cited"
+  },
+  "774{,}517": {
+    "json": "c0_rollout.json",
+    "path": "event_structure.market_level_changes"
+  },
+  "776": {
+    "json": "c0_rollout.json",
+    "path": "activation.mins_to_first_live_quote_p50",
+    "scale": -1,
+    "tol": 0.5
+  },
+  "78{,}763": {
+    "json": "x3_composition.json",
+    "path": "summary.cutover_both_sides.both"
+  },
+  "8": {
+    "json": "b3_mechanisms.json",
+    "path": "anticipation.by_hour[15].empty_e",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "8.0": {
+    "json": "a4_direction_pooled.json",
+    "path": "signed_ratios.2026-07-17.wrong_side_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "8.1": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.match_types.MIXED.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "8.2": {
+    "json": "c0_rollout.json",
+    "path": "resolution_proximity.R.share_event_after_close",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "8.6": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.signed_ratios.wrong_side_share.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "80": {
+    "json": "a4_direction_pooled.json",
+    "path": "receipts.2026-04-26.not_mined",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "80.6": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.buy_share.taker_legs.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "80.7": {
+    "json": "c0_rollout.json",
+    "path": "resolution_proximity.R.share_after_game_start",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "80{,}016": {
+    "json": "a4_direction_pooled.json",
+    "path": "fuzzy.2026-04-27.unmatched_prints",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "81.3": {
+    "json": "d0_archive_health.json",
+    "path": "summary.carried_share_total",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "82{,}722": {
+    "json": "d0_archive_health.json",
+    "path": "days[110].assets",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "84.7": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.buy_share.all_legs.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "85": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.same_ms_quote_share.min",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "85.6": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.buy_share.taker_legs.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "86.5": {
+    "json": "c0_rollout.json",
+    "path": "resolution_proximity.R.share_closed_within_24h",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "86.8": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.cell_all_legs.accuracy.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "88": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage.2026-07-07.taker_matched_share_within_day",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "88.4": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.buy_share.all_legs.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "89": {
+    "json": "a4_direction_pooled.json",
+    "path": "cell_test.2026-04-29.all_legs.accuracy",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "8{,}194": {
+    "json": "d0_archive_health.json",
+    "path": "days[38].listed",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "8{,}304": {
+    "json": "d0_archive_health.json",
+    "path": "days[33].listed",
+    "scale": 1,
+    "tol": 0.0005
+  },
+  "8{,}759": {
+    "json": "d0_archive_health.json",
+    "path": "summary.listed_median_feb_jul",
+    "tol": 0.5
+  },
+  "9.0": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.wrong_side_chain_price.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "9.1@sec_results_direction.tex": {
+    "json": "a6_cached_economics.json",
+    "path": "summary.sensitivities.tie_exclusion.eligible_rows_total",
+    "scale": 1e-06,
+    "tol": 0.051
+  },
+  "9.3@manuscript.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.untied_common_prints",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "9.3@sec_results_direction.tex": {
+    "json": "jfm_revision_summary.json",
+    "note": "Cached benchmark aggregation generated by make_jfm_artifacts.py",
+    "path": "classifier.untied_common_prints",
+    "scale": 1e-06,
+    "tol": 0.05
+  },
+  "90.9": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.cell_all_legs.accuracy.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "91.8": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.identity.price_within_5e4_share.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "92": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage.2026-04-30.print_matched_share",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "92.1": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage.2026-04-30.print_matched_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "92.8": {
+    "json": "c0_rollout.json",
+    "path": "class_shares.R",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "92{,}892": {
+    "json": "x3_composition.json",
+    "path": "summary.cutover_both_sides.after"
+  },
+  "93.1": {
+    "json": "c0_rollout.json",
+    "path": "resolution_proximity.X.share_after_game_start",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "93.6": {
+    "json": "d0_archive_health.json",
+    "path": "summary.nondegraded_p10_carried_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "93{,}588": {
+    "json": "x2_panel_build.json",
+    "path": "assets_in_both_eras"
+  },
+  "94": {
+    "json": "c0_rollout.json",
+    "path": "activation.share_first_live_quote_before_event",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "95": {
+    "json": "a4_direction_pooled.json",
+    "path": "accuracy.lr.mean",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "95.1": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.identity.price_within_5e4_share.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "96.8": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage.2026-04-27.print_matched_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "97": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage.2026-04-27.print_matched_share",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "97.8": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.cell_taker_legs.accuracy.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "97{,}889": {
+    "json": "x3_composition.json",
+    "path": "summary.cutover_both_sides.before"
+  },
+  "98": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.per_day.same_ms_quote_share.max",
+    "scale": 100,
+    "tol": 0.5
+  },
+  "99.0": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.coverage.taker_matched_share_within_day.max",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "99.8": {
+    "json": "a4_direction_pooled.json",
+    "path": "coverage.2026-06-09.print_matched_share",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "99.9": {
+    "json": "a4_direction_pooled.json",
+    "path": "ranges.identity.size_within_1e6_share.min",
+    "scale": 100,
+    "tol": 0.05
+  },
+  "99.97": {
+    "json": "c0_rollout.json",
+    "path": "price_at_event.R.share_paired_with_complement_within_60s",
+    "scale": 100,
+    "tol": 0.005
+  },
+  "99.98": {
+    "json": "d0_archive_health.json",
+    "path": "summary.nondegraded_median_carried_share",
+    "scale": 100,
+    "tol": 0.005
+  }
+}

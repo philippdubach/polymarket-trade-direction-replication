@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "script": "g0_gamma_pull.py",
+    "utc": "2026-09-26T18:15:12+00:00",
+    "git_head": "c65d3c6",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/gamma/manifest.json"
+    ]
+  },
+  "condition_ids": 1203410,
+  "found_pass_a": 1178828,
+  "found_total": 1201297,
+  "missing": 2113,
+  "coverage_conditions": 0.99824,
+  "coverage_assets_by_token_id": 0.99824,
+  "share_yes_no_outcomes": 0.3721,
+  "rows": 1201297,
+  "pages": 13646,
+  "tick_size_values": {
+    "0.001": 1001262,
+    "0.0025": 147,
+    "0.01": 199888
+  },
+  "neg_risk_share": 0.21949,
+  "created_at_range": [
+    "2025-05-02 15:03:10.397014",
+    "2026-08-10 00:39:01.259532"
+  ]
+}

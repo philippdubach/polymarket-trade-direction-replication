@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering\scriptsize\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+signal & days & balanced & [min, max] & recall, buys & recall, sells & $\kappa$ & MCC & accuracy & majority & coverage \\
+\midrule
+Lee--Ready & 12 & 0.954 & [0.919, 0.970] & 0.947 & 0.961 & 0.840 & 0.846 & 0.949 & 0.821 & 1.000 \\
+quote rule & 12 & 0.953 & [0.918, 0.968] & 0.943 & 0.962 & 0.832 & 0.839 & 0.946 & 0.821 & 0.998 \\
+tick test & 12 & 0.734 & [0.715, 0.758] & 0.692 & 0.777 & 0.321 & 0.368 & 0.707 & 0.820 & 0.960 \\
+BVC, 5 s bars & 12 & 0.670 & [0.635, 0.695] & 0.642 & 0.698 & 0.217 & 0.260 & 0.652 & 0.828 & 0.678 \\
+\bottomrule
+\end{tabular}
+\caption{Direction rules on the feed's own quotes, scored fill by fill against the on-chain taker side; each cell is the mean over days of the day's value, and the day is the unit. \emph{majority} is the accuracy of always answering the more common side; \emph{coverage} the share of matched prints the rule signs. Scores and recalls condition on each rule's signed subset; the trade history is restricted to hash-matched settlements before signing. Paired day contrasts in these conditional scores: the mean difference, its range over days, the number of days on which it is positive, and the Holm-adjusted $p$ of a paired $t$-test over days (the sign test on 12 of 12 days gives $p=0.0005$): Lee--Ready minus tick test: 0.219 [0.198, 0.240], 12 of 12 days, Holm $p$ $<10^{-9}$; Lee--Ready minus BVC, 5 s bars: 0.284 [0.224, 0.322], 12 of 12 days, Holm $p$ $<10^{-9}$; quote rule minus Lee--Ready: $-0.001$ [$-0.002$, 0.000], 0 of 12 days, Holm $p$ $<10^{-6}$.}
+\label{tab:direction}
+\end{table}

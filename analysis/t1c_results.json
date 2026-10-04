@@ -1,0 +1,72 @@
+{
+  "all adopters": {
+    "n": 1217436,
+    "pre": 0.27648348013171453,
+    "post": 0.05863663375469226,
+    "ratio": 0.4674463963883498,
+    "did_corrected": -0.220802703589276,
+    "trades_pre": 0.0,
+    "trades_post": 2.0,
+    "upd_ratio": 7.268333852599765
+  },
+  "no trades before adoption": {
+    "n": 943253,
+    "pre": 0.4425613832502734,
+    "post": 0.06701544015842212,
+    "ratio": 0.44371331500631767,
+    "did_corrected": -0.30990542311882385,
+    "trades_pre": 0.0,
+    "trades_post": 1.0,
+    "upd_ratio": 10.2794440380395
+  },
+  "trading before (>=1 trade/day)": {
+    "n": 185748,
+    "pre": 0.05036454082806993,
+    "post": 0.03171451591787984,
+    "ratio": 0.6347103343441335,
+    "did_corrected": -0.042965830707547274,
+    "trades_pre": 5.0,
+    "trades_post": 38.0,
+    "upd_ratio": 2.857252264577321
+  },
+  "trading before (>=5 trades/day)": {
+    "n": 93500,
+    "pre": 0.034095361461122214,
+    "post": 0.025715326764765574,
+    "ratio": 0.7581957480883931,
+    "did_corrected": -0.02121959312036892,
+    "trades_pre": 19.333333333333332,
+    "trades_post": 72.0,
+    "upd_ratio": 2.005413798457637
+  },
+  "trading before, above floor": {
+    "n": 176053,
+    "pre": 0.05526826069266205,
+    "post": 0.0339248231443278,
+    "ratio": 0.5920017894419685,
+    "did_corrected": -0.04773133025727566,
+    "trades_pre": 5.0,
+    "trades_post": 34.0,
+    "upd_ratio": 2.676704627482952
+  },
+  "trading before, activity stable (\u00b125%)": {
+    "n": 19263,
+    "pre": 0.043881280383028035,
+    "post": 0.034981378249792076,
+    "ratio": 0.7336328856266092,
+    "did_corrected": -0.02809821898053421,
+    "trades_pre": 12.0,
+    "trades_post": 25.0,
+    "upd_ratio": 1.0151323916429453
+  },
+  "trading before, age >= 14 d": {
+    "n": 20678,
+    "pre": 0.03512405555719665,
+    "post": 0.021592724773399435,
+    "ratio": 0.6440157785793151,
+    "did_corrected": -0.023712136004030313,
+    "trades_pre": 3.857142857142857,
+    "trades_post": 38.81944444444444,
+    "upd_ratio": 2.696943231356209
+  }
+}

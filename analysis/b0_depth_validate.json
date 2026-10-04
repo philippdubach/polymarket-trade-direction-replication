@@ -1,0 +1,227 @@
+{
+  "_meta": {
+    "script": "b0_depth_validate.py",
+    "utc": "2026-10-03T05:14:52+00:00",
+    "git_head": "77641ad",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/panel_v1v2.parquet"
+    ]
+  },
+  "event": "2026-04-28",
+  "days": [
+    {
+      "day": "2026-04-21",
+      "n_assets": 105824,
+      "n_with_snapshot": 102543,
+      "median_pc": 80.5180846107944,
+      "median_snap": 63.06357142857143,
+      "median_log_ratio_pc_over_snap": 0.0011539865401905968,
+      "dlog_pc": -0.11408291211225162,
+      "dlog_snap": -0.09773114813629846,
+      "n_paired_snap": 45546,
+      "k": -7
+    },
+    {
+      "day": "2026-04-22",
+      "n_assets": 104520,
+      "n_with_snapshot": 100582,
+      "median_pc": 84.445625,
+      "median_snap": 63.41888888888888,
+      "median_log_ratio_pc_over_snap": 0.014472032608534469,
+      "dlog_pc": -0.10847307904298102,
+      "dlog_snap": -0.09833031632812261,
+      "n_paired_snap": 47661,
+      "k": -6
+    },
+    {
+      "day": "2026-04-23",
+      "n_assets": 103281,
+      "n_with_snapshot": 99906,
+      "median_pc": 78.65645833333333,
+      "median_snap": 61.704166666666666,
+      "median_log_ratio_pc_over_snap": 0.01069528911674795,
+      "dlog_pc": -0.0932769497076317,
+      "dlog_snap": -0.12771578091739877,
+      "n_paired_snap": 49352,
+      "k": -5
+    },
+    {
+      "day": "2026-04-24",
+      "n_assets": 105142,
+      "n_with_snapshot": 101457,
+      "median_pc": 77.61822846285948,
+      "median_snap": 70.325,
+      "median_log_ratio_pc_over_snap": 0.017920951981073706,
+      "dlog_pc": -0.15143043752627666,
+      "dlog_snap": -0.14464050241428034,
+      "n_paired_snap": 53516,
+      "k": -4
+    },
+    {
+      "day": "2026-04-25",
+      "n_assets": 101088,
+      "n_with_snapshot": 93838,
+      "median_pc": 80.491625,
+      "median_snap": 53.0,
+      "median_log_ratio_pc_over_snap": 0.15741049455455672,
+      "dlog_pc": -0.12557730738320227,
+      "dlog_snap": -0.22067136216882063,
+      "n_paired_snap": 55536,
+      "k": -3
+    },
+    {
+      "day": "2026-04-26",
+      "n_assets": 97427,
+      "n_with_snapshot": 39190,
+      "median_pc": 85.0,
+      "median_snap": 57.0,
+      "median_log_ratio_pc_over_snap": 0.291910408561302,
+      "dlog_pc": -0.03490972026556789,
+      "dlog_snap": -0.1567185516454332,
+      "n_paired_snap": 27204,
+      "k": -2
+    },
+    {
+      "day": "2026-04-27",
+      "n_assets": 98319,
+      "n_with_snapshot": 91125,
+      "median_pc": 78.80733333333335,
+      "median_snap": 69.66666666666667,
+      "median_log_ratio_pc_over_snap": 0.054953488333726486,
+      "dlog_pc": 0.0,
+      "dlog_snap": 0.0,
+      "n_paired_snap": 91125,
+      "k": -1
+    },
+    {
+      "day": "2026-04-28",
+      "n_assets": 108983,
+      "n_with_snapshot": 105512,
+      "median_pc": 104.58637931034481,
+      "median_snap": 87.807,
+      "median_log_ratio_pc_over_snap": 0.13181824530103264,
+      "dlog_pc": 0.47491639421841275,
+      "dlog_snap": 0.3724503360624424,
+      "n_paired_snap": 81162,
+      "k": 0
+    },
+    {
+      "day": "2026-04-29",
+      "n_assets": 105979,
+      "n_with_snapshot": 98603,
+      "median_pc": 96.78999999999999,
+      "median_snap": 73.0,
+      "median_log_ratio_pc_over_snap": 0.11778303565638346,
+      "dlog_pc": 0.2681018075039221,
+      "dlog_snap": 0.06924176305001827,
+      "n_paired_snap": 66434,
+      "k": 1
+    },
+    {
+      "day": "2026-04-30",
+      "n_assets": 102391,
+      "n_with_snapshot": 90951,
+      "median_pc": 109.31585220500595,
+      "median_snap": 73.0,
+      "median_log_ratio_pc_over_snap": 0.13113166927610623,
+      "dlog_pc": 0.27414296264824733,
+      "dlog_snap": 0.059578745800014606,
+      "n_paired_snap": 59691,
+      "k": 2
+    },
+    {
+      "day": "2026-05-01",
+      "n_assets": 98045,
+      "n_with_snapshot": 94936,
+      "median_pc": 104.65875,
+      "median_snap": 73.0,
+      "median_log_ratio_pc_over_snap": 0.11036937867587276,
+      "dlog_pc": 0.3163805499252039,
+      "dlog_snap": 0.10380953976063104,
+      "n_paired_snap": 58021,
+      "k": 3
+    },
+    {
+      "day": "2026-05-02",
+      "n_assets": 99413,
+      "n_with_snapshot": 91481,
+      "median_pc": 94.41900900900896,
+      "median_snap": 73.0,
+      "median_log_ratio_pc_over_snap": 0.15957341926801807,
+      "dlog_pc": 0.23842933166482128,
+      "dlog_snap": 0.050572573635632334,
+      "n_paired_snap": 53167,
+      "k": 4
+    },
+    {
+      "day": "2026-05-03",
+      "n_assets": 93909,
+      "n_with_snapshot": 89239,
+      "median_pc": 101.22,
+      "median_snap": 70.40185483870968,
+      "median_log_ratio_pc_over_snap": 0.011917176999668117,
+      "dlog_pc": 0.278567888277797,
+      "dlog_snap": 0.17125436969529334,
+      "n_paired_snap": 49214,
+      "k": 5
+    },
+    {
+      "day": "2026-05-04",
+      "n_assets": 94167,
+      "n_with_snapshot": 93692,
+      "median_pc": 92.97683453237399,
+      "median_snap": 69.0,
+      "median_log_ratio_pc_over_snap": 0.07741606016514996,
+      "dlog_pc": 0.22913256549178607,
+      "dlog_snap": 0.06446754448197754,
+      "n_paired_snap": 43947,
+      "k": 6
+    },
+    {
+      "day": "2026-05-05",
+      "n_assets": 95611,
+      "n_with_snapshot": 93040,
+      "median_pc": 104.54782608695652,
+      "median_snap": 69.0,
+      "median_log_ratio_pc_over_snap": 0.10798439351246658,
+      "dlog_pc": 0.3223961995637248,
+      "dlog_snap": 0.1457837607193865,
+      "n_paired_snap": 40888,
+      "k": 7
+    }
+  ],
+  "summary": {
+    "k=0": {
+      "dlog_pc": 0.47491639421841275,
+      "dlog_snap": 0.3724503360624424,
+      "n_paired_snap": 81162
+    },
+    "k=1": {
+      "dlog_pc": 0.2681018075039221,
+      "dlog_snap": 0.06924176305001827,
+      "n_paired_snap": 66434
+    },
+    "k=2": {
+      "dlog_pc": 0.27414296264824733,
+      "dlog_snap": 0.059578745800014606,
+      "n_paired_snap": 59691
+    },
+    "k=3": {
+      "dlog_pc": 0.3163805499252039,
+      "dlog_snap": 0.10380953976063104,
+      "n_paired_snap": 58021
+    },
+    "k=7": {
+      "dlog_pc": 0.3223961995637248,
+      "dlog_snap": 0.1457837607193865,
+      "n_paired_snap": 40888
+    }
+  }
+}

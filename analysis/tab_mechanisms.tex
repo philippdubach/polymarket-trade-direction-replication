@@ -1,0 +1,46 @@
+\begin{table}[htbp]
+\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrr}
+\toprule
+\multicolumn{4}{l}{\emph{A. Recovery by pre-period activity quartile (log spread)}} \\
+quartile & assets & $\Delta_0$ & half-life \\
+\midrule
+q1 & 12{,}891 & 0.015 & 1 \\
+q2 & 12{,}890 & 0.013 & 3 \\
+q3 & 12{,}889 & 0.012 & 2 \\
+q4 & 12{,}890 & 0.096 & 3 \\
+\bottomrule
+\end{tabular}
+\vspace{4pt}
+
+\begin{tabular}{lrrrrr}
+\toprule
+\multicolumn{6}{l}{\emph{B. Category difference-in-differences, days $+5$ to $+7$ against $-7$ to $-1$ (log spread)}} \\
+category & assets & taker fee (\%) & treated & rest & difference \\
+\midrule
+sports & 21{,}752 & 3.0 & $-0.169$ & 0.000 & $-0.169$ \\
+politics & 8{,}254 & 4.0 & 0.000 & $-0.087$ & 0.087 \\
+culture & 2{,}112 & 5.0 & 0.010 & $-0.032$ & 0.042 \\
+crypto & 1{,}644 & 7.0 & 0.067 & $-0.028$ & 0.095 \\
+unknown & 1{,}190 & --- & 0.000 & $-0.019$ & 0.019 \\
+finance prices & 1{,}030 & 4.0 & 0.000 & $-0.019$ & 0.019 \\
+economics & 1{,}016 & 5.0 & 0.000 & $-0.018$ & 0.018 \\
+tech & 844 & 4.0 & $-0.087$ & $-0.017$ & $-0.070$ \\
+weather & 160 & 5.0 & $-0.490$ & $-0.017$ & $-0.473$ \\
+general & 82 & 5.0 & 0.405 & $-0.017$ & 0.423 \\
+mentions & 56 & 4.0 & $-0.019$ & $-0.017$ & $-0.001$ \\
+\bottomrule
+\end{tabular}
+\vspace{4pt}
+
+\begin{tabular}{lrrr}
+\toprule
+\multicolumn{4}{l}{\emph{C. The archive seam: paired change across the format change, no venue event}} \\
+days & assets & median $\Delta$ log spread & within 10\% (\%) \\
+\midrule
+14 Apr $\to$ 16 Apr & 40{,}408 & $-0.018$ & 40.2 \\
+\bottomrule
+\end{tabular}
+\caption{What the cutover is consistent with, on the cohort of 51{,}560 assets. Panel A splits the cohort by pre-period update-rate quartile (q4 the most active). Panel B compares each venue category's median change in log spread from the week before to days five to seven after with the rest of the cohort; the fee is the category's taker fee rate, the coefficient on $p(1-p)$, in percent. Panel C applies a paired change from 14 to 16 April across the archive's own format change on 15 April, on the assets live on both days, without a venue event.}
+\label{tab:mechanisms}
+\end{table}

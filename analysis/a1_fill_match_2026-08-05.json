@@ -1,0 +1,636 @@
+{
+  "_meta": {
+    "script": "a1_fill_match.py",
+    "utc": "2026-09-27T11:08:18+00:00",
+    "git_head": "fab4db4",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/onchain/day=2026-08-05",
+      "/Volumes/data/polymarket-backfill-2026-04-15_to_2026-09-07/pmxt-v2/polymarket_orderbook_2026-08-05T00.parquet"
+    ]
+  },
+  "day": "2026-08-05",
+  "coverage": {
+    "prints": 1653188,
+    "prints_with_hash": 1653188,
+    "taker_legs": 1715315,
+    "taker_txs": 1715315,
+    "print_matched": 1652516,
+    "print_matched_share": 0.999593512655548,
+    "taker_matched": 1652516,
+    "taker_matched_share": 0.9633892317154575,
+    "by_print_hour": {
+      "0": {
+        "prints": 75072,
+        "matched": 75065,
+        "share": 0.9999067561807332
+      },
+      "1": {
+        "prints": 61923,
+        "matched": 61910,
+        "share": 0.9997900618510085
+      },
+      "2": {
+        "prints": 74475,
+        "matched": 74463,
+        "share": 0.9998388721047331
+      },
+      "3": {
+        "prints": 60972,
+        "matched": 60709,
+        "share": 0.9956865446434429
+      },
+      "4": {
+        "prints": 42021,
+        "matched": 42015,
+        "share": 0.9998572142500178
+      },
+      "5": {
+        "prints": 52844,
+        "matched": 52835,
+        "share": 0.9998296873817274
+      },
+      "6": {
+        "prints": 55817,
+        "matched": 55815,
+        "share": 0.9999641686224627
+      },
+      "7": {
+        "prints": 58352,
+        "matched": 58348,
+        "share": 0.9999314505072663
+      },
+      "8": {
+        "prints": 63034,
+        "matched": 63028,
+        "share": 0.9999048132753752
+      },
+      "9": {
+        "prints": 64645,
+        "matched": 64584,
+        "share": 0.9990563848712197
+      },
+      "10": {
+        "prints": 67434,
+        "matched": 67417,
+        "share": 0.9997479016519857
+      },
+      "11": {
+        "prints": 64969,
+        "matched": 64938,
+        "share": 0.999522849358925
+      },
+      "12": {
+        "prints": 74274,
+        "matched": 74260,
+        "share": 0.9998115087379164
+      },
+      "13": {
+        "prints": 84767,
+        "matched": 84755,
+        "share": 0.9998584354760697
+      },
+      "14": {
+        "prints": 86615,
+        "matched": 86591,
+        "share": 0.9997229117358425
+      },
+      "15": {
+        "prints": 78793,
+        "matched": 78720,
+        "share": 0.9990735217595472
+      },
+      "16": {
+        "prints": 79001,
+        "matched": 78993,
+        "share": 0.9998987354590448
+      },
+      "17": {
+        "prints": 85480,
+        "matched": 85465,
+        "share": 0.9998245203556387
+      },
+      "18": {
+        "prints": 79399,
+        "matched": 79389,
+        "share": 0.9998740538293933
+      },
+      "19": {
+        "prints": 75525,
+        "matched": 75520,
+        "share": 0.999933796756041
+      },
+      "20": {
+        "prints": 67698,
+        "matched": 67685,
+        "share": 0.9998079706933735
+      },
+      "21": {
+        "prints": 60837,
+        "matched": 60796,
+        "share": 0.9993260680178181
+      },
+      "22": {
+        "prints": 63445,
+        "matched": 63431,
+        "share": 0.9997793364331311
+      },
+      "23": {
+        "prints": 75796,
+        "matched": 75784,
+        "share": 0.999841680299752
+      }
+    },
+    "by_fill_hour": {
+      "0": {
+        "taker_legs": 87751,
+        "matched": 75055,
+        "share": 0.8553178881152351
+      },
+      "1": {
+        "taker_legs": 63890,
+        "matched": 62042,
+        "share": 0.9710752856472061
+      },
+      "2": {
+        "taker_legs": 77347,
+        "matched": 74483,
+        "share": 0.9629720609719834
+      },
+      "3": {
+        "taker_legs": 62561,
+        "matched": 60612,
+        "share": 0.968846405907834
+      },
+      "4": {
+        "taker_legs": 45325,
+        "matched": 42092,
+        "share": 0.9286707115278544
+      },
+      "5": {
+        "taker_legs": 54619,
+        "matched": 52740,
+        "share": 0.9655980519599406
+      },
+      "6": {
+        "taker_legs": 57432,
+        "matched": 55849,
+        "share": 0.9724369689371779
+      },
+      "7": {
+        "taker_legs": 60042,
+        "matched": 58417,
+        "share": 0.9729356117384498
+      },
+      "8": {
+        "taker_legs": 64794,
+        "matched": 63007,
+        "share": 0.9724202858289348
+      },
+      "9": {
+        "taker_legs": 66191,
+        "matched": 64495,
+        "share": 0.9743771811877747
+      },
+      "10": {
+        "taker_legs": 69723,
+        "matched": 67519,
+        "share": 0.9683891972519828
+      },
+      "11": {
+        "taker_legs": 66489,
+        "matched": 64940,
+        "share": 0.9767029132638482
+      },
+      "12": {
+        "taker_legs": 76153,
+        "matched": 74176,
+        "share": 0.9740391054850105
+      },
+      "13": {
+        "taker_legs": 89847,
+        "matched": 84839,
+        "share": 0.9442607989137088
+      },
+      "14": {
+        "taker_legs": 90981,
+        "matched": 86603,
+        "share": 0.9518800628702696
+      },
+      "15": {
+        "taker_legs": 80674,
+        "matched": 78724,
+        "share": 0.975828643677021
+      },
+      "16": {
+        "taker_legs": 81009,
+        "matched": 78988,
+        "share": 0.9750521546988606
+      },
+      "17": {
+        "taker_legs": 87594,
+        "matched": 85373,
+        "share": 0.9746443820352992
+      },
+      "18": {
+        "taker_legs": 81716,
+        "matched": 79453,
+        "share": 0.9723065250379362
+      },
+      "19": {
+        "taker_legs": 77266,
+        "matched": 75534,
+        "share": 0.9775839308363317
+      },
+      "20": {
+        "taker_legs": 69233,
+        "matched": 67688,
+        "share": 0.9776840524027559
+      },
+      "21": {
+        "taker_legs": 61998,
+        "matched": 60720,
+        "share": 0.9793864318203813
+      },
+      "22": {
+        "taker_legs": 65014,
+        "matched": 63531,
+        "share": 0.9771895284092657
+      },
+      "23": {
+        "taker_legs": 77666,
+        "matched": 75636,
+        "share": 0.9738624365874385
+      }
+    },
+    "by_contract": {
+      "0xe2222d279d744050d28e00520010520000310f59": {
+        "taker_legs": 318048,
+        "matched": 311266,
+        "share": 0.9786761746654593
+      },
+      "0xe111180000d2663c0091e4f400237545b87b996b": {
+        "taker_legs": 1397267,
+        "matched": 1341250,
+        "share": 0.9599095949449891
+      }
+    },
+    "taker_legs_within_day": 1704195,
+    "taker_matched_within_day": 1652335,
+    "taker_matched_share_within_day": 0.9695692100962625,
+    "hour0_share_of_unmatched_within_day": 0.033879676050906284,
+    "unmatched_within_day": 51860
+  },
+  "identity": {
+    "matched": 1652516,
+    "side_equal": 1652516,
+    "side_equal_share": 1.0,
+    "token_equal": 1652516,
+    "token_equal_share": 1.0,
+    "price_within_5e4": 1531510,
+    "price_within_5e4_share": 0.9267746878093768,
+    "price_within_1e2": 1652516,
+    "price_within_1e2_share": 1.0,
+    "abs_dprice_p50": 5.551115123125783e-17,
+    "abs_dprice_p99": 0.00447920792079215,
+    "abs_dprice_max": 0.0050000000000001155,
+    "size_within_1e6": 1651909,
+    "size_within_1e6_share": 0.9996326813174577,
+    "abs_dsize_p99": 2.842170943040401e-14,
+    "clock_print_minus_block_s_p50": -2.0,
+    "clock_print_minus_block_s_p99": 0.0
+  },
+  "fuzzy": {
+    "unmatched_prints": 672,
+    "unmatched_taker": 62799,
+    "fuzzy_matched": 305,
+    "fuzzy_share_of_unmatched_prints": 0.4538690476190476,
+    "pairs": [
+      [
+        "0x01e851dd6fee8778a522e5f51d5820049d1bc47199aa2a2b281d775f8b32912c",
+        "0x729297d9f3a25c1e2684969b1801cd53f4036b996cdc520aca9432411b97490b"
+      ],
+      [
+        "0x498921ca2d84e583f243895ae442fdc06479cd4221f825251e3aef6aac9ca0b0",
+        "0x87da924577c5a9b622b577ad6c266b88d296f0048b1c620126909d1f2920e349"
+      ],
+      [
+        "0x7efcdfc8005956fdee2021e92f43f22fb80cdc8a22ef3b9579ab27d17f393645",
+        "0xf0753e5a03e0f3dfed4744508f9cd3df1e1dfd3eaaff3ffd5e15529471f531aa"
+      ],
+      [
+        "0x43ddf813e281deb32af16a04d7d29a939bb2dd1388ac3270c82cfcb6542d1f8a",
+        "0xea0f458eaf52620474be6e8f4eda3d06432ec8ff08f5cb7cc53d07fbdce9dfbf"
+      ],
+      [
+        "0x4c26a22fbc683baac757550432b14bbd93675c4b4b24c87e9a7a4349047e703d",
+        "0x4647f0a6948609a0933025d120ed666b178f4195139df1e89152d5f6a09b6209"
+      ],
+      [
+        "0x5d42288e2395c1ccabd0e42f3824203a5a37d8ab8d595f063be2937d3c6d8c19",
+        "0x857f06e19f99e11d354985cc9b335a93b760b2faa44e0e3d3e6633bafe31b20f"
+      ],
+      [
+        "0x13920d2b76ed7447211ec3ec2f46f4f6f8735e88f38b812a990ab7d0eb15f9fa",
+        "0x3eff7bcd113a1419afcc37fb39fcbbf22810f484d0872b61b20c2e3a3d717dfd"
+      ],
+      [
+        "0x86015198bcea286e93f17db25afd4b39f54326bb957f8fbc94f725cdfb0b8a30",
+        "0xa45c166d6fabda3f166b0c42ee51453a6e00ad4891b678d25d2aace78eaacd2a"
+      ],
+      [
+        "0x83bacc75363ccf4f22f93aa7b3a108dc7697324c246a71e335425bb3ea2bb2c3",
+        "0xd18c35f7fc182297949f6d95a5b53c46f6420f0f542ecfc3af9bf0a937854485"
+      ],
+      [
+        "0x3c01efccdfc03b50c26fb81b7bad51371b73baa070542491a3f17623978b829f",
+        "0x810e49680757ea615ee8465b88dc6486fe2310a6d1086b8e3d253810ec4932d1"
+      ],
+      [
+        "0x7ce2eb02d0c80e0138b804dcc40c45dafab10e9ae7364764d589ffc669b4b33c",
+        "0xddfe63d3a083c5c47e4810799e674453e74241056c9962cf9d6c9f205852ddfb"
+      ],
+      [
+        "0x466f64515abb870fbe698cc946ae282d9168ee1a0175a90afdc1b44925377e31",
+        "0xf1c91ca5683260fedf96b8200e3f1b696c2b3cf7fc6411aa1389ff54181a6e95"
+      ],
+      [
+        "0xfc35f73b73e52b3acb3f81ed6dbb8462f5c9d40b60eb274d27a3c86310c7b0fc",
+        "0x6c0ab5457bd433969e9f7c6353b6c61f0ce8fb5c2da043d27315bad3242be992"
+      ],
+      [
+        "0x260712eb26e149dd3b18e82e863305bc66d13529c136422e218d56675d4b08d3",
+        "0x02b1807079028d51dea3410d6daa2eb0e2dce7631a444c89258adb1de79929b9"
+      ],
+      [
+        "0x4f82f17cd6c17a3a9345bb3ca49ce338f68bec0f27826f57af0503933b4cbe95",
+        "0x946dadde302ded2ad8d7cec10f864d0a194c7dcc1f4af4f79799b84ca1b26874"
+      ],
+      [
+        "0x7afa502a06c7d6beaccb2c81e4868de470a88be5866eb5f58834689fae7e419a",
+        "0x45f662ae5a3ccb0241a290abae4ad343bb782083aeffa72affb28422a34a3bc7"
+      ],
+      [
+        "0xba9331ce3e612ec23563e70197de75eaa64fe29f6b125ed6d881fbddf9aeb849",
+        "0xc69e378379062690546c646c443963b64d6e5eaf10ca42467bc2fd767e1eeba2"
+      ],
+      [
+        "0x47ce8a4f70e25f81ea5889056974e84015db1150811f886c9b68da08c7d1c784",
+        "0xd32cff3f5c21d50a33e5f21e5a61e8f086586f9ae4cb68c747e8c4a0ed64170b"
+      ],
+      [
+        "0xd7cefc3b8ef2ec84810c395919f04cb947d99c78e1dcb7cc1fbb9d6d3065064c",
+        "0x316926582b355fc68be7636dadd191dfdf5af2ab2bb187e8a5a7256f4e2278c1"
+      ],
+      [
+        "0x51ceb7dd268be78638cca1062430caa056b97c8c8325d69a0389e45710beef43",
+        "0x4d0a735f33541a97dcaa69f0dafda1125db4fecafe6d0746d0eea48e42377619"
+      ],
+      [
+        "0x31a732e3e217f03d0497bbcd7948f804bfeeb59741292e513742bfeba4ca5698",
+        "0x4a3fc43e05a13ff409c314b4d2127f5b242f5cb47a6e826f0e09682d87d56fa7"
+      ],
+      [
+        "0x7105c150dad69c73ffb9aa19a60651203a22234e206801a002f4ebe799d30e8d",
+        "0x99baf90e5c1f3fbe8abd3fc735e6c22f1ca71d0b56ccf1e66f8f451d4acd3b26"
+      ],
+      [
+        "0xf51433e1f3b120ad2e2272f0d45f46b93def6ccd2560045fb02d1c57823d599c",
+        "0x5745a906e16c1e45ed0173b1f291c0e023f61340d9270959a4a700313542af24"
+      ],
+      [
+        "0x31fb55ecf9fcfc59c8fbcec09c897f9a4db898b24cc7a36aa7e800d8b4da0d3f",
+        "0xc3a4862e52ea4ff585d484e8dc643726d221757b98c71fce29df880aabd2c3cc"
+      ],
+      [
+        "0x349136648449c4b8d796f76953becb2b5fcaa4523948c7d46e723ab9aeb4f302",
+        "0xb61eed985c0bf801d21bb94ed6d18d505446d532850328ed9eb9ca5eddd8fe1b"
+      ],
+      [
+        "0x3e9cbfa162f5ff63fbeac4e6dcb0f41f249e19f16386599203ad299bebc8497c",
+        "0x4a98ddae0243c1029ceff961c57f30ec7b21132a1a23fd8c6de1b4c34ff66ead"
+      ],
+      [
+        "0xe684843b0e60aea0f971be8cc96e490fd477867fcef90130aa2ad6b3ce788345",
+        "0xd6d098e54ae3ab4412e75865f4640fb5f25ab85f11547aa7eeec8761e37f8449"
+      ],
+      [
+        "0x241222a28651d44f8f803beda1fcea8bd0e0ed3a68b6ed2705d8a15a48b6d5cc",
+        "0x42b5b635e2efc4ebf62c88e2936a5ef38d76358aef048c64dc55cbce484cdd42"
+      ],
+      [
+        "0xaa01ed14890ba7b2225a7613fd0fb8f87146f2aa7ffe5233c0a43d33fd662804",
+        "0xc1b1648a8d70e809689223bc8fca3b1d3cb242bd1e7c471bd6e39b19a8157b91"
+      ],
+      [
+        "0x180769ce2b2a202307f63e730abac689e56fd5d69c1ed6fc67a10c8b584686a7",
+        "0xc4931af28ab8eecc7263cec4b99c914c519c7fa510d2b2aeb88777d647eb006e"
+      ],
+      [
+        "0xe3def609e8928f78af93dece8b9cd9bdc74d37df1bfe806b49cbf03d6ab2228b",
+        "0xcda902eb33566578f934d3071d5d1f4263cb855880d0282823b0cad9567237ed"
+      ],
+      [
+        "0xedabf206310710b1d500dad72aedac9e882f0a6e556b7f3f0e559376129482b9",
+        "0xe176c84d411c655fec29b3d2a141d959a0e2a76637c07c3233fcdf70df8e79a7"
+      ],
+      [
+        "0xded82fcd0a1773fb9343f0ff90379487ab9003e54149e8090c4ae2b2aea058a4",
+        "0x3eecb3e8268d1e417c389e1218e536bd28fefcf62af3fff82c4d8edc3a7ca687"
+      ],
+      [
+        "0x9c083465d21640893c398e379959a6922df852c2bf404e72306f2621e1456af2",
+        "0x8eccbd0d1152326993cc5e613b0538cfc91ee56f980034071a6973b89a6ceef6"
+      ],
+      [
+        "0xaedd58a6656a240f2a92c43438ef9e6cdbd620df08247fe25af0d1932cebf9ff",
+        "0x52eccc88114aa01880c75654055883ed510f271c2b3052f6a46efa4087f8f70a"
+      ],
+      [
+        "0x982c3189f390d038b2006ba083f0a28738501fb812f4a29633380985516be37b",
+        "0x7110cfdc29175dc8e8353b08e29dd3f04f4c63cab6738f77a943ac7e0ff6e0ce"
+      ],
+      [
+        "0x87db2c02aac8edb1dafd667e476ce7cee978b943e220ee5f8bcf0f74be1b95b3",
+        "0xa46d1201d74295db7a4a160c3946022645375290695edd23f5475bced7d5908a"
+      ],
+      [
+        "0x06f760874cdd9a08c1558ee74dff6e745cc0078a0e0bc887f01b0fd1749d1587",
+        "0x93997d817f82ce9fc4bc69467783ef4f313bed212c3b8e6e5a24fbc605392404"
+      ],
+      [
+        "0x2a50184b4231960fd8a7de30170324b2327b1c5e3db0d136c2f99b4219e34365",
+        "0x29501d9a9a3bef2e56f6ac66d95b3a5e93fba4f588f8e52edc0186cf6d647d05"
+      ],
+      [
+        "0x0594956a1321a96969314e25296f787862d93e06e79b8c59f30748ff50d52233",
+        "0x29b452376d1d329322acb1b34cab7483ded4dccfdd4fafe014e4f5e5fc8bd60a"
+      ],
+      [
+        "0x9da35e25ff779496280c573c156be28994466a58e5e5a57553f5303d52f3d202",
+        "0xde6f412925ed56ef2c4e15252d6996e6938ab2421407fa1a56615a3dc7238e4d"
+      ],
+      [
+        "0x9e73459105fee8589040e23878f013d5829cc35daa8aefc9aed6addbe7989e1c",
+        "0x06bc9938ff9f2f0e99131f42c77b7936d65fa1ea65957bdc5e0fbeb2991bab22"
+      ],
+      [
+        "0x44cc2203c0902868a20e186371331478c59b9875d6a5304bf48befd517c48cdd",
+        "0xc851e87b4a6507e7cb9c7fe8b27a332f96061488d6618b8e523f5d733390fdf7"
+      ],
+      [
+        "0x66be4a409bba4f3f52da82f0af85f8bf488f4532f92b09954459df98b49a4dbe",
+        "0xaf18fb8d55e7aaf01d20d2664eb157878dff8b56b35f90712eb4ed57c1a98c1d"
+      ],
+      [
+        "0x3281dbbf52f838d6aac9b302f7af6195a938f89d39d18ec419049342ce4d348e",
+        "0x120edbd8c3ff7ef8943903d462a3a6bc7318e1e7d6479ece741dcc68e2f2ab6a"
+      ],
+      [
+        "0x4e1445c4fb7451915b0d5ee400cee5577ac6b8491f421c82706b5b31616b1049",
+        "0x2c88196a19000270aa89cf4fec66694aeef6cb415399e93b92451478363ac604"
+      ],
+      [
+        "0x437cb0c8ee50ed167c47eaaef08241172a3f8cb3ee471c601d5fcfbf666dafce",
+        "0x9cc4f02ce271d17743f60cf82cc13494e8c8e1cea67060a2bd9f223b33d81dbf"
+      ],
+      [
+        "0x96f70806ef019c441e511e7dcf94d633629d0d04d74cc8af36af20f2cc9e7441",
+        "0xbe6b60612a4f496642bb1d1e4bbaa6039a6d89ad587ed9e2a2ab6c292e7a5474"
+      ],
+      [
+        "0x45c49a63e97ff8662a62b21d58919fbed9aa6df0ba99a7f5cbf182a9c73fd694",
+        "0x42c65841d5fa08731d498de30e38479f9f947607a2f2b62223dcdaf3b8f86f3e"
+      ],
+      [
+        "0x8e8bf17491877837ce8838b1428305e90f13b52a021f639fdb7294ab02a7084e",
+        "0x3066ff26c4b00d5922cd55e472f118f0993c726ac27a48f783881393cf48a310"
+      ]
+    ],
+    "dt_s_p50": 12.0,
+    "remaining_prints": 367,
+    "remaining_by_hour": {
+      "0": 7,
+      "1": 13,
+      "2": 12,
+      "3": 78,
+      "4": 6,
+      "5": 9,
+      "6": 2,
+      "7": 4,
+      "8": 6,
+      "9": 18,
+      "10": 17,
+      "11": 31,
+      "12": 14,
+      "13": 12,
+      "14": 22,
+      "15": 30,
+      "16": 8,
+      "17": 15,
+      "18": 10,
+      "19": 5,
+      "20": 13,
+      "21": 9,
+      "22": 14,
+      "23": 12
+    }
+  },
+  "duplicates": {
+    "prints": 1653188,
+    "distinct_hashes": 1653188,
+    "duplicates": 0
+  },
+  "composition": {
+    "txs": 1715315,
+    "types": {
+      "MERGE": {
+        "txs": 31525,
+        "tx_share": 0.018378548546476886,
+        "notional_share": 0.010876098523306357,
+        "maker_legs": 34293,
+        "taker_buy_share": 0.0
+      },
+      "MINT": {
+        "txs": 1112956,
+        "tx_share": 0.6488347621282389,
+        "notional_share": 0.5027977892042848,
+        "maker_legs": 1790555,
+        "taker_buy_share": 1.0
+      },
+      "MIXED": {
+        "txs": 103449,
+        "tx_share": 0.06030903944756502,
+        "notional_share": 0.28870054455165695,
+        "maker_legs": 531644,
+        "taker_buy_share": 0.8600373130721418
+      },
+      "UNKNOWN": {
+        "txs": 1996,
+        "tx_share": 0.0011636346676849442,
+        "notional_share": 0.0022308028698749993,
+        "maker_legs": 3634,
+        "taker_buy_share": 0.7620240480961924
+      },
+      "COMPLEMENTARY": {
+        "txs": 465389,
+        "tx_share": 0.2713140152100343,
+        "notional_share": 0.19539476485097437,
+        "maker_legs": 560040,
+        "taker_buy_share": 0.4018788583314174
+      }
+    },
+    "taker_buy_share": 0.8106248706505802,
+    "all_legs_buy_share": 0.8466318813516871,
+    "all_legs": 4635481,
+    "complement_map_available": true,
+    "same_token_same_side_legs": 0
+  },
+  "identity_by_type": {
+    "MINT": {
+      "matched": 1068799,
+      "side_equal": 1068799,
+      "token_equal": 1068799,
+      "price_within_5e4": 988790,
+      "size_within_1e6": 1068303
+    },
+    "COMPLEMENTARY": {
+      "matched": 452975,
+      "side_equal": 452975,
+      "token_equal": 452975,
+      "price_within_5e4": 442752,
+      "size_within_1e6": 452975
+    },
+    "MERGE": {
+      "matched": 30776,
+      "side_equal": 30776,
+      "token_equal": 30776,
+      "price_within_5e4": 30559,
+      "size_within_1e6": 30776
+    },
+    "MIXED": {
+      "matched": 99959,
+      "side_equal": 99959,
+      "token_equal": 99959,
+      "price_within_5e4": 69403,
+      "size_within_1e6": 99848
+    },
+    "UNKNOWN": {
+      "matched": 7,
+      "side_equal": 7,
+      "token_equal": 7,
+      "price_within_5e4": 6,
+      "size_within_1e6": 7
+    }
+  },
+  "unknown_cause": {
+    "unknown_txs": 1996,
+    "with_token_absent_from_map": 1996
+  }
+}

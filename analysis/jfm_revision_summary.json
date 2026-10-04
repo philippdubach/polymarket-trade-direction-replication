@@ -1,0 +1,51 @@
+{
+  "classifier": {
+    "cached_prints": 25035601,
+    "matched_prints": 24537912,
+    "common_prints": 16615817,
+    "common_coverage_min": 0.5771746614017037,
+    "common_coverage_max": 0.7221011020220618,
+    "matched_tied_prints": 9050851,
+    "matched_tied_share": 0.36885171810869644,
+    "untied_common_prints": 9253709,
+    "repeated_hash_rows": 27165,
+    "untied_common_balanced_accuracy": {
+      "lr": 0.9569021341807482,
+      "emo": 0.9548340338201765,
+      "tick": 0.7675439874296273,
+      "bvc_5s": 0.691848731506547
+    },
+    "unique_hash_common_balanced_accuracy": {
+      "lr": 0.9425221363822378,
+      "emo": 0.9407744001457446,
+      "tick": 0.7679253148903448,
+      "bvc_5s": 0.670425092131744
+    },
+    "paired_history_max_flip_share": {
+      "lr": 3.4120525946035325e-05,
+      "emo": 0.0001943601542247824,
+      "tick": 0.003493265630615037,
+      "bvc_5s": 0.003766760108361889
+    },
+    "paired_history_total_changed_signs": {
+      "lr": 276,
+      "emo": 1269,
+      "tick": 22293,
+      "bvc_5s": 17238
+    },
+    "lr_fixed_lag_balanced_accuracy": {
+      "lr": 0.9538092402822329,
+      "lr_lag1": 0.9538092402822329,
+      "lr_lag10": 0.9538092662902041,
+      "lr_lag100": 0.9526391161806297,
+      "lr_lag500": 0.9207137542001113,
+      "lr_lag1000": 0.8852262350635858
+    },
+    "source_json_sha256": "b5787a059b61aad25e254b01266bb076d5c1f7c480e631d5b385efaedeb8a0bb"
+  },
+  "economics": {
+    "eligible_rows_total": 16448261,
+    "coverage_of_matched": 0.6703203190230693,
+    "source_json_sha256": "c2589f95e31888b522bd73abf80496a55b330b480eb30dbe268c49f0d76a17e1"
+  }
+}

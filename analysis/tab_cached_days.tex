@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering\scriptsize\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+day & matched & common & cover (\%) & buys (\%) & LR BA & tick BA & BVC BA \\
+\midrule
+26 Apr (V1) & 2{,}286{,}630 & 1{,}494{,}834 & 65.4 & 82.3 & 0.953 & 0.771 & 0.672 \\
+27 Apr (V1) & 2{,}442{,}102 & 1{,}714{,}426 & 70.2 & 82.3 & 0.951 & 0.772 & 0.660 \\
+29 Apr & 2{,}037{,}550 & 1{,}439{,}518 & 70.6 & 82.3 & 0.945 & 0.760 & 0.636 \\
+30 Apr & 2{,}060{,}457 & 1{,}448{,}512 & 70.3 & 81.6 & 0.946 & 0.762 & 0.651 \\
+13 May & 2{,}249{,}532 & 1{,}488{,}463 & 66.2 & 83.2 & 0.956 & 0.775 & 0.671 \\
+31 May & 1{,}904{,}212 & 1{,}279{,}945 & 67.2 & 84.0 & 0.946 & 0.756 & 0.668 \\
+5 Jun & 1{,}703{,}743 & 1{,}209{,}757 & 71.0 & 84.3 & 0.935 & 0.774 & 0.680 \\
+9 Jun & 2{,}250{,}550 & 1{,}591{,}138 & 70.7 & 85.7 & 0.949 & 0.778 & 0.682 \\
+1 Jul & 1{,}832{,}998 & 1{,}057{,}960 & 57.7 & 81.2 & 0.955 & 0.784 & 0.691 \\
+7 Jul & 2{,}241{,}616 & 1{,}410{,}618 & 62.9 & 82.0 & 0.959 & 0.782 & 0.680 \\
+17 Jul & 1{,}876{,}006 & 1{,}354{,}666 & 72.2 & 86.0 & 0.910 & 0.750 & 0.658 \\
+5 Aug & 1{,}652{,}516 & 1{,}125{,}980 & 68.1 & 78.7 & 0.901 & 0.751 & 0.694 \\
+\bottomrule
+\end{tabular}
+\caption{Daily denominators and balanced accuracy on the full-history common sample. Buy share is computed on that same sample. V1 denotes the two first-generation exchange dates. The common intersection is a selected subset of matched prints, not representative of all venue transactions. All four rules share these observations; the quote rule is tabulated in the JSON.}
+\label{tab:cached-days}
+\end{table}

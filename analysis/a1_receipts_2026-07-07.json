@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "script": "a1_receipts.py",
+    "utc": "2026-09-27T10:25:13+00:00",
+    "git_head": "fab4db4",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/onchain/day=2026-07-07/unmatched_prints.parquet"
+    ]
+  },
+  "day": "2026-07-07",
+  "unmatched_prints_after_fuzzy": 743,
+  "sampled": 577,
+  "block_range": [
+    89784937,
+    89842836
+  ],
+  "classes": {
+    "reverted": 576,
+    "not_mined": 1
+  },
+  "shares": {
+    "reverted": 0.9982668977469671,
+    "not_mined": 0.0017331022530329288
+  },
+  "weighted_shares": {
+    "reverted": 0.9986541049798117,
+    "not_mined": 0.0013458950201884253
+  },
+  "by_hour": {
+    "0": {
+      "reverted": 40
+    },
+    "1": {
+      "reverted": 34
+    },
+    "2": {
+      "reverted": 17
+    },
+    "3": {
+      "reverted": 26
+    },
+    "4": {
+      "reverted": 14
+    },
+    "5": {
+      "reverted": 15
+    },
+    "6": {
+      "reverted": 13
+    },
+    "7": {
+      "reverted": 12
+    },
+    "8": {
+      "reverted": 15
+    },
+    "9": {
+      "reverted": 28
+    },
+    "10": {
+      "reverted": 38
+    },
+    "11": {
+      "reverted": 36
+    },
+    "12": {
+      "reverted": 11
+    },
+    "13": {
+      "reverted": 23
+    },
+    "14": {
+      "reverted": 40
+    },
+    "15": {
+      "reverted": 31
+    },
+    "16": {
+      "reverted": 40
+    },
+    "17": {
+      "reverted": 40
+    },
+    "18": {
+      "reverted": 18,
+      "not_mined": 1
+    },
+    "19": {
+      "reverted": 24
+    },
+    "20": {
+      "reverted": 13
+    },
+    "21": {
+      "reverted": 21
+    },
+    "22": {
+      "reverted": 15
+    },
+    "23": {
+      "reverted": 12
+    }
+  },
+  "examples": {
+    "reverted": [
+      "0xea410743b073dd718689f9a4eba8163c1bac14b08db04d0afc796579308f6333",
+      "0x9e22b15eb5d865d9098a7ce86c449d3ba92582dc9a29c5279e6fd6777fe98a15",
+      "0x6a149951ac639f0f3b8da537fffbe533a432dc7a1c33720ea1f3efe5d4f91770",
+      "0xd665b9bf098f0f9cb33e42f1d8c7cee76f5d45c77fc5f57b7c4a7a9aff13dca3",
+      "0xb92773fca19e9fe32984d36320ddbfaada9a6c5ce599a95782fcb277ed89f0b7"
+    ],
+    "not_mined": [
+      "0x14489a4f0500ab1449ee0d2bd0c75da57f861b75c08cd81848901ffb2770254d"
+    ]
+  },
+  "control_matched": {
+    "sampled": 100,
+    "classes": {
+      "in_range_missed": 100
+    }
+  }
+}

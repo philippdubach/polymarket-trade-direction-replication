@@ -1,0 +1,90 @@
+{
+  "day": "2026-04-29",
+  "flow": {
+    "onchain_fills": 5986614,
+    "onchain_cells": 1210966,
+    "onchain_cells_directional": 1035092,
+    "feed_prints": 2169975,
+    "feed_prints_with_quote": 2169975
+  },
+  "signals": {
+    "side flag": {
+      "matched_cells": 427800,
+      "directional_cells": 349631,
+      "buy_share_directional_cells": 0.9326690139032294,
+      "acc": 0.8937336792218081,
+      "lo": 0.890379628829164,
+      "hi": 0.8968780759226284,
+      "clusters": 19857,
+      "kappa": {
+        "observed": 0.8937336792218081,
+        "chance": 0.8274392804749944,
+        "kappa": 0.38418012470797036,
+        "majority_baseline": 0.9326690139032294,
+        "recall_buy": 0.9139348032751694,
+        "recall_sell": 0.6139076504821376,
+        "balanced_accuracy": 0.7639212268786535,
+        "mcc": 0.40471974925719084,
+        "confusion": {
+          "tp": 298025.0,
+          "tn": 14452.0,
+          "fp": 9089.0,
+          "fn": 28065.0
+        }
+      }
+    },
+    "Lee-Ready": {
+      "matched_cells": 427451,
+      "directional_cells": 342419,
+      "buy_share_directional_cells": 0.9316451481956317,
+      "acc": 0.8355611108028468,
+      "lo": 0.8322561654023,
+      "hi": 0.8385832080764223,
+      "clusters": 19751,
+      "kappa": {
+        "observed": 0.8355611108028468,
+        "chance": 0.7723461683566568,
+        "kappa": 0.27768011629703854,
+        "majority_baseline": 0.9316451481956317,
+        "recall_buy": 0.8494011215843869,
+        "recall_sell": 0.6469281380842519,
+        "balanced_accuracy": 0.7481646298343194,
+        "mcc": 0.3228840007448829,
+        "confusion": {
+          "tp": 270970.0,
+          "tn": 15142.0,
+          "fp": 8264.0,
+          "fn": 48043.0
+        }
+      }
+    },
+    "tick test": {
+      "matched_cells": 408608,
+      "directional_cells": 327765,
+      "buy_share_directional_cells": 0.9324332982472198,
+      "acc": 0.6132594999466081,
+      "lo": 0.6081293065595307,
+      "hi": 0.6181302573088434,
+      "clusters": 15867,
+      "kappa": {
+        "observed": 0.6132594999466081,
+        "chance": 0.5890725649918831,
+        "kappa": 0.058859382202717275,
+        "majority_baseline": 0.9324332982472198,
+        "recall_buy": 0.6159597407229263,
+        "recall_sell": 0.5759956651314007,
+        "balanced_accuracy": 0.5959777029271635,
+        "mcc": 0.09847359799006933,
+        "confusion": {
+          "tp": 188249.0,
+          "tn": 12756.0,
+          "fp": 9390.0,
+          "fn": 117370.0
+        }
+      }
+    }
+  },
+  "base_rate": {
+    "buy_share_onchain_fills": 0.8496846464462215
+  }
+}

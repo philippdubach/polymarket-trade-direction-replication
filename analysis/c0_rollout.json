@@ -1,0 +1,223 @@
+{
+  "_meta": {
+    "script": "c0_rollout_rule.py",
+    "utc": "2026-10-03T05:28:08+00:00",
+    "git_head": "77641ad",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/tickctx",
+      "/Volumes/data/paper-b-ext/panel_v1v2.parquet"
+    ]
+  },
+  "events": 1552261,
+  "events_0.01_to_0.001": 1551795,
+  "classes": {
+    "X": 40429,
+    "L": 71795,
+    "R": 1439570,
+    "B": 1
+  },
+  "class_shares": {
+    "R": 0.9276805248115891,
+    "X": 0.026053054688280345,
+    "B": 6.444150161587065e-07,
+    "L": 0.046265776085114334
+  },
+  "by_hour_utc": {
+    "0": 51273,
+    "1": 62165,
+    "2": 53278,
+    "3": 44185,
+    "4": 67715,
+    "5": 45285,
+    "6": 38709,
+    "7": 39562,
+    "8": 43826,
+    "9": 53080,
+    "10": 60376,
+    "11": 70504,
+    "12": 75408,
+    "13": 79758,
+    "14": 78235,
+    "15": 84465,
+    "16": 89158,
+    "17": 89336,
+    "18": 85801,
+    "19": 89661,
+    "20": 80686,
+    "21": 60431,
+    "22": 54426,
+    "23": 54472
+  },
+  "share_with_prior_quote_same_day": 0.9964402514507393,
+  "price_at_event": {
+    "L": {
+      "n": 71795,
+      "high_side": 25313,
+      "low_side": 41161,
+      "high_mid_median": 0.9,
+      "low_mid_median": 0.25,
+      "high_mid_p05": 0.505,
+      "low_mid_p95": 0.5,
+      "share_within_0.01_of_threshold": 0.0,
+      "share_paired_with_complement_within_60s": 0.9996935719757644
+    },
+    "R": {
+      "n": 1439570,
+      "high_side": 719850,
+      "low_side": 719720,
+      "high_mid_median": 0.995,
+      "low_mid_median": 0.005,
+      "high_mid_p05": 0.965,
+      "low_mid_p95": 0.035,
+      "share_within_0.01_of_threshold": 0.13384413401223977,
+      "share_paired_with_complement_within_60s": 0.9996957424786568
+    },
+    "X": {
+      "n": 40429,
+      "high_side": 21364,
+      "low_side": 18862,
+      "high_mid_median": 0.935,
+      "low_mid_median": 0.06,
+      "high_mid_p05": 0.515,
+      "low_mid_p95": 0.5,
+      "share_within_0.01_of_threshold": 0.0,
+      "share_paired_with_complement_within_60s": 0.9995547750377205
+    },
+    "B": {
+      "n": 1,
+      "high_side": 0,
+      "low_side": 1,
+      "high_mid_median": null,
+      "low_mid_median": 0.1,
+      "high_mid_p05": null,
+      "low_mid_p95": 0.1,
+      "share_within_0.01_of_threshold": 0.0,
+      "share_paired_with_complement_within_60s": 1.0
+    }
+  },
+  "event_structure": {
+    "market_level_changes": 774517,
+    "token_level_events": 1551795,
+    "L": {
+      "n": 71795,
+      "share_meeting_activation": 1.0,
+      "share_no_prior_trade": 0.7603175708614806
+    },
+    "R": {
+      "n": 1439570,
+      "share_meeting_activation": 0.7187194787332328,
+      "share_no_prior_trade": 0.5013149759997777
+    },
+    "X": {
+      "n": 40429,
+      "share_meeting_activation": 0.0,
+      "share_no_prior_trade": 0.0
+    },
+    "B": {
+      "n": 1,
+      "share_meeting_activation": 0.0,
+      "share_no_prior_trade": 0.0
+    }
+  },
+  "resolution_proximity": {
+    "R": {
+      "n": 1439570,
+      "one_sided_share": 0.76716727911807,
+      "with_closed_time": 1429837,
+      "hours_to_close_median": 2.036111111111111,
+      "hours_to_close_p25": 0.49166666666666664,
+      "hours_to_close_p75": 4.449166666666667,
+      "share_closed_within_24h": 0.8646314230223445,
+      "share_closed_within_72h": 0.9394889067774859,
+      "share_event_after_close": 0.08237652263859446,
+      "sports_with_game_start": 1098926,
+      "hours_after_game_start_median": 1.5694444444444444,
+      "share_after_game_start": 0.8074884023128036
+    },
+    "B": {
+      "n": 1,
+      "one_sided_share": 0.0,
+      "with_closed_time": 1,
+      "hours_to_close_median": 0.2336111111111111,
+      "hours_to_close_p25": 0.2336111111111111,
+      "hours_to_close_p75": 0.2336111111111111,
+      "share_closed_within_24h": 1.0,
+      "share_closed_within_72h": 1.0,
+      "share_event_after_close": 0.0,
+      "sports_with_game_start": 1,
+      "hours_after_game_start_median": 2.0766666666666667,
+      "share_after_game_start": 1.0
+    },
+    "L": {
+      "n": 71795,
+      "one_sided_share": 0.0,
+      "with_closed_time": 71298,
+      "hours_to_close_median": 3.425,
+      "hours_to_close_p25": 1.5730555555555557,
+      "hours_to_close_p75": 23.8775,
+      "share_closed_within_24h": 0.7508204998737692,
+      "share_closed_within_72h": 0.8873180173356896,
+      "share_event_after_close": 0.0016129484698027994,
+      "sports_with_game_start": 59304,
+      "hours_after_game_start_median": 0.7352777777777778,
+      "share_after_game_start": 0.6514231755024956
+    },
+    "X": {
+      "n": 40429,
+      "one_sided_share": 0.0,
+      "with_closed_time": 39889,
+      "hours_to_close_median": 3.4025,
+      "hours_to_close_p25": 2.106388888888889,
+      "hours_to_close_p75": 6.8694444444444445,
+      "share_closed_within_24h": 0.8638221063451077,
+      "share_closed_within_72h": 0.9235378174434055,
+      "share_event_after_close": 0.0007520870415402743,
+      "sports_with_game_start": 31345,
+      "hours_after_game_start_median": 1.5330555555555556,
+      "share_after_game_start": 0.9305152336895837
+    }
+  },
+  "activation": {
+    "n": 71795,
+    "share_first_live_quote_within_60min_after": 0.06364130207680414,
+    "share_first_live_quote_before_event": 0.9356901090635578,
+    "mins_to_first_live_quote_p50": -775.55
+  },
+  "hazard": {
+    "n": 1513632,
+    "adoptions": 1112869,
+    "coef": {
+      "const": -0.6133705077760777,
+      "log_updates": -0.09757021428423328,
+      "traded": 0.7054896265269783,
+      "placeholder": -0.8837680318711705,
+      "mid_extreme": -2.0619223321068056,
+      "at_floor": 0.4393394938178292,
+      "age_days": -0.052553265991979736,
+      "neg_risk": -0.4269148132039825
+    },
+    "se": {
+      "const": 0.003879101401173449,
+      "log_updates": 0.0005760270048062527,
+      "traded": 0.0034243289666912717,
+      "placeholder": 0.002675036711426336,
+      "mid_extreme": 0.012168512316086772,
+      "at_floor": 0.003319829035429857,
+      "age_days": 0.00014632131681118472,
+      "neg_risk": 0.002450265692329072
+    },
+    "auc": 0.7465619870017735,
+    "predicted": {
+      "placeholder_day": 0.17296338288951835,
+      "first_active_day": 0.3465077904960469
+    },
+    "ratio_first_active_over_placeholder": 2.0033592353901946
+  }
+}

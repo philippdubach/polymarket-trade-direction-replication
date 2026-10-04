@@ -1,0 +1,520 @@
+{
+  "_meta": {
+    "script": "a1_fill_match.py",
+    "utc": "2026-09-27T09:27:38+00:00",
+    "git_head": "fab4db4",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/onchain/day=2026-07-01",
+      "/Volumes/data/polymarket-backfill-2026-04-15_to_2026-09-07/pmxt-v2/polymarket_orderbook_2026-07-01T00.parquet"
+    ]
+  },
+  "day": "2026-07-01",
+  "coverage": {
+    "prints": 1833608,
+    "prints_with_hash": 1833608,
+    "taker_legs": 2525601,
+    "taker_txs": 2525601,
+    "print_matched": 1832998,
+    "print_matched_share": 0.9996673225684006,
+    "taker_matched": 1821357,
+    "taker_matched_share": 0.7211578551006276,
+    "by_print_hour": {
+      "0": {
+        "prints": 91470,
+        "matched": 91432,
+        "share": 0.9995845632447797
+      },
+      "1": {
+        "prints": 93343,
+        "matched": 93321,
+        "share": 0.9997643101250228
+      },
+      "2": {
+        "prints": 109916,
+        "matched": 109864,
+        "share": 0.9995269114596601
+      },
+      "3": {
+        "prints": 88157,
+        "matched": 88138,
+        "share": 0.9997844754245266
+      },
+      "4": {
+        "prints": 32056,
+        "matched": 32039,
+        "share": 0.999469678063389
+      },
+      "5": {
+        "prints": 68297,
+        "matched": 68267,
+        "share": 0.9995607420530916
+      },
+      "6": {
+        "prints": 30351,
+        "matched": 30337,
+        "share": 0.9995387301901091
+      },
+      "7": {
+        "prints": 29903,
+        "matched": 29899,
+        "share": 0.999866234157108
+      },
+      "8": {
+        "prints": 27055,
+        "matched": 27050,
+        "share": 0.9998151912770282
+      },
+      "9": {
+        "prints": 26686,
+        "matched": 26672,
+        "share": 0.9994753803492468
+      },
+      "10": {
+        "prints": 29784,
+        "matched": 29778,
+        "share": 0.999798549556809
+      },
+      "11": {
+        "prints": 29453,
+        "matched": 29446,
+        "share": 0.9997623332088412
+      },
+      "12": {
+        "prints": 37164,
+        "matched": 37156,
+        "share": 0.9997847379184157
+      },
+      "13": {
+        "prints": 43462,
+        "matched": 43453,
+        "share": 0.9997929225530349
+      },
+      "14": {
+        "prints": 44573,
+        "matched": 44571,
+        "share": 0.9999551297870909
+      },
+      "15": {
+        "prints": 111952,
+        "matched": 111923,
+        "share": 0.999740960411605
+      },
+      "16": {
+        "prints": 139737,
+        "matched": 139669,
+        "share": 0.9995133715479794
+      },
+      "17": {
+        "prints": 143842,
+        "matched": 143781,
+        "share": 0.99957592358282
+      },
+      "18": {
+        "prints": 110350,
+        "matched": 110330,
+        "share": 0.9998187584956955
+      },
+      "19": {
+        "prints": 104715,
+        "matched": 104697,
+        "share": 0.9998281048560378
+      },
+      "20": {
+        "prints": 100290,
+        "matched": 100256,
+        "share": 0.9996609831488683
+      },
+      "21": {
+        "prints": 126123,
+        "matched": 126039,
+        "share": 0.9993339834923052
+      },
+      "22": {
+        "prints": 116202,
+        "matched": 116173,
+        "share": 0.9997504345880449
+      },
+      "23": {
+        "prints": 98727,
+        "matched": 98707,
+        "share": 0.9997974211715134
+      }
+    },
+    "by_fill_hour": {
+      "0": {
+        "taker_legs": 111511,
+        "matched": 89762,
+        "share": 0.8049609455569405
+      },
+      "1": {
+        "taker_legs": 98362,
+        "matched": 91756,
+        "share": 0.932839917854456
+      },
+      "2": {
+        "taker_legs": 114290,
+        "matched": 108712,
+        "share": 0.951194330212617
+      },
+      "3": {
+        "taker_legs": 92333,
+        "matched": 86932,
+        "share": 0.9415052039899061
+      },
+      "4": {
+        "taker_legs": 34429,
+        "matched": 31482,
+        "share": 0.9144035551424671
+      },
+      "5": {
+        "taker_legs": 73015,
+        "matched": 67076,
+        "share": 0.9186605492022187
+      },
+      "6": {
+        "taker_legs": 85216,
+        "matched": 30232,
+        "share": 0.3547690574539992
+      },
+      "7": {
+        "taker_legs": 89766,
+        "matched": 29671,
+        "share": 0.33053717443129915
+      },
+      "8": {
+        "taker_legs": 90102,
+        "matched": 26903,
+        "share": 0.2985838272180418
+      },
+      "9": {
+        "taker_legs": 92917,
+        "matched": 26528,
+        "share": 0.2855021147906196
+      },
+      "10": {
+        "taker_legs": 87295,
+        "matched": 29576,
+        "share": 0.338805200756057
+      },
+      "11": {
+        "taker_legs": 95663,
+        "matched": 29231,
+        "share": 0.30556223409259586
+      },
+      "12": {
+        "taker_legs": 108128,
+        "matched": 36890,
+        "share": 0.3411697247706422
+      },
+      "13": {
+        "taker_legs": 123679,
+        "matched": 43166,
+        "share": 0.349016405371971
+      },
+      "14": {
+        "taker_legs": 124209,
+        "matched": 44313,
+        "share": 0.35676158732459
+      },
+      "15": {
+        "taker_legs": 127659,
+        "matched": 110073,
+        "share": 0.8622423800907104
+      },
+      "16": {
+        "taker_legs": 144712,
+        "matched": 139996,
+        "share": 0.9674111338382443
+      },
+      "17": {
+        "taker_legs": 147950,
+        "matched": 142744,
+        "share": 0.964812436633998
+      },
+      "18": {
+        "taker_legs": 114680,
+        "matched": 110414,
+        "share": 0.9628008371119637
+      },
+      "19": {
+        "taker_legs": 109814,
+        "matched": 105042,
+        "share": 0.9565447028612016
+      },
+      "20": {
+        "taker_legs": 103937,
+        "matched": 99838,
+        "share": 0.9605626485274734
+      },
+      "21": {
+        "taker_legs": 131553,
+        "matched": 126346,
+        "share": 0.9604189946257402
+      },
+      "22": {
+        "taker_legs": 121345,
+        "matched": 115780,
+        "share": 0.9541390250937409
+      },
+      "23": {
+        "taker_legs": 103036,
+        "matched": 98894,
+        "share": 0.9598004580923173
+      }
+    },
+    "by_contract": {
+      "0xe2222d279d744050d28e00520010520000310f59": {
+        "taker_legs": 636888,
+        "matched": 607661,
+        "share": 0.9541096707741392
+      },
+      "0xe111180000d2663c0091e4f400237545b87b996b": {
+        "taker_legs": 1888713,
+        "matched": 1213696,
+        "share": 0.6426047790214818
+      }
+    },
+    "taker_legs_within_day": 2508976,
+    "taker_matched_within_day": 1821357,
+    "taker_matched_share_within_day": 0.725936397956776,
+    "hour0_share_of_unmatched_within_day": 0.007451801070069326,
+    "unmatched_within_day": 687619
+  },
+  "identity": {
+    "matched": 1832998,
+    "side_equal": 1832998,
+    "side_equal_share": 1.0,
+    "token_equal": 1832998,
+    "token_equal_share": 1.0,
+    "price_within_5e4": 1743549,
+    "price_within_5e4_share": 0.9512007105299624,
+    "price_within_1e2": 1832998,
+    "price_within_1e2_share": 1.0,
+    "abs_dprice_p50": 5.551115123125783e-17,
+    "abs_dprice_p99": 0.0041280000000000205,
+    "abs_dprice_max": 0.0050000000000001155,
+    "size_within_1e6": 1831290,
+    "size_within_1e6_share": 0.9990681932004291,
+    "abs_dsize_p99": 5.684341886080802e-14,
+    "clock_print_minus_block_s_p50": -1.0,
+    "clock_print_minus_block_s_p99": 213.0
+  },
+  "fuzzy": {
+    "unmatched_prints": 610,
+    "unmatched_taker": 704244,
+    "fuzzy_matched": 21,
+    "fuzzy_share_of_unmatched_prints": 0.03442622950819672,
+    "pairs": [
+      [
+        "0x8e100a2904883d1f0594e549861ea25cfb097ba263d1e2768e2aadf04556c8a7",
+        "0xfa32e29b908eb2852d7e26d42c7fd59e4b1d506f6233629b76f3b5dae19253de"
+      ],
+      [
+        "0xeb77ae8489450abe77e10686fd63617ca36c23803421f5f7107ebdf76ef4006b",
+        "0xc35e665cc1cf918b8a406d254687c1ead37e93b518a5492427386eacc3388070"
+      ],
+      [
+        "0xb04e12ad050b3f920d1c582e2a47a8da999e2892aaad668ccb44371a2c8080e2",
+        "0x40177b1f27eac63fd2836f65cde2b78366e3304af4a375492eb22e5080ad7fd6"
+      ],
+      [
+        "0x82d4c7369a0e2277b26222414341697b142315c513cf9e07f83014a8f17f6cd7",
+        "0x5e0d91b96d8476ee403a4091896182d0405895f47351b3bead654d33719b55fa"
+      ],
+      [
+        "0x50404c5525980245c04c656a5cf1ae4fff7ddd8cb7e6bf8e474a17cb0b9f806d",
+        "0x5050be7db86dec48e47a588fad65b6e45114746df61fd792fa86a6f85d4d6807"
+      ],
+      [
+        "0x2efc1eedc2a7d58aabb0b4dfa2c5a7aa48e7898e3c06fc21c039c586a1a07307",
+        "0x42e63c1e40e064c9f7ecb8abdb49e0e46e5a7276cb9d055bff53c1ef2bc4f8bd"
+      ],
+      [
+        "0x71b61a81f2a7450ee65f5e20f0a4e507866857130a36ea1a51f25fc47b6618e2",
+        "0x0548ec97d457debf14b1dad1fefb538d8371626547c9b59a13c94ade26331451"
+      ],
+      [
+        "0x4e73d69012be5a64818cf082cba82e45136b16f2dd3340a5d8eaa30fd9bf986b",
+        "0x2646af0162040d27ddc611781421bfc95f11cd3d084744f04930fc48910d166d"
+      ],
+      [
+        "0x236942dfce5fcb50aa7de55d94329f50f351c899772a8deb02d9cf8ec0b9dbe9",
+        "0x4880cab49e834a0813238ef52b402eeddd90604636cf19256d1998b3e4d8e2cb"
+      ],
+      [
+        "0x48ef8765f7de320ad3ec417763885e111e5f074f632457d5ddef3492521e0efe",
+        "0x730ceff3b4439d43efb17ea7f6e8f6ca49fecabc5d7161f8bb4e2626141d0762"
+      ],
+      [
+        "0x9863926ff557a88bb606dd4534de10324dc8e2534f2729db32cb62a34f9c2fd8",
+        "0x2360cf070bed6ee430af243cc7ad0bd3e3d82f8b87677c79fabeccda542f6631"
+      ],
+      [
+        "0x24f279b3da85d70adc2f96ff5b339607255851f5fd1861993aa44bcfffd02433",
+        "0xdccd857baa6a58f6bac03857ff3f22d1f65fadf0e50a4622e8924cc45243a730"
+      ],
+      [
+        "0x4ad4c0105c37b5190beac0b1d6693c027541423dab1142bb9e6f3cd938726ca3",
+        "0x352a76eee6bf6d9149c7e114f45fe66ea8e3e028cc18eedf187a56635735b752"
+      ],
+      [
+        "0x7e674896b2b1b8b10e3e17b0c3b882a33368f777c6a360a5267b35adb63f2fc3",
+        "0x7db48c18251de40d40da2b6dba1ac40e7d49f0947d1d2522e83d71807afc3097"
+      ],
+      [
+        "0xca7dfec224a77020a14d7da4f26bf83ed0c7f90901231c790478a2a1e055a524",
+        "0x72c08bcbdbd6dc5a1eb5ed4017a629b93b160d364f19437bad72ddbb596c21bd"
+      ],
+      [
+        "0x2ecff7ea07e7c535d27c0fe7bc8f8df30b6673f9a448697c40d1a5df259dd725",
+        "0x388f900de75eaf5fefa7fa79f89b71bca716bb416da500e26a6cc9425fb3315b"
+      ],
+      [
+        "0xd56b0dff4bffa8f10f102c6c876d70e5bf05e7aabb1cc1c96fd5522a597e447f",
+        "0xe647ee0fb8f0d02da5f746d5b58f62f50ac2b22df185c25e73d43c3bf1fa494e"
+      ],
+      [
+        "0xffbf02d9b762ca7376cd4af8cdec25a1ac278a2e4a0af0f9a04902cd55e43f8c",
+        "0x6ca28a790f2164fc82275f1e8720db31de2d639b180da554a40b075e2d38e4c4"
+      ],
+      [
+        "0xf9c369489db6214e084625dd2259f3103b7e77dd7f83ba69d56d135570ac7198",
+        "0x19c0b07bbf08b51497f96766e1201254ddd6c1ef733aefd96a25fff638d6317f"
+      ],
+      [
+        "0x33daa6d11438b280b2ce883cd515cc078600405711ddb28cae72d1508f07a065",
+        "0x4b59581eb47974c21cec3cd62cddc6f206b866eb41d28d12e2a4209b5557995b"
+      ],
+      [
+        "0x1e9efa2372b1f9f5c072cc0027ab1a6baa4c366a6e3f403e573ad5a06fcaaa7c",
+        "0xf7a7d632d9a504c41005e7dcd35cb97a9e14d71eb875c8bfdfef9d692bcd9de1"
+      ]
+    ],
+    "dt_s_p50": 4.0,
+    "remaining_prints": 589,
+    "remaining_by_hour": {
+      "0": 38,
+      "1": 22,
+      "2": 51,
+      "3": 19,
+      "4": 15,
+      "5": 24,
+      "6": 14,
+      "7": 4,
+      "8": 5,
+      "9": 13,
+      "10": 6,
+      "11": 7,
+      "12": 8,
+      "13": 9,
+      "14": 2,
+      "15": 28,
+      "16": 67,
+      "17": 58,
+      "18": 20,
+      "19": 18,
+      "20": 33,
+      "21": 82,
+      "22": 28,
+      "23": 18
+    }
+  },
+  "duplicates": {
+    "prints": 1833608,
+    "distinct_hashes": 1821967,
+    "duplicates": 11641
+  },
+  "composition": {
+    "txs": 2525601,
+    "types": {
+      "MINT": {
+        "txs": 1351254,
+        "tx_share": 0.535022753000177,
+        "notional_share": 0.4786448037198363,
+        "maker_legs": 1910681,
+        "taker_buy_share": 1.0
+      },
+      "COMPLEMENTARY": {
+        "txs": 517469,
+        "tx_share": 0.2048894500754474,
+        "notional_share": 0.15619381270040777,
+        "maker_legs": 654711,
+        "taker_buy_share": 0.3544250959960887
+      },
+      "UNKNOWN": {
+        "txs": 485746,
+        "tx_share": 0.19232887538451243,
+        "notional_share": 0.04989775280384401,
+        "maker_legs": 888806,
+        "taker_buy_share": 0.9859679750322184
+      },
+      "MIXED": {
+        "txs": 106338,
+        "tx_share": 0.0421040378111982,
+        "notional_share": 0.2959997824782788,
+        "maker_legs": 504839,
+        "taker_buy_share": 0.820195978859862
+      },
+      "MERGE": {
+        "txs": 64794,
+        "tx_share": 0.02565488372866498,
+        "notional_share": 0.019263848297515134,
+        "maker_legs": 70025,
+        "taker_buy_share": 0.0
+      }
+    },
+    "taker_buy_share": 0.8318043903213532,
+    "all_legs_buy_share": 0.8610335878442569,
+    "all_legs": 6554663,
+    "complement_map_available": true,
+    "same_token_same_side_legs": 0
+  },
+  "identity_by_type": {
+    "MIXED": {
+      "matched": 100664,
+      "side_equal": 100664,
+      "token_equal": 100664,
+      "price_within_5e4": 76775,
+      "size_within_1e6": 100393
+    },
+    "COMPLEMENTARY": {
+      "matched": 405872,
+      "side_equal": 405872,
+      "token_equal": 405872,
+      "price_within_5e4": 397472,
+      "size_within_1e6": 405872
+    },
+    "UNKNOWN": {
+      "matched": 1,
+      "side_equal": 1,
+      "token_equal": 1,
+      "price_within_5e4": 1,
+      "size_within_1e6": 1
+    },
+    "MERGE": {
+      "matched": 63237,
+      "side_equal": 63237,
+      "token_equal": 63237,
+      "price_within_5e4": 63013,
+      "size_within_1e6": 63237
+    },
+    "MINT": {
+      "matched": 1263224,
+      "side_equal": 1263224,
+      "token_equal": 1263224,
+      "price_within_5e4": 1206288,
+      "size_within_1e6": 1261787
+    }
+  },
+  "unknown_cause": {
+    "unknown_txs": 485746,
+    "with_token_absent_from_map": 485746
+  }
+}

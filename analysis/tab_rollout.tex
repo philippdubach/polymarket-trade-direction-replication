@@ -1,0 +1,54 @@
+\begin{table}[htbp]
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+\multicolumn{7}{l}{\emph{A. Classes of the 1{,}551{,}795 tick events from 0.01 to 0.001, assigned in order}} \\
+class & events & share (\%) & mid, high & mid, low & near threshold (\%) & paired (\%) \\
+\midrule
+price rule & 1{,}439{,}570 & 92.8 & 0.995 & 0.005 & 13.4 & 99.97 \\
+activation & 71{,}795 & 4.6 & 0.900 & 0.250 & 0.0 & 99.97 \\
+operator batch & 1 & 0.0 & --- & 0.100 & 0.0 & 100.00 \\
+residual & 40{,}429 & 2.6 & 0.935 & 0.060 & 0.0 & 99.96 \\
+\bottomrule
+\end{tabular}
+\vspace{4pt}
+
+\begin{tabular}{lr}
+\toprule
+\multicolumn{2}{l}{\emph{B. The activation class against the asset's first live quote}} \\
+quantity & value \\
+\midrule
+events in the activation class & 71{,}795 \\
+share whose first live quote came before the event & 93.6 \\
+share whose first live quote came within an hour after & 6.4 \\
+median minutes from event to first live quote & $-776$ \\
+\bottomrule
+\end{tabular}
+\vspace{4pt}
+
+\begin{tabular}{lr}
+\toprule
+\multicolumn{2}{l}{\emph{C. Discrete-time hazard of adoption on the asset-day's state the day before}} \\
+quantity & value \\
+\midrule
+area under the ROC curve & 0.747 \\
+predicted daily hazard, placeholder book the day before & 0.173 \\
+predicted daily hazard, first active day & 0.347 \\
+\bottomrule
+\end{tabular}
+\vspace{4pt}
+
+\begin{tabular}{lrrrrrrr}
+\toprule
+\multicolumn{8}{l}{\emph{D. The events against the market's closing time and, on sports markets, the game's start}} \\
+class & events & one-sided (\%) & h to close & closed $<$24 h (\%) & with kick-off & h after kick-off & after kick-off (\%) \\
+\midrule
+price rule & 1{,}439{,}570 & 76.7 & 2.0 & 86.5 & 1{,}098{,}926 & 1.6 & 80.7 \\
+activation & 71{,}795 & 0.0 & 3.4 & 75.1 & 59{,}304 & 0.7 & 65.1 \\
+operator batch & 1 & 0.0 & 0.2 & 100.0 & 1 & 2.1 & 100.0 \\
+residual & 40{,}429 & 0.0 & 3.4 & 86.4 & 31{,}345 & 1.5 & 93.1 \\
+\bottomrule
+\end{tabular}
+\caption{The tick events classified. Each event takes the first class it satisfies: price rule (the last quote within 60 minutes on the same UTC day is live and has a midpoint above 0.96 or below 0.04), activation (within a day of the asset's first appearance, or before its first live quote or first trade), operator batch (50 or more tick changes within 60 seconds in one `event', the metadata's grouping of related markets), residual. `Mid' is the median midpoint of the last quote within 60 minutes before the event, live or not, on the side of the market above and below 0.5; `near threshold' is the share of those midpoints between 0.96 and 0.97 or between 0.03 and 0.04; `paired' the share of events whose market's other token changed tick within a minute. Panel B tests activation: if an event is the venue switching a new market on, it should come before the asset's first live quote. Panel C is a logit on all adoptions and a five-percent sample of non-adopting asset-days, with the day-before update rate, trading, placeholder status, price extremeness, spread at the floor, age and neg-risk as covariates. Panel D: a one-sided book is a lone bid at or above 0.96 with no ask, or a lone ask at or below 0.04 with no bid; closing and game start times are the venue's metadata.}
+\label{tab:rollout}
+\end{table}

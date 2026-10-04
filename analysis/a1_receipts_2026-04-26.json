@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "script": "a1_receipts.py",
+    "utc": "2026-09-27T06:01:24+00:00",
+    "git_head": "fab4db4",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/onchain/day=2026-04-26/unmatched_prints.parquet"
+    ]
+  },
+  "day": "2026-04-26",
+  "unmatched_prints_after_fuzzy": 33534,
+  "sampled": 960,
+  "block_range": [
+    86020778,
+    86064277
+  ],
+  "classes": {
+    "not_mined": 733,
+    "reverted": 227
+  },
+  "shares": {
+    "not_mined": 0.7635416666666667,
+    "reverted": 0.23645833333333333
+  },
+  "weighted_shares": {
+    "not_mined": 0.799455030715095,
+    "reverted": 0.2005449692849049
+  },
+  "by_hour": {
+    "0": {
+      "not_mined": 36,
+      "reverted": 4
+    },
+    "1": {
+      "not_mined": 38,
+      "reverted": 2
+    },
+    "2": {
+      "not_mined": 35,
+      "reverted": 5
+    },
+    "3": {
+      "not_mined": 39,
+      "reverted": 1
+    },
+    "4": {
+      "not_mined": 37,
+      "reverted": 3
+    },
+    "5": {
+      "not_mined": 35,
+      "reverted": 5
+    },
+    "6": {
+      "not_mined": 35,
+      "reverted": 5
+    },
+    "7": {
+      "not_mined": 32,
+      "reverted": 8
+    },
+    "8": {
+      "reverted": 9,
+      "not_mined": 31
+    },
+    "9": {
+      "not_mined": 31,
+      "reverted": 9
+    },
+    "10": {
+      "not_mined": 25,
+      "reverted": 15
+    },
+    "11": {
+      "not_mined": 27,
+      "reverted": 13
+    },
+    "12": {
+      "not_mined": 25,
+      "reverted": 15
+    },
+    "13": {
+      "reverted": 17,
+      "not_mined": 23
+    },
+    "14": {
+      "not_mined": 24,
+      "reverted": 16
+    },
+    "15": {
+      "not_mined": 28,
+      "reverted": 12
+    },
+    "16": {
+      "not_mined": 38,
+      "reverted": 2
+    },
+    "17": {
+      "not_mined": 37,
+      "reverted": 3
+    },
+    "18": {
+      "not_mined": 28,
+      "reverted": 12
+    },
+    "19": {
+      "not_mined": 29,
+      "reverted": 11
+    },
+    "20": {
+      "not_mined": 31,
+      "reverted": 9
+    },
+    "21": {
+      "not_mined": 38,
+      "reverted": 2
+    },
+    "22": {
+      "not_mined": 28,
+      "reverted": 12
+    },
+    "23": {
+      "reverted": 37,
+      "not_mined": 3
+    }
+  },
+  "examples": {
+    "not_mined": [
+      "0xb2defa0d2b15ac2c45f861baca8bebcb1b2b843afbc6b035931a2cbdf1982b62",
+      "0x44f185b5236147723512071969521229aa8b7f213a2593f6317f80886bb2f204",
+      "0x4307b90a7f44847237a49edc3672cab78ef6c491d5099458a69c03aac6fe50c6",
+      "0x9555386d29feb2bf8841c7e5956af58dd180794febbb12899862b24f591a94e3",
+      "0x383aefbf3e8b2c8d9704d46c77e5ae96c016cee70daae35b428c137578c110f1"
+    ],
+    "reverted": [
+      "0x93127cd43a61453548e52107cac2d73ad454bb1248fe0bf7cab8df364a8fa168",
+      "0x8d0a954ecb2241c535ea22219a938e530056ef94867259bcaf5eb576bc90790c",
+      "0x0c743298369667dcfd9d8f41da0e876bcfb2369b743b4555a7d8e2ece1be45d1",
+      "0x0081c5ee74c97d48599db9a52376ee1eb0fc95f7659c24b2b9dbb26f4f535f82",
+      "0x60ecc003c9b2f4d36502cdc131c24c84e8f7a8e2f47b9e7ddd116a8d1db71fb4"
+    ]
+  },
+  "control_matched": {
+    "sampled": 100,
+    "classes": {
+      "other_contract": 100
+    }
+  }
+}

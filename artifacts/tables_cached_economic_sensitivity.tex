@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+sample & fills & taker & LR & tick & BVC & flip LR & flip tick & flip BVC \\
+\midrule
+primary & 16{,}448{,}261 & 0.689 & 0.724 & $-0.374$ & $-0.119$ & 0 & 8 & 6 \\
+current quote age $\leq$ 1 s & 15{,}308{,}267 & 0.622 & 0.669 & $-0.707$ & $-0.401$ & 1 & 9 & 7 \\
+untied scored rows & 9{,}142{,}989 & 0.955 & 0.930 & 0.102 & 0.181 & 0 & 5 & 2 \\
+one eligible row/hash & 16{,}434{,}114 & 0.690 & 0.726 & $-0.372$ & $-0.119$ & 0 & 8 & 6 \\
+on-chain price & 16{,}448{,}261 & 0.689 & 0.724 & $-0.374$ & $-0.119$ & 0 & 8 & 6 \\
+\bottomrule
+\end{tabular}
+\caption{Five-minute midpoint impact under printed-share-volume weights, in cents per share; cells average daily means equally. Opposite-sign columns count daily rule/taker mean reversals out of twelve dates, with the stated numerical-zero tolerance. Each row compares all signs on identical observations, but populations differ across sensitivity rows. Signing histories are retained. The chain-price row holds signs, weights and midpoints fixed, so midpoint impact is invariant to its price substitution. Untied scoring removes the aggregate tick/BVC sign reversal; it does not establish venue ordering.}
+\label{tab:cached-economic-sensitivity}
+\end{table}

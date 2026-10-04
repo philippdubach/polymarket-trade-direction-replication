@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "script": "x1_token_map.py",
+    "utc": "2026-10-03T05:12:36+00:00",
+    "git_head": "77641ad",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/gamma/gamma_markets.parquet",
+      "${PAPER_B_WHEN}/outputs/fresh-static-identity-registry/static-identity.sqlite"
+    ]
+  },
+  "assets": 3223124,
+  "by_source": {
+    "registry": 145376,
+    "v1": 675154,
+    "gamma": 2402594
+  },
+  "by_outcome": {
+    "OUTCOME_0": 754296,
+    "YES": 857266,
+    "NO": 857267,
+    "OUTCOME_1": 754295
+  },
+  "disagreements": 33068,
+  "multi_source": 119168,
+  "v1_assets_labelled": 768670,
+  "registry_pairs": 90378,
+  "v2_asset_coverage": 0.9983039826492689
+}

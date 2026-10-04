@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering\footnotesize\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrr}
+\toprule
+rule & own BA & own cover (\%) & common BA & common accuracy & common MCC \\
+\midrule
+Lee--Ready & 0.954 & 100.0 & 0.942 & 0.937 & 0.809 \\
+quote rule & 0.953 & 99.8 & 0.941 & 0.932 & 0.799 \\
+tick test & 0.735 & 96.0 & 0.768 & 0.708 & 0.409 \\
+BVC, 5 s bars & 0.670 & 67.8 & 0.670 & 0.652 & 0.260 \\
+\bottomrule
+\end{tabular}
+\caption{Full cached daily histories, scored against hash-matched taker sides. Cells are equal-day means over twelve selected dates. Own-sample scores condition on each rule assigning a sign; own coverage is the percentage of matched prints signed. Common scores use the same intersection of four assigned signs on each day, 16{,}615{,}817 prints in total, covering 57.7--72.2\% of matched prints by day. BVC is a retrospective five-second bar-majority diagnostic. Means and ranges describe selected days; no population test is implied.}
+\label{tab:cached-benchmark}
+\end{table}

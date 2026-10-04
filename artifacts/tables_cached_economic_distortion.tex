@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+\multicolumn{7}{l}{\emph{Equal-fill weights}} \\
+rule & $\Delta E$ & $\Delta R$ & $\Delta I$ & flip E & flip R & flip I \\
+\midrule
+Lee--Ready & 0.429 & $-0.209$ & 0.638 & 0 & 0 & 0 \\
+quote rule & 0.334 & $-0.317$ & 0.650 & 0 & 0 & 0 \\
+tick test & $-0.853$ & $-1.207$ & 0.353 & 0 & 0 & 0 \\
+BVC, 5 s bars & $-1.124$ & $-1.793$ & 0.669 & 0 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{tabular}{lrrrrrr}
+\toprule
+\multicolumn{7}{l}{\emph{Share-volume weights}} \\
+rule & $\Delta E$ & $\Delta R$ & $\Delta I$ & flip E & flip R & flip I \\
+\midrule
+Lee--Ready & 0.399 & 0.365 & 0.035 & 0 & 0 & 0 \\
+quote rule & 0.307 & 0.298 & 0.009 & 0 & 0 & 0 \\
+tick test & $-0.487$ & 0.575 & $-1.063$ & 0 & 0 & 8 \\
+BVC, 5 s bars & $-0.824$ & $-0.016$ & $-0.808$ & 0 & 0 & 6 \\
+\bottomrule
+\end{tabular}
+\caption{Rule minus taker signed means in cents of collateral per share, with the same rows and weights; equal-day means of paired differences. E, R and I denote effective spread, realised spread and five-minute midpoint impact. Flip columns count dates with opposite daily mean signs (out of twelve); absolute means at or below $10^{-12}$ price units are treated as numerical zero. Differences preserve direction rather than taking absolute values. They measure distortion relative to delivered-quote accounting and do not identify changes in market behavior.}
+\label{tab:cached-economic-distortion}
+\end{table}

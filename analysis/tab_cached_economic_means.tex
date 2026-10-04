@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+\centering\footnotesize
+\begin{tabular}{lrrr}
+\toprule
+\multicolumn{4}{l}{\emph{Equal-fill weights}} \\
+sign & effective & realised & 5-min impact \\
+\midrule
+taker & 2.328 & 6.486 & $-4.158$ \\
+Lee--Ready & 2.757 & 6.277 & $-3.520$ \\
+quote rule & 2.662 & 6.169 & $-3.507$ \\
+tick test & 1.475 & 5.279 & $-3.804$ \\
+BVC, 5 s bars & 1.204 & 4.692 & $-3.488$ \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{tabular}{lrrr}
+\toprule
+\multicolumn{4}{l}{\emph{Share-volume weights}} \\
+sign & effective & realised & 5-min impact \\
+\midrule
+taker & 2.033 & 1.344 & 0.689 \\
+Lee--Ready & 2.432 & 1.708 & 0.724 \\
+quote rule & 2.340 & 1.642 & 0.698 \\
+tick test & 1.545 & 1.919 & $-0.374$ \\
+BVC, 5 s bars & 1.208 & 1.327 & $-0.119$ \\
+\bottomrule
+\end{tabular}
+\caption{Signed accounting quantities in cents of collateral per share, on the identical primary eligible fills for every rule and the taker. Cells average the twelve daily means equally. Each daily equal-fill or share-volume weighting is shared across all signs. Effective equals realised plus five-minute midpoint impact before rounding. The quote is delivered to the collector; these are not fee-adjusted profits or identified causal impact/information estimates.}
+\label{tab:cached-economic-means}
+\end{table}

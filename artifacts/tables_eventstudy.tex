@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering\scriptsize\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+specification & cohorts & treated & pre mean & pre $p$ & post mean & ratio \\
+\midrule
+baseline, all & 117 & 241{,}401 & 0.597 & $<0.003$ & $-1.472$ & 0.229 \\
+baseline, traded on $g-1$ & 117 & 241{,}686 & 0.712 & $<0.003$ & $-1.320$ & 0.267 \\
+baseline, stable activity & 117 & 18{,}476 & 0.224 & $<0.003$ & $-1.061$ & 0.346 \\
+screened, all & 81 & 210{,}697 & 0.591 & $<0.003$ & $-1.539$ & 0.215 \\
+screened, traded on $g-1$ & 81 & 203{,}358 & 0.734 & $<0.003$ & $-1.382$ & 0.251 \\
+screened, stable activity & 81 & 15{,}659 & 0.242 & $<0.003$ & $-1.154$ & 0.316 \\
+reweighted, all & 81 & 210{,}697 & 0.422 & $<0.003$ & $-1.346$ & 0.260 \\
+reweighted, traded on $g-1$ & 81 & 203{,}358 & 0.441 & $<0.003$ & $-1.245$ & 0.288 \\
+reweighted, stable activity & 81 & 15{,}659 & $-0.068$ & 0.037 & $-1.017$ & 0.362 \\
+\bottomrule
+\end{tabular}
+\caption{Group-time effects of tick adoption on the log of the day's mean quoted spread, with not-yet-treated controls, aggregated by event time $e\in[-7,7]$ and weighted by cohort size; day $-1$ is the base. The pre-period mean is over $e\le-2$ and its $p$-value is the joint pre-trend test from a bootstrap over cohorts (300 draws); the spread ratio is $\exp$ of the post-period mean. The `all' sample is a fixed one-in-five sample of assets. `Baseline' reports the three unweighted samples; `screened' removes the archive's degraded days, and with them the cohorts whose adoption or base day is degraded; `reweighted' reweights the control units by the odds $p/(1-p)$ of the fitted daily adoption hazard of Table~\ref{tab:rollout}, averaged over each asset's panel days and capped at 20, on the `screened' sample (median weight 0.26, 90th percentile 0.51).}
+\label{tab:eventstudy}
+\end{table}

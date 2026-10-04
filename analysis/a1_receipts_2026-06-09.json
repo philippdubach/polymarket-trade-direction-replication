@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "script": "a1_receipts.py",
+    "utc": "2026-09-27T09:19:38+00:00",
+    "git_head": "fab4db4",
+    "versions": {
+      "python": "3.14.4",
+      "duckdb": "1.5.2",
+      "polars": "1.40.0",
+      "pyarrow": "23.0.1",
+      "numpy": "2.4.4"
+    },
+    "inputs": [
+      "/Volumes/data/paper-b-ext/onchain/day=2026-06-09/unmatched_prints.parquet"
+    ]
+  },
+  "day": "2026-06-09",
+  "unmatched_prints_after_fuzzy": 3565,
+  "sampled": 588,
+  "block_range": [
+    88172143,
+    88230042
+  ],
+  "classes": {
+    "outside_range": 40,
+    "reverted": 494,
+    "not_mined": 54
+  },
+  "shares": {
+    "outside_range": 0.06802721088435375,
+    "reverted": 0.8401360544217688,
+    "not_mined": 0.09183673469387756
+  },
+  "weighted_shares": {
+    "outside_range": 0.7635343618513324,
+    "reverted": 0.17501402524544177,
+    "not_mined": 0.06145161290322581
+  },
+  "by_hour": {
+    "0": {
+      "outside_range": 40
+    },
+    "1": {
+      "reverted": 20
+    },
+    "2": {
+      "reverted": 10
+    },
+    "3": {
+      "reverted": 29
+    },
+    "4": {
+      "reverted": 18
+    },
+    "5": {
+      "reverted": 11
+    },
+    "6": {
+      "reverted": 16
+    },
+    "7": {
+      "reverted": 33
+    },
+    "8": {
+      "reverted": 12
+    },
+    "9": {
+      "reverted": 21
+    },
+    "10": {
+      "reverted": 7,
+      "not_mined": 33
+    },
+    "11": {
+      "reverted": 11
+    },
+    "12": {
+      "reverted": 38
+    },
+    "13": {
+      "reverted": 25
+    },
+    "14": {
+      "reverted": 40
+    },
+    "15": {
+      "reverted": 40
+    },
+    "16": {
+      "not_mined": 21,
+      "reverted": 19
+    },
+    "17": {
+      "reverted": 40
+    },
+    "18": {
+      "reverted": 20
+    },
+    "19": {
+      "reverted": 24
+    },
+    "20": {
+      "reverted": 11
+    },
+    "21": {
+      "reverted": 13
+    },
+    "22": {
+      "reverted": 23
+    },
+    "23": {
+      "reverted": 13
+    }
+  },
+  "examples": {
+    "outside_range": [
+      "0xd25a1ee3e4b945ba598c0dc6fb4e0ab220e192d1605ea2c3270654e1c4cc60c8",
+      "0xd14ac9c59570ffb0a09191f9fc849d17c5c5b8a5e642d952b2c4c39581547e1c",
+      "0xcd46a95627304a3802ea9598fae72da04c712db991df99090c4c8ad1580725c0",
+      "0x530450ec36d523cdc3ff8e6c68850481e9dc30d9e6ba8bd47ffd3a3b5c9826dd",
+      "0x269b6938fbfa0903df80049fef122ef3371aa5dfb9e9cf5d7c410b12c5d4f415"
+    ],
+    "reverted": [
+      "0x9094065550b3a96a06020062eb3c0f69ba5df733cfc5fb402ecf9bd9257b5a9b",
+      "0xdeb80befd188f94331dd17f5a9b5b7bf22504b302d84fa759f804fc66f87cddc",
+      "0xdff3f52dee43ea29515f47e5b682949a02af517e3f01ca78d2a5548dd458acaa",
+      "0x7779a90bca20e9a9cd610e760713f10a3290ae401c83962bd1a7134459256d33",
+      "0x0d1785cf1bf7c57572520970e972bd64420ea6efc91c830ebd895d18ec7afb73"
+    ],
+    "not_mined": [
+      "0x4bb5fc28bc4b41816bf121ea7df7e24e5c4a4cbf539b84701a4b5fb7267b8b39",
+      "0x2bd9c2f23980248c377f0bd2dcd1534f100db801c7ea44e979d5949c1c6094e4",
+      "0x4d3682ac14933de20dcf63e6b9d7eae80857c69bd9bc428a3b6e4d2f50ca1629",
+      "0xe46070b039f2fd8db40a76c276cbadde183e01b8743831faa9f2bd6706acb04e",
+      "0xc7808f137e74727154d9e8c08deb52253ea6d97f80c1fd1aef1ee8644ad098d1"
+    ]
+  },
+  "control_matched": {
+    "sampled": 100,
+    "classes": {
+      "in_range_missed": 100
+    }
+  }
+}

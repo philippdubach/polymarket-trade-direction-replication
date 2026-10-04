@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering\scriptsize\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lrrrrrrrrrrrr}
+\toprule
+Outcome & $\bar\Delta_{-7}$ & net$_{-7}$ & $\bar\Delta_{-3}$ & $\tilde\Delta_0$ & $\bar\Delta_0$ & net$_0$ & $\tilde\Delta_1$ & $\tilde\Delta_3$ & $\tilde\Delta_7$ & half-life & survivors & tail scenario \\
+\midrule
+log spread & 0.541 & 0.452 & 0.319 & 0.016 & 0.309 & 0.314 & 0.037 & 0.000 & 0.000 & 2 & 34{,}496 & 0.106 \\
+log updates & $-0.171$ & $-0.080$ & $-0.244$ & 0.023 & 0.070 & 0.026 & $-0.147$ & 0.123 & $-0.007$ & 7 & 34{,}496 & $-0.359$ \\
+log depth, best bid & $-0.315$ & $-0.117$ & $-0.351$ & 0.519 & 0.625 & 0.406 & 0.294 & 0.374 & 0.270 & 5 & 28{,}036 & $-0.296$ \\
+empty-quote share & 0.003 & 0.011 & 0.000 & 0.050 & 0.124 & 0.951 & 0.000 & 0.000 & 0.000 & 1 & 34{,}496 & 0.000 \\
+\bottomrule
+\end{tabular}
+\caption{The 28 April cutover: paired within-asset changes from 27 April on the cohort of 51{,}560 assets live on each of the seven days before. $\Delta_k$ is the change on day $k$ from day $-1$: $\bar\Delta$ is the cohort mean, $\tilde\Delta$ the cohort median and net the share of assets whose outcome rose less the share whose outcome fell; the text gives an asset bootstrap of the median at $k=0$. The empty-quote share is the share of the day's updates that show an empty quote. The half-life is the first day after the event on which the median change, in absolute value, is at most half its value on the event day. Survivors are the cohort assets whose outcome is observed on both days of the pair at $k=7$, and `tail scenario' is the median change on that day under a sensitivity scenario that assigns each leaver the adverse tail of the cohort's pre-period distribution (the 90th percentile for spread and the empty-quote share, the 10th for updates and depth). Table~\ref{tab:placebo} ranks the changes among placebo dates.}
+\label{tab:cutover}
+\end{table}

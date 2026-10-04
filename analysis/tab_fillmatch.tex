@@ -1,0 +1,64 @@
+\begin{table}[htbp]
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+\multicolumn{9}{l}{\emph{Panel A. Coverage and identity}} \\
+day & prints & with leg (\%) & legs in day & with print (\%) & side $\neq$ & token $\neq$ & price (\%) & size (\%) \\
+\midrule
+26 Apr (V1) & 2{,}383{,}232 & 95.9 & 2{,}399{,}429 & 95.3 & 0 & 0 & 92.3 & 99.96 \\
+27 Apr (V1) & 2{,}522{,}118 & 96.8 & 2{,}534{,}187 & 96.4 & 0 & 0 & 92.4 & 99.95 \\
+29 Apr & 2{,}169{,}975 & 93.9 & 2{,}150{,}324 & 94.8 & 0 & 0 & 92.5 & 99.93 \\
+30 Apr & 2{,}237{,}594 & 92.1 & 2{,}178{,}955 & 94.6 & 0 & 0 & 92.1 & 99.95 \\
+13 May & 2{,}251{,}602 & 99.9 & 2{,}271{,}729 & 99.0 & 0 & 0 & 92.0 & 99.96 \\
+31 May & 1{,}905{,}025 & 100.0 & 1{,}969{,}244 & 96.6 & 0 & 0 & 91.8 & 99.96 \\
+5 Jun & 1{,}705{,}254 & 99.9 & 2{,}349{,}031 & 72.3 & 0 & 0 & 93.0 & 99.97 \\
+9 Jun & 2{,}254{,}797 & 99.8 & 2{,}385{,}448 & 94.0 & 0 & 0 & 93.7 & 99.97 \\
+1 Jul & 1{,}833{,}608 & 100.0 & 2{,}508{,}976 & 72.6 & 0 & 0 & 95.1 & 99.91 \\
+7 Jul & 2{,}242{,}392 & 100.0 & 2{,}547{,}188 & 88.0 & 0 & 0 & 94.4 & 99.90 \\
+17 Jul & 1{,}876{,}816 & 100.0 & 1{,}977{,}096 & 94.9 & 0 & 0 & 93.4 & 99.96 \\
+5 Aug & 1{,}653{,}188 & 100.0 & 1{,}704{,}195 & 97.0 & 0 & 0 & 92.7 & 99.96 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{tabular}{lrrrrrrr}
+\toprule
+\multicolumn{8}{l}{\emph{Panel B. Settlement types and buy share}} \\
+day & mint (\%) & compl. (\%) & merge (\%) & mixed (\%) & unknown (\%) & buy share, taker & buy share, all legs \\
+\midrule
+26 Apr (V1) & 67.8 & 21.9 & 3.5 & 6.8 & 0.0 & 0.812 & 0.848 \\
+27 Apr (V1) & 67.6 & 21.5 & 3.4 & 7.4 & 0.0 & 0.806 & 0.849 \\
+29 Apr & 67.6 & 22.3 & 2.8 & 7.3 & 0.0 & 0.813 & 0.850 \\
+30 Apr & 66.9 & 21.8 & 3.3 & 8.1 & 0.0 & 0.807 & 0.847 \\
+13 May & 68.8 & 20.8 & 3.2 & 7.2 & 0.0 & 0.819 & 0.852 \\
+31 May & 68.6 & 20.3 & 3.7 & 7.4 & 0.0 & 0.825 & 0.854 \\
+5 Jun & 72.2 & 19.0 & 3.0 & 5.8 & 0.1 & 0.838 & 0.866 \\
+9 Jun & 72.9 & 18.3 & 2.7 & 6.0 & 0.0 & 0.848 & 0.870 \\
+1 Jul & 53.5 & 20.5 & 2.6 & 4.2 & 19.2 & 0.832 & 0.861 \\
+7 Jul & 62.8 & 21.4 & 2.6 & 5.4 & 7.9 & 0.824 & 0.858 \\
+17 Jul & 73.8 & 17.9 & 2.1 & 5.2 & 0.9 & 0.856 & 0.884 \\
+5 Aug & 64.9 & 27.1 & 1.8 & 6.0 & 0.1 & 0.811 & 0.847 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{tabular}{lrrrrrrr}
+\toprule
+\multicolumn{8}{l}{\emph{Panel C. The residual}} \\
+day & dup. prints & unmatched prints & 2nd-stage matched & reverted (\%) & no tx (\%) & other (\%) & receipts \\
+\midrule
+26 Apr (V1) & 1 & 96{,}602 & 63{,}068 & 20.1 & 79.9 & 0.0 & 960 \\
+27 Apr (V1) & 2 & 80{,}016 & 45{,}288 & 32.0 & 68.0 & 0.0 & 960 \\
+29 Apr & 52 & 132{,}425 & 50{,}502 & 41.1 & 58.9 & 0.0 & 960 \\
+30 Apr & 2 & 177{,}137 & 75{,}201 & 21.2 & 78.8 & 0.0 & 960 \\
+13 May & 39 & 2{,}070 & 7 & 100.0 & 0.0 & 0.0 & 888 \\
+31 May & 1{,}285 & 813 & 158 & 94.2 & 5.8 & 0.0 & 625 \\
+5 Jun & 4{,}880 & 1{,}511 & 613 & 87.8 & 12.2 & 0.0 & 674 \\
+9 Jun & 9{,}326 & 4{,}247 & 682 & 17.5 & 6.1 & 76.4 & 588 \\
+1 Jul & 11{,}641 & 610 & 21 & 99.2 & 0.0 & 0.8 & 491 \\
+7 Jul & 0 & 776 & 33 & 99.9 & 0.1 & 0.0 & 577 \\
+17 Jul & 0 & 810 & 22 & 100.0 & 0.0 & 0.0 & 669 \\
+5 Aug & 0 & 672 & 305 & 73.2 & 26.8 & 0.0 & 329 \\
+\bottomrule
+\end{tabular}
+\caption{Feed prints against on-chain taker legs, joined by transaction hash. Panel~A: the share of prints with a settled taker leg; the taker legs settled inside the day (the scrape's 300-block tail past midnight excluded) and the share of them with a print; the matched pairs on which the side or the token differ; the shares of matched pairs within $5\times10^{-4}$ in price and $10^{-6}$ in size. Panel~B: settlement types as shares of settled transactions, read from the legs' structure; \emph{unknown} is a transaction with a maker leg on a token absent from the market metadata; the buy share over taker legs and over all legs. Panel~C: prints that repeat a hash; the prints the hash join leaves without a settled leg; those matched in a second stage on token, side, price and size within two minutes; and the receipt classes (\emph{reverted}; \emph{no tx}, no transaction under the hash; \emph{other}, on these days always a transaction mined outside the scraped block range) of an hour-stratified sample of the rest, weighted by each hour's population. \emph{receipts} is the number of hashes in the sample.}
+\label{tab:fillmatch}
+\end{table}

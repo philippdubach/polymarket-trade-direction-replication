@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+rule & full BA & selected BA & $\Delta$ BA & range $\Delta$ & flipped (\%) & range (\%) \\
+\midrule
+Lee--Ready & 0.954 & 0.954 & 0.0000 & [0.0000, 0.0000] & 0.001 & [0.000, 0.003] \\
+quote rule & 0.953 & 0.953 & 0.0000 & [0.0000, 0.0000] & 0.005 & [0.000, 0.019] \\
+tick test & 0.735 & 0.734 & 0.0002 & [0.0000, 0.0006] & 0.089 & [0.004, 0.349] \\
+BVC, 5 s bars & 0.670 & 0.670 & 0.0001 & [0.0000, 0.0004] & 0.097 & [0.001, 0.377] \\
+\bottomrule
+\end{tabular}
+\caption{History construction comparison on identical cache row ids where both histories assign the rule a sign. Full retains all cached prints before matching; selected retains only settlement-matched prints before signing. BA denotes balanced accuracy; $\Delta$ is full minus selected. Score columns and flip share are equal-day means; brackets give day ranges. The paired sample is rule-specific and differs from the four-rule common sample. Signs reset each UTC day. Changes in abstention are recorded separately in the result JSON.}
+\label{tab:cached-history}
+\end{table}
