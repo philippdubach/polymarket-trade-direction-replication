@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite the paper and the archived replication package when using this repository."
+title: "Polymarket trade direction: replication code"
+type: software
+authors:
+  - family-names: Dubach
+    given-names: Philipp D.
+    orcid: "https://orcid.org/0009-0002-3126-6760"
+repository-code: "https://github.com/philippdubach/polymarket-trade-direction-replication"
+url: "https://arxiv.org/abs/2610.06412"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Measuring Trade Direction in a Prediction Market: Settlement Ground Truth and Trading-Cost Measurement on Polymarket"
+  authors:
+    - family-names: Dubach
+      given-names: Philipp D.
+      orcid: "https://orcid.org/0009-0002-3126-6760"
+  year: 2026
+  journal: arXiv
+  doi: "10.48550/arXiv.2610.06412"
+  url: "https://arxiv.org/abs/2610.06412"
+references:
+  - type: data
+    title: "Replication package: Measuring Trade Direction in a Prediction Market (Settlement Ground Truth and Trading-Cost Measurement on Polymarket)"
+    authors:
+      - family-names: Dubach
+        given-names: Philipp D.
+    year: 2026
+    version: "1.4"
+    doi: "10.5281/zenodo.23164515"
+    url: "https://zenodo.org/records/23164515"

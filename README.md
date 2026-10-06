@@ -1,6 +1,6 @@
 # Polymarket trade direction: replication code
 
-Replication analysis for **Measuring Trade Direction in a Prediction Market: Settlement Ground Truth and Trading-Cost Measurement on Polymarket**, by Philipp D. Dubach.
+Replication analysis for **Measuring Trade Direction in a Prediction Market: Settlement Ground Truth and Trading-Cost Measurement on Polymarket**, by Philipp D. Dubach ([arXiv:2610.06412](https://arxiv.org/abs/2610.06412)).
 
 The paper validates public trade prints against settled taker legs and examines how trade-sign classification changes measured trading costs. The benchmark covers twelve selected days between April and August 2026. Supporting analyses describe exchange changes, tick-size events and archive coverage.
 
@@ -39,7 +39,7 @@ Outputs are written to `analysis/` and `artifacts/`. This operation does not res
 
 ## Recompute the main results
 
-Download the derived files from the [Zenodo deposit](https://zenodo.org/records/23128868), unpack them and preserve their relative directory structure. Set `PAPER_B_EXT` to the directory containing `prints/` and `onchain/`:
+Download the derived files from the [Zenodo deposit](https://zenodo.org/records/23164515), unpack them and preserve their relative directory structure. Set `PAPER_B_EXT` to the directory containing `prints/` and `onchain/`:
 
 ```sh
 export PAPER_B_EXT="/path/to/paper-b-ext"
@@ -60,4 +60,6 @@ Saved JSON results retain the calculation timestamps, library versions and sourc
 
 ## Citation
 
-The published dataset and replication package can be cited using DOI [10.5281/zenodo.23128868](https://doi.org/10.5281/zenodo.23128868).
+Dubach, Philipp D. (2026). *Measuring Trade Direction in a Prediction Market: Settlement Ground Truth and Trading-Cost Measurement on Polymarket*. [arXiv:2610.06412](https://arxiv.org/abs/2610.06412).
+
+The published dataset and replication package can be cited using DOI [10.5281/zenodo.23164515](https://doi.org/10.5281/zenodo.23164515).
